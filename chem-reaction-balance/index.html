@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Balance It! — Chemical Equations (with Scale Visual)</title>
+  <style>
+    :root {
+      --bg:#0f172a; --panel:#111827; --muted:#475569; --text:#e5e7eb;
+      --accent:#22c55e; --accent-2:#60a5fa; --warn:#f59e0b; --good:#10b981;
+      --btn:#1f2937; --btn-hover:#374151;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      background: radial-gradient(1200px 600px at 10% 0%, #1f2937 0%, var(--bg) 60%);
+      color:var(--text); line-height:1.5;
+      min-height:100dvh; display:flex; align-items:flex-start; justify-content:center; padding:16px; overflow-y:auto;
+    }
+    .app {
+      width:min(100%, 1100px);
+      background:linear-gradient(180deg,#0b1224 0%, var(--panel) 100%);
+      border:1px solid #1f2937; border-radius:16px; padding:20px;
+      box-shadow:0 10px 40px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.04);
+    }
+    h1 { margin:0 0 6px; font-weight:800; letter-spacing:.2px; }
+    .sub { color:#cbd5e1; margin:0 0 14px; font-size:14px; }
+    .row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+    .pill { border:1px solid #334155; background:#0b1224; color:#cbd5e1; padding:8px 12px; border-radius:999px; font-size:14px; }
+    .layout { display:grid; grid-template-columns:1fr; gap:14px; }
+    @media (min-width: 960px) { .layout { grid-template-columns: 1.05fr 1fr; } }
+
+    .eqn-wrap { border:1px solid #334155; border-radius:12px; padding:16px; background:#0a0f1e; }
+    .chem {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: clamp(18px, 2.2vw, 22px);
+      display:flex; align-items:center; gap:10px; flex-wrap:wrap; justify-content:center;
+    }
+    .compound { display:inline-flex; align-items:center; gap:6px; padding:4px 8px; border-radius:8px; }
+    .compound span.formula { color:#e2e8f0; }
+    .compound input[type="number"]{
+      width:70px; padding:10px 10px; border-radius:10px; border:1px solid #334155;
+      outline:none; background:#0b1224; color:#e5e7eb; font-weight:700; text-align:center; font-size:18px;
+    }
+    .sep { opacity:.65; user-select:none; }
+    .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
+    button {
+      appearance:none; border:1px solid #334155; background:var(--btn); color:#e5e7eb;
+      padding:10px 14px; border-radius:10px; font-weight:700; cursor:pointer; transition:.12s ease;
+      min-height:44px;
+    }
+    button:hover { background:var(--btn-hover); transform:translateY(-1px); }
+    .primary{ border-color:#2563eb; background:#1d4ed8; }
+    .good{ border-color:#059669; background:#047857; }
+    .warn{ border-color:#d97706; background:#b45309; }
+    .ghost{ background:transparent; }
+
+    .status {
+      margin-top:12px; border-radius:10px; padding:12px; border:1px dashed #334155; background:#0a0f1e;
+      display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;
+    }
+    .status .msg { font-weight:700; }
+    .status .counts { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size:14px; color:#cbd5e1; }
+
+    .card {
+      border:1px solid #334155; border-radius:12px; padding:12px; background:#0a0f1e;
+    }
+    .grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    @media (max-width:800px) { .grid { grid-template-columns:1fr; } }
+    .small { font-size:12px; color:#94a3b8; }
+    .kbd { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New"; font-size:12px; background:#0b1224; border:1px solid #334155; padding:2px 6px; border-radius:6px; }
+
+    /* Scale visualization */
+    .viz-wrap { border:1px solid #334155; border-radius:12px; padding:12px; background:#0a0f1e; }
+    svg { width:100%; height:auto; background:#0b1224; border:1px solid #334155; border-radius:12px; }
+    .legend { display:flex; flex-wrap:wrap; gap:8px; font-size:13px; color:#cbd5e1; margin-top:8px; }
+    .legend .chip{ display:inline-flex; align-items:center; gap:6px; padding:4px 8px; border:1px solid #334155; border-radius:999px; }
+    .legend .dot{ width:12px; height:12px; border-radius:50%; }
+  </style>
+</head>
+<body>
+  <div class="app" role="application" aria-label="Balance It chemistry game">
+    <h1>Balance It! <span class="small">— Chemical Equations</span></h1>
+    <p class="sub">Type coefficients to balance the equation. Hit <span class="kbd">Enter</span> to check. New round with <span class="kbd">N</span>.</p>
+
+    <div class="row">
+      <div class="pill">Score: <strong id="score">0</strong></div>
+      <div class="pill">Streak: <strong id="streak">0</strong></div>
+      <div class="pill">Best: <strong id="best">0</strong></div>
+      <div class="pill">Round: <strong id="round">1</strong></div>
+    </div>
+
+    <div class="layout" style="margin-top:12px">
+      <!-- LEFT: equation + controls + tips -->
+      <div>
+        <div class="eqn-wrap" aria-live="polite">
+          <div class="chem" id="equation"></div>
+        </div>
+
+        <div class="actions">
+          <button class="primary" id="checkBtn" title="Check your coefficients (Enter)">✓ Check</button>
+          <button class="good" id="hintBtn" title="See atom counts on each side">Hint</button>
+          <button class="warn" id="showBtn" title="Reveal the balanced coefficients">Show answer</button>
+          <button class="ghost" id="newBtn"  title="Next random equation (N)">New</button>
+          <button class="ghost" id="resetBtn" title="Reset this round">Reset</button>
+        </div>
+
+        <div class="status" id="status">
+          <div class="msg" id="statusMsg">Pick coefficients and click Check.</div>
+          <div class="counts" id="counts"></div>
+        </div>
+
+        <div class="grid" style="margin-top:12px">
+          <div class="card">
+            <strong>How to play</strong>
+            <ol>
+              <li>Enter whole-number coefficients (use <em>1</em> for “no change”).</li>
+              <li>Press <span class="kbd">Enter</span> or click <em>Check</em>.</li>
+              <li><em>Hint</em> shows atom counts LHS vs RHS so you can nudge toward balance.</li>
+              <li>On the scale, <strong>one colored sphere = one atom</strong>. A white outline marks an unmatched atom.</li>
+              <li><em>Show answer</em> reveals one valid balanced set.</li>
+            </ol>
+          </div>
+          <div class="card">
+            <strong>Why this matters</strong>
+            <p class="small">Balancing enforces the Law of Conservation of Mass—atoms aren’t created or destroyed. You’re matching the number of each atom on both sides.</p>
+            <p class="small">Great practice for stoichiometry and for spotting polyatomic groups that carry through reactions.</p>
+            <p class="small"><strong>Visual key:</strong> each sphere is one atom. Matching colors should have matching counts on both sides. The scale turns green only when every element is conserved.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: visual scale -->
+      <div class="viz-wrap">
+        <svg id="scaleSvg" viewBox="0 0 800 420" aria-label="Balance scale visualization">
+          <!-- base & pillar -->
+          <rect x="350" y="360" width="100" height="20" fill="#1f2937" />
+          <rect x="372" y="250" width="56" height="120" fill="#1f2937" />
+          <!-- beam rotates about center -->
+          <g id="beam" transform="translate(400,240) rotate(0)">
+            <rect x="-200" y="-6" width="400" height="12" rx="6" fill="#374151"/>
+          </g>
+
+          <!-- Hanging assemblies stay vertical/horizontal while their attachment
+               points follow the moving ends of the beam. -->
+          <g id="leftHanger">
+            <line id="leftRope" x1="240" y1="240" x2="240" y2="310" stroke="#64748b" stroke-width="3"/>
+            <ellipse id="leftPan" cx="240" cy="320" rx="70" ry="12" fill="#111827" stroke="#64748b"/>
+          </g>
+          <g id="rightHanger">
+            <line id="rightRope" x1="560" y1="240" x2="560" y2="310" stroke="#64748b" stroke-width="3"/>
+            <ellipse id="rightPan" cx="560" cy="320" rx="70" ry="12" fill="#111827" stroke="#64748b"/>
+          </g>
+
+          <!-- spheres remain level and move with their corresponding pan -->
+          <g id="leftSpheres"></g>
+          <g id="rightSpheres"></g>
+        </svg>
+        <div class="legend" id="legend"></div>
+        <div class="small">Each colored sphere represents exactly one atom. Unmatched atoms have a bright white outline. The beam levels and turns green only when every element has the same count on both sides.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  /* ===== Data: equations & utilities ===== */
+  const EQUATIONS = [
+    /* Existing 20 */
+    {lhs:["H2","O2"], rhs:["H2O"], solution:[2,1,2]},
+    {lhs:["N2","H2"], rhs:["NH3"], solution:[1,3,2]},
+    {lhs:["Na","Cl2"], rhs:["NaCl"], solution:[2,1,2]},
+    {lhs:["Fe","O2"], rhs:["Fe2O3"], solution:[4,3,2]},
+    {lhs:["C3H8","O2"], rhs:["CO2","H2O"], solution:[1,5,3,4]},
+    {lhs:["Al","O2"], rhs:["Al2O3"], solution:[4,3,2]},
+    {lhs:["KClO3"], rhs:["KCl","O2"], solution:[2,2,3]},
+    {lhs:["FeS2","O2"], rhs:["Fe2O3","SO2"], solution:[4,11,2,8]},
+    {lhs:["Ca(OH)2","HCl"], rhs:["CaCl2","H2O"], solution:[1,2,1,2]},
+    {lhs:["Mg","HCl"], rhs:["MgCl2","H2"], solution:[1,2,1,1]},
+    {lhs:["CO","O2"], rhs:["CO2"], solution:[2,1,2]},
+    {lhs:["NaOH","H2SO4"], rhs:["Na2SO4","H2O"], solution:[2,1,1,2]},
+    {lhs:["AgNO3","NaCl"], rhs:["AgCl","NaNO3"], solution:[1,1,1,1]},
+    {lhs:["H2","Cl2"], rhs:["HCl"], solution:[1,1,2]},
+    {lhs:["C2H6","O2"], rhs:["CO2","H2O"], solution:[2,7,4,6]},
+    {lhs:["Fe","HCl"], rhs:["FeCl2","H2"], solution:[1,2,1,1]},
+    {lhs:["P4","O2"], rhs:["P2O5"], solution:[1,5,2]},
+    {lhs:["K","H2O"], rhs:["KOH","H2"], solution:[2,2,2,1]},
+    {lhs:["Al","HCl"], rhs:["AlCl3","H2"], solution:[2,6,2,3]},
+    {lhs:["Na2CO3","HCl"], rhs:["NaCl","H2O","CO2"], solution:[1,2,2,1,1]},
+
+    /* +20 more below */
+    {lhs:["C6H12O6","O2"], rhs:["CO2","H2O"], solution:[1,6,6,6]},
+    {lhs:["CaCO3"], rhs:["CaO","CO2"], solution:[1,1,1]},
+    {lhs:["Pb(NO3)2","KI"], rhs:["PbI2","KNO3"], solution:[1,2,1,2]},
+    {lhs:["H3PO4","NaOH"], rhs:["Na3PO4","H2O"], solution:[1,3,1,3]},
+    {lhs:["BaCl2","Na2SO4"], rhs:["BaSO4","NaCl"], solution:[1,1,1,2]},
+    {lhs:["NH3","O2"], rhs:["NO","H2O"], solution:[4,5,4,6]},
+    {lhs:["NH3","HCl"], rhs:["NH4Cl"], solution:[1,1,1]},
+    {lhs:["C4H10","O2"], rhs:["CO2","H2O"], solution:[2,13,8,10]},
+    {lhs:["KClO4"], rhs:["KCl","O2"], solution:[1,1,2]},
+    {lhs:["NaN3"], rhs:["Na","N2"], solution:[2,2,3]},
+    {lhs:["Al","Fe2O3"], rhs:["Al2O3","Fe"], solution:[2,1,1,2]},
+    {lhs:["H2O2"], rhs:["H2O","O2"], solution:[2,2,1]},
+    {lhs:["K2Cr2O7","HCl"], rhs:["KCl","CrCl3","H2O","Cl2"], solution:[1,14,2,2,7,3]},
+    {lhs:["Na","H2O"], rhs:["NaOH","H2"], solution:[2,2,2,1]},
+    {lhs:["Ca3(PO4)2","H2SO4"], rhs:["CaSO4","H3PO4"], solution:[1,3,3,2]},
+    {lhs:["Fe2(SO4)3","KOH"], rhs:["Fe(OH)3","K2SO4"], solution:[1,6,2,3]},
+    {lhs:["Na2S2O3","HCl"], rhs:["NaCl","H2O","SO2","S"], solution:[1,2,2,1,1,1]},
+    {lhs:["Cu","HNO3"], rhs:["Cu(NO3)2","NO2","H2O"], solution:[1,4,1,2,2]},
+    {lhs:["Zn","HCl"], rhs:["ZnCl2","H2"], solution:[1,2,1,1]},
+    {lhs:["Ag2O"], rhs:["Ag","O2"], solution:[2,4,1]}
+  ];
+
+  function parseFormula(formula) {
+    let i = 0;
+    function parseGroup() {
+      const counts = {};
+      while (i < formula.length) {
+        const ch = formula[i];
+        if (ch === "(") {
+          i++;
+          const inner = parseGroup();
+          const mult = parseNumber();
+          for (const e in inner) counts[e] = (counts[e]||0) + inner[e]*mult;
+        } else if (ch === ")") {
+          i++; return counts;
+        } else if (/[A-Z]/.test(ch)) {
+          let sym = ch; i++;
+          if (i < formula.length && /[a-z]/.test(formula[i])) { sym += formula[i]; i++; }
+          const num = parseNumber();
+          counts[sym] = (counts[sym]||0) + num;
+        } else if (ch === "·" || ch === ".") { i++; }
+        else { i++; }
+      }
+      return counts;
+    }
+    function parseNumber(){ let s=i; while(i<formula.length && /[0-9]/.test(formula[i])) i++; const t=formula.slice(s,i); return t?parseInt(t,10):1; }
+    i=0; return parseGroup();
+  }
+  const multiplyCounts = (m,f)=>Object.fromEntries(Object.entries(m).map(([k,v])=>[k,v*f]));
+  function sumCounts(compounds, coeffs){
+    const total={};
+    for (let idx=0; idx<compounds.length; idx++){
+      const atoms = multiplyCounts(parseFormula(compounds[idx]), coeffs[idx]);
+      for (const el in atoms) total[el] = (total[el]||0) + atoms[el];
+    }
+    return total;
+  }
+  const eqMaps=(a,b)=>{ const keys=new Set([...Object.keys(a),...Object.keys(b)]); for(const k of keys){ if((a[k]||0)!==(b[k]||0)) return false; } return true; };
+  const prettyFormula = f => f.replace(/([A-Za-z\)])(\d+)/g,(_,a,b)=>`${a}<sub>${b}</sub>`);
+
+  /* ===== Game state & DOM ===== */
+  const equationEl = document.getElementById('equation');
+  const scoreEl = document.getElementById('score');
+  const streakEl = document.getElementById('streak');
+  const bestEl   = document.getElementById('best');
+  const roundEl  = document.getElementById('round');
+  const statusMsgEl = document.getElementById('statusMsg');
+  const countsEl = document.getElementById('counts');
+
+  const checkBtn = document.getElementById('checkBtn');
+  const hintBtn  = document.getElementById('hintBtn');
+  const showBtn  = document.getElementById('showBtn');
+  const newBtn   = document.getElementById('newBtn');
+  const resetBtn = document.getElementById('resetBtn');
+
+  let current=null, inputs=[], score=0, streak=0, best=0, round=1;
+
+  function pickEquation(){
+    current = JSON.parse(JSON.stringify(EQUATIONS[Math.floor(Math.random()*EQUATIONS.length)]));
+    renderEquation(current);
+    setStatus('Pick coefficients and click Check.');
+    countsEl.textContent = '';
+    updateViz(); // sync the scale
+  }
+
+  function renderEquation(eq){
+    equationEl.innerHTML = ''; inputs = [];
+    const add = (formula) => {
+      const wrap = document.createElement('div'); wrap.className='compound';
+      const input=document.createElement('input'); input.type='number'; input.min='1'; input.step='1'; input.placeholder='1'; input.setAttribute('inputmode','numeric'); input.setAttribute('pattern','[0-9]*');
+      input.addEventListener('keydown', e => { if(e.key==='Enter') doCheck(); });
+      input.addEventListener('input', updateViz); // live viz
+      inputs.push(input);
+      const span=document.createElement('span'); span.className='formula'; span.innerHTML = prettyFormula(formula);
+      wrap.append(input,span); equationEl.append(wrap);
+    };
+    eq.lhs.forEach(add);
+    const arrow = document.createElement('span'); arrow.className='sep'; arrow.textContent='→'; equationEl.append(arrow);
+    eq.rhs.forEach(add);
+    setTimeout(()=>inputs[0]?.focus(), 50);
+  }
+
+  function getUserCoeffs(){
+    return inputs.map(inp=>{
+      const v=inp.value.trim();
+      if(!v) return 1;
+      const n=Math.max(1, Math.floor(Number(v)));
+      return Number.isFinite(n) ? n : 1;
+    });
+  }
+
+  function showCounts(){
+    const c = getUserCoeffs();
+    const lhs = sumCounts(current.lhs, c.slice(0,current.lhs.length));
+    const rhs = sumCounts(current.rhs, c.slice(current.lhs.length));
+    const els = Array.from(new Set([...Object.keys(lhs), ...Object.keys(rhs)])).sort();
+    countsEl.textContent = `LHS | RHS  →  ${els.map(e=>`${e}: ${lhs[e]||0} | ${rhs[e]||0}`).join('   ·   ')}`;
+  }
+
+  function setStatus(msg, color){ statusMsgEl.textContent=msg; statusMsgEl.style.color = color || 'var(--text)'; }
+  function flash(button, color){
+    const orig = button.style.boxShadow;
+    button.style.boxShadow = `0 0 0 3px ${color}66`;
+    setTimeout(()=> button.style.boxShadow = orig, 300);
+  }
+
+  function doCheck(){
+    const c = getUserCoeffs();
+    const lhs = sumCounts(current.lhs, c.slice(0,current.lhs.length));
+    const rhs = sumCounts(current.rhs, c.slice(current.lhs.length));
+    if (eqMaps(lhs, rhs)) {
+      setStatus('Balanced! Nice work.','var(--good)'); countsEl.textContent='';
+      score+=10; streak+=1; best=Math.max(best,streak);
+      scoreEl.textContent=score; streakEl.textContent=streak; bestEl.textContent=best;
+      round+=1; roundEl.textContent=round;
+      flash(checkBtn, 'var(--good)');
+      setTimeout(pickEquation, 700);
+    } else {
+      setStatus('Not balanced yet — check your counts or try a hint.','var(--warn)');
+      streak=0; streakEl.textContent=streak; flash(checkBtn,'var(--warn)'); showCounts();
+    }
+  }
+  function revealAnswer(){
+    const sol=current.solution;
+    for(let i=0;i<inputs.length;i++) inputs[i].value = sol[i];
+    showCounts(); updateViz();
+    setStatus('Answer revealed. Try another!','var(--accent-2)');
+  }
+  function resetRound(){
+    inputs.forEach(i=> i.value='');
+    setStatus('Round reset. Enter coefficients again.'); countsEl.textContent=''; updateViz();
+    inputs[0]?.focus();
+  }
+
+  checkBtn.addEventListener('click', doCheck);
+  hintBtn .addEventListener('click', ()=>{ showCounts(); setStatus('Compare LHS vs RHS for each element.'); });
+  showBtn .addEventListener('click', revealAnswer);
+  newBtn  .addEventListener('click', pickEquation);
+  resetBtn.addEventListener('click', resetRound);
+  window.addEventListener('keydown', e=>{
+    if(e.key.toLowerCase()==='n') pickEquation();
+    if(e.key.toLowerCase()==='r') resetRound();
+    if(e.key==='Enter') doCheck();
+  });
+
+  /* ===== Scale visualization ===== */
+  const beam = document.getElementById('beam');
+  const leftRope = document.getElementById('leftRope');
+  const rightRope = document.getElementById('rightRope');
+  const leftPan = document.getElementById('leftPan');
+  const rightPan = document.getElementById('rightPan');
+  const leftSpheres  = document.getElementById('leftSpheres');
+  const rightSpheres = document.getElementById('rightSpheres');
+  const legendEl = document.getElementById('legend');
+  const COLORS = ["#60a5fa","#f472b6","#f59e0b","#34d399","#a78bfa","#fb7185","#22c55e","#f97316","#38bdf8","#eab308","#ef4444","#93c5fd"];
+  let elementColors = {};
+
+  function assignColors(elements){
+    elementColors = {};
+    elements.forEach((el,i)=> elementColors[el] = COLORS[i % COLORS.length]);
+    legendEl.innerHTML='';
+    elements.forEach(el=>{
+      const chip=document.createElement('div'); chip.className='chip';
+      const dot=document.createElement('div'); dot.className='dot'; dot.style.background = elementColors[el];
+      chip.append(dot, document.createTextNode(' '+el));
+      legendEl.appendChild(chip);
+    });
+  }
+
+  function updateViz(){
+    if(!current){ return; }
+    const c = getUserCoeffs();
+    const lhs = sumCounts(current.lhs, c.slice(0,current.lhs.length));
+    const rhs = sumCounts(current.rhs, c.slice(current.lhs.length));
+    const elements = Array.from(new Set([...Object.keys(lhs), ...Object.keys(rhs)])).sort();
+    assignColors(elements);
+
+    // One sphere represents exactly one atom.
+    // The scale is a conservation teaching model, not a physical-mass scale.
+    const diffs = elements.map(el => (lhs[el]||0) - (rhs[el]||0));
+    const totalMismatch = diffs.reduce((sum,d)=>sum+Math.abs(d),0);
+    const balanced = elements.every(el => (lhs[el]||0) === (rhs[el]||0));
+    let signedMismatch = diffs.reduce((sum,d)=>sum+d,0);
+
+    // Different elemental excesses can cancel numerically. Keep an unbalanced
+    // equation visibly tilted even when the signed total happens to be zero.
+    if(!balanced && signedMismatch === 0){
+      signedMismatch = diffs.find(d=>d!==0) || 1;
+    }
+
+    let angle = 0;
+    if(!balanced){
+      const direction = Math.sign(signedMismatch) || 1;
+      angle = direction * Math.min(12, 3 + totalMismatch * 1.5);
+    }
+
+    // The beam rotates, but the hanging ropes remain vertical and the pans
+    // remain horizontal. Their attachment points follow the actual beam ends.
+    const beamAngle = -angle;
+    const theta = beamAngle * Math.PI / 180;
+    const arm = 160;
+    const pivotX = 400;
+    const pivotY = 240;
+    const ropeLength = 70;
+    const panDrop = 10;
+
+    const leftAttachX  = pivotX - arm * Math.cos(theta);
+    const leftAttachY  = pivotY - arm * Math.sin(theta);
+    const rightAttachX = pivotX + arm * Math.cos(theta);
+    const rightAttachY = pivotY + arm * Math.sin(theta);
+
+    beam.style.transition = 'transform .35s ease';
+    beam.setAttribute('transform', `translate(${pivotX},${pivotY}) rotate(${beamAngle})`);
+
+    // Vertical ropes.
+    leftRope.setAttribute('x1', leftAttachX);
+    leftRope.setAttribute('y1', leftAttachY);
+    leftRope.setAttribute('x2', leftAttachX);
+    leftRope.setAttribute('y2', leftAttachY + ropeLength);
+
+    rightRope.setAttribute('x1', rightAttachX);
+    rightRope.setAttribute('y1', rightAttachY);
+    rightRope.setAttribute('x2', rightAttachX);
+    rightRope.setAttribute('y2', rightAttachY + ropeLength);
+
+    // Horizontal pans.
+    const leftPanY = leftAttachY + ropeLength + panDrop;
+    const rightPanY = rightAttachY + ropeLength + panDrop;
+
+    leftPan.setAttribute('cx', leftAttachX);
+    leftPan.setAttribute('cy', leftPanY);
+    rightPan.setAttribute('cx', rightAttachX);
+    rightPan.setAttribute('cy', rightPanY);
+
+    // Atom stacks follow the horizontal pans.
+    const leftY = leftPanY - 12;
+    const rightY = rightPanY - 12;
+
+    drawAtomSpheres(leftSpheres, leftAttachX, leftY, lhs, rhs, elements, 'Reactants');
+    drawAtomSpheres(rightSpheres, rightAttachX, rightY, rhs, lhs, elements, 'Products');
+
+    const scaleSvg = document.getElementById('scaleSvg');
+    scaleSvg.style.transition = 'box-shadow .25s ease, border-color .25s ease';
+    if(balanced){
+      scaleSvg.style.borderColor = 'var(--good)';
+      scaleSvg.style.boxShadow = '0 0 0 2px rgba(16,185,129,.22), 0 0 22px rgba(16,185,129,.14)';
+    } else {
+      scaleSvg.style.borderColor = '#334155';
+      scaleSvg.style.boxShadow = 'none';
+    }
+  }
+
+  function drawAtomSpheres(container, baseX, baseY, thisSide, otherSide, elements, sideLabel){
+    container.innerHTML='';
+    const atoms=[];
+
+    elements.forEach(el=>{
+      const here=thisSide[el]||0;
+      const there=otherSide[el]||0;
+      const matched=Math.min(here,there);
+      for(let i=0;i<here;i++){
+        atoms.push({element:el,color:elementColors[el],unmatched:i>=matched});
+      }
+    });
+
+    const count=atoms.length;
+    const cols=Math.max(1,Math.min(8,Math.ceil(Math.sqrt(Math.max(1,count)*1.5))));
+    const spacing=count>48?12:count>30?14:count>18?16:20;
+    const radius=count>48?4.5:count>30?5.5:count>18?6.5:8;
+
+    atoms.forEach((atom,i)=>{
+      const row=Math.floor(i/cols);
+      const col=i%cols;
+      const rowCount=Math.min(cols,count-row*cols);
+      const cx=baseX-((rowCount-1)*spacing)/2+col*spacing;
+      const cy=baseY-12-row*spacing;
+      const circle=document.createElementNS('http://www.w3.org/2000/svg','circle');
+      circle.setAttribute('cx',cx); circle.setAttribute('cy',cy); circle.setAttribute('r',radius);
+      circle.setAttribute('fill',atom.color); circle.setAttribute('opacity','0.98');
+      if(atom.unmatched){
+        circle.setAttribute('stroke','#ffffff'); circle.setAttribute('stroke-width','2.5');
+        circle.style.filter='drop-shadow(0 0 4px rgba(255,255,255,.85))';
+      } else {
+        circle.setAttribute('stroke','rgba(255,255,255,.20)'); circle.setAttribute('stroke-width','1');
+      }
+      const title=document.createElementNS('http://www.w3.org/2000/svg','title');
+      title.textContent=`${atom.element} atom${atom.unmatched?' — unmatched':' — matched'}`;
+      circle.appendChild(title);
+      container.appendChild(circle);
+    });
+
+    const label=document.createElementNS('http://www.w3.org/2000/svg','text');
+    label.setAttribute('x',baseX); label.setAttribute('y',Math.min(402,baseY+34));
+    label.setAttribute('text-anchor','middle'); label.setAttribute('fill','#cbd5e1');
+    label.setAttribute('font-size','14'); label.setAttribute('font-family','system-ui,-apple-system,Segoe UI,sans-serif');
+    const parts=elements.filter(el=>(thisSide[el]||0)>0).map(el=>`${el}:${thisSide[el]||0}`);
+    label.textContent=`${sideLabel} — ${parts.join('  ')}`;
+    container.appendChild(label);
+  }
+
+  /* boot */
+  pickEquation();
+  </script>
+</body>
+</html>
