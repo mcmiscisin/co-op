@@ -1,0 +1,109 @@
+{
+  "schema": "algebra2-lesson-manifest-v1",
+  "lesson_id": "lesson-090",
+  "lesson_number": 90,
+  "title": "Differences of Two Squares",
+  "chapter": {
+    "number": 12,
+    "title": "Equations with Three or More Variables"
+  },
+  "package_file": "lesson-090.js",
+  "content_version": "course-package-1.0",
+  "source_revision": "lesson90-2026-10-05-photos",
+  "status": "SOURCE_VERIFIED",
+  "source_verification": {
+    "basis": "User-supplied photographs used as information sources for the lesson package",
+    "pages": [
+      437,
+      438,
+      439,
+      440,
+      441,
+      442
+    ],
+    "source_files": [
+      "IMG_0682.jpeg",
+      "IMG_0683.jpeg",
+      "IMG_0684.jpeg",
+      "IMG_0685.jpeg",
+      "IMG_0689.jpeg",
+      "IMG_0687.jpeg"
+    ],
+    "verified_date_ct": "2026-10-05",
+    "uncertain_items": [],
+    "source_photographs_embedded_in_student_interface": false,
+    "graph_handling": "Native app SVG redraws derived from the source coordinates and graph structure"
+  },
+  "content_inventory": {
+    "guided_topics": 6,
+    "sections": [
+      {
+        "id": "practice",
+        "label": "Practice 90",
+        "exercise_count": 5
+      },
+      {
+        "id": "problem",
+        "label": "Problem Set 90",
+        "exercise_count": 22
+      }
+    ],
+    "scored_exercises_total": 27,
+    "question_ids": [
+      "p90-a",
+      "p90-b",
+      "p90-c",
+      "p90-d",
+      "p90-e",
+      "ps90-1",
+      "ps90-2",
+      "ps90-3",
+      "ps90-4",
+      "ps90-5",
+      "ps90-6",
+      "ps90-7",
+      "ps90-8",
+      "ps90-9",
+      "ps90-10",
+      "ps90-11",
+      "ps90-12",
+      "ps90-13",
+      "ps90-14",
+      "ps90-15",
+      "ps90-16",
+      "ps90-17",
+      "ps90-18",
+      "ps90-19",
+      "ps90-20",
+      "ps90-21",
+      "ps90-22"
+    ]
+  },
+  "shared_engine_contract": {
+    "engine_global": "Algebra2Engine",
+    "registry_global": "Algebra2CourseRegistry",
+    "registration_method": "Algebra2CourseRegistry.register(packageDef)",
+    "navigation": "free_navigation_without_attempt_consumption",
+    "multiple_choice_credit_bearing_tries": 1,
+    "fill_in_credit_bearing_tries": 2,
+    "later_correct_answers": "recorded_as_solved_without_credit",
+    "points_per_exercise": 1
+  },
+  "runtime_assets": {
+    "external_files_required": [],
+    "network_required": false,
+    "graph_assets": "generated_by_lesson_package"
+  },
+  "validation": {
+    "javascript_syntax": "PASS",
+    "package_registration": "PASS",
+    "question_count": 27,
+    "unique_question_ids": 27,
+    "invalid_multiple_choice_answer_indices": 0,
+    "scope": "package-level structural validation; not a new full browser regression of the entire course app"
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "lesson_090_js_sha256": "f722369b4de127db77e5202ca24bba4ebba9729f6cea7a6e19d6017baf8818dd"
+  }
+}
