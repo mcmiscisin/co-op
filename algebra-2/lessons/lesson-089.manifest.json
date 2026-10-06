@@ -1,0 +1,16 @@
+{
+  "id": "lesson-089",
+  "number": 89,
+  "title": "Standard Forms",
+  "chapter": "Chapter 12",
+  "guided_topics": 10,
+  "exercises": 26,
+  "practice_exercises": 5,
+  "problem_set_exercises": 21,
+  "source_revision": "lesson89-2026-10-02-closeups",
+  "standalone_migration_versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0"
+  ]
+}
