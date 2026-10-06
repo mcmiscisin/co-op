@@ -1,0 +1,162 @@
+{
+  "schema": "algebra2-lesson-manifest-v1",
+  "lesson_id": "lesson-091",
+  "lesson_number": 91,
+  "title": "Rational Expressions Revisited",
+  "chapter": {
+    "number": 12,
+    "title": "Equations with Three or More Variables"
+  },
+  "package_file": "lesson091.js",
+  "content_version": "course-package-1.0",
+  "source_revision": "lesson91-2026-10-06-photos",
+  "status": "SOURCE_VERIFIED",
+  "source_verification": {
+    "basis": "User-supplied photographs used strictly as information sources for the lesson package",
+    "pages": [443, 444, 445, 446, 447],
+    "primary_page_photos": [
+      "IMG_4314.jpeg",
+      "IMG_4315.jpeg",
+      "IMG_4316.jpeg",
+      "IMG_4317.jpeg",
+      "IMG_4318.jpeg"
+    ],
+    "supplemental_closeups": [
+      "IMG_E3646D1E-B061-4CA0-82DD-CE7C39788F2A.jpeg",
+      "IMG_0E424BE8-4CB6-4737-AB17-D7612E408BC2.jpeg",
+      "IMG_53C46518-017D-4791-A513-3B338FF8A4F1.jpeg",
+      "IMG_F43BC436-4759-4FFC-ABBB-618FC49316BC.jpeg",
+      "IMG_FB781833-BFFC-442F-B0A3-48500F084FE9.jpeg",
+      "IMG_E6FD1143-69C9-413B-91D6-0FDE410EAF3D.jpeg",
+      "IMG_AEC26D8C-1D36-4A19-89CC-5CA3A14A90EB.jpeg",
+      "IMG_DC88B1C7-973B-40C0-BE07-FF29053E1854.jpeg",
+      "IMG_161387D9-FCD5-412F-BF97-A74B105DA37A.jpeg",
+      "IMG_D81C9942-F7D4-4784-A674-C6DB23CB31E3.jpeg",
+      "IMG_2817DC97-0896-4564-90E8-C7C6B8E36C31.jpeg",
+      "IMG_6B3DDC2C-114D-428D-A4B7-A523A962A8DD.jpeg",
+      "IMG_0EFAA442-89D3-4042-8676-E0A54B07FC63.jpeg",
+      "IMG_E80AD45E-B754-4263-9830-E8DC445CF3F6.jpeg",
+      "IMG_169037C5-4BAD-42B4-85CC-02ECFF25A513.jpeg",
+      "IMG_0ABC64E9-666B-443D-B6B0-C9581A4B530F.jpeg",
+      "IMG_CA9C8D7B-16C8-4282-8B60-0DF7C2C34927.jpeg",
+      "IMG_D4A4DEE6-D663-4CDB-A793-660C11F49718.jpeg",
+      "IMG_592AF762-5698-4776-9928-77E4E587F104.jpeg",
+      "IMG_EE5BCD2D-553C-448A-9769-C7BB5F6F6418.jpeg",
+      "IMG_EB3C43A9-5FD7-401B-9BC2-5F2DBA17411B.jpeg",
+      "IMG_3C728BB5-75FE-4DAC-B1D7-A89C49F6B667.jpeg",
+      "IMG_C94A3166-7244-4E57-8181-B66CA43897C5.jpeg",
+      "IMG_FA38E0FD-A4E4-44D2-A097-BB3619E04E93.jpeg"
+    ],
+    "verified_date_ct": "2026-10-06",
+    "uncertain_items": [],
+    "additional_photos_required": false,
+    "source_photographs_embedded_in_student_interface": false,
+    "graph_handling": "Native app SVG redraw derived from the source-labeled coordinates for lines A and B"
+  },
+  "content_inventory": {
+    "guided_topics": 7,
+    "sections": [
+      {
+        "id": "practice",
+        "label": "Practice 91",
+        "exercise_count": 5
+      },
+      {
+        "id": "problem",
+        "label": "Problem Set 91",
+        "exercise_count": 21
+      }
+    ],
+    "scored_exercises_total": 26,
+    "question_ids": [
+      "p91-a",
+      "p91-b",
+      "p91-c",
+      "p91-d",
+      "p91-e",
+      "ps91-1",
+      "ps91-2",
+      "ps91-3",
+      "ps91-4",
+      "ps91-5",
+      "ps91-6",
+      "ps91-7",
+      "ps91-8",
+      "ps91-9",
+      "ps91-10",
+      "ps91-11",
+      "ps91-12",
+      "ps91-13",
+      "ps91-14",
+      "ps91-15",
+      "ps91-16",
+      "ps91-17",
+      "ps91-18",
+      "ps91-19",
+      "ps91-20",
+      "ps91-21"
+    ]
+  },
+  "source_derived_scope": {
+    "instructional_core": [
+      "reducing multivariable rational expressions by factoring and canceling",
+      "factoring by grouping",
+      "multiplying multivariable rational expressions",
+      "dividing complex multivariable fractions"
+    ],
+    "review_skills_present_in_exercises": [
+      "scientific notation",
+      "distance between points",
+      "horizontal and vertical lines",
+      "parabola vertex form",
+      "greatest-common-factor factoring",
+      "perfect-square trinomials",
+      "differences of two squares",
+      "powers of monomials",
+      "combining like terms",
+      "linear and quadratic equations",
+      "formula substitution and rearrangement",
+      "equations of lines",
+      "rectangle perimeter applications"
+    ]
+  },
+  "shared_engine_contract": {
+    "engine_global": "Algebra2Engine",
+    "registry_global": "Algebra2CourseRegistry",
+    "registration_method": "Algebra2CourseRegistry.register(packageDef)",
+    "navigation": "free_navigation_without_attempt_consumption",
+    "multiple_choice_credit_bearing_tries": 1,
+    "fill_in_credit_bearing_tries": 2,
+    "later_correct_answers": "recorded_as_solved_without_credit",
+    "points_per_exercise": 1
+  },
+  "runtime_assets": {
+    "external_files_required": [],
+    "network_required": false,
+    "graph_assets": "generated_by_lesson_package"
+  },
+  "validation": {
+    "javascript_syntax": "PASS",
+    "package_registration": "PASS",
+    "question_count": 26,
+    "unique_question_ids": 26,
+    "practice_question_count": 5,
+    "problem_set_question_count": 21,
+    "invalid_multiple_choice_answer_indices": 0,
+    "invalid_topic_references": 0,
+    "symbolic_spot_checks": {
+      "practice_b": "c/(6dx)",
+      "practice_c": "y(a+b)/(b(a-b))",
+      "practice_d": "1/(63xy)",
+      "problem_9": "b/(5ax)",
+      "problem_10": "(ab+c)/(2d)",
+      "problem_12": "x(x+y)/(b(x-y))",
+      "problem_14": "1/(15t)"
+    },
+    "scope": "package-level source and structural validation; not a full browser regression of the entire Algebra 2 course app"
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "lesson091_js_sha256": "1b343aa67f7b376e6c4aca833b2a2ebafdeae772e19725f7b1d1bea64f2bf896"
+  }
+}
