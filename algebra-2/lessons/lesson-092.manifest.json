@@ -1,0 +1,169 @@
+{
+  "schema": "algebra2-lesson-manifest-v1",
+  "lesson_id": "lesson-092",
+  "lesson_number": 92,
+  "title": "Adding and Subtracting Rational Expressions with Several Variables",
+  "chapter": {
+    "number": 12,
+    "title": "Equations with Three or More Variables"
+  },
+  "package_file": "lesson-092.js",
+  "content_version": "course-package-1.0",
+  "source_revision": "lesson92-2026-10-07-photos",
+  "status": "SOURCE_VERIFIED",
+  "source_verification": {
+    "basis": "User-supplied photographs used strictly as information sources for the lesson package",
+    "pages": [
+      448,
+      449,
+      450,
+      451,
+      452,
+      453
+    ],
+    "photo_batches": {
+      "batch_1": [
+        "IMG_4324.jpeg",
+        "IMG_4325.jpeg",
+        "IMG_4326.jpeg",
+        "IMG_4327.jpeg",
+        "IMG_4328.jpeg",
+        "IMG_4329.jpeg",
+        "IMG_4330.jpeg",
+        "IMG_4331.jpeg",
+        "IMG_4332.jpeg",
+        "IMG_4333.jpeg"
+      ],
+      "batch_2": [
+        "IMG_4334.jpeg",
+        "IMG_4335.jpeg",
+        "IMG_4336.jpeg",
+        "IMG_4337.jpeg",
+        "IMG_4338.jpeg",
+        "IMG_4339.jpeg",
+        "IMG_4340.jpeg",
+        "IMG_4341.jpeg",
+        "IMG_4342.jpeg",
+        "IMG_4343.jpeg"
+      ]
+    },
+    "verified_date_ct": "2026-10-07",
+    "uncertain_items": [],
+    "additional_photos_required": false,
+    "source_photographs_embedded_in_student_interface": false,
+    "graph_handling": "Native app SVG redraws derived from the source-labeled graph choices for Problem Set 92 questions 18 and 19"
+  },
+  "content_inventory": {
+    "guided_topics": 7,
+    "sections": [
+      {
+        "id": "practice",
+        "label": "Practice 92",
+        "exercise_count": 5
+      },
+      {
+        "id": "problem",
+        "label": "Problem Set 92",
+        "exercise_count": 22
+      }
+    ],
+    "scored_exercises_total": 27,
+    "question_ids": [
+      "p92-a",
+      "p92-b",
+      "p92-c",
+      "p92-d",
+      "p92-e",
+      "ps92-1",
+      "ps92-2",
+      "ps92-3",
+      "ps92-4",
+      "ps92-5",
+      "ps92-6",
+      "ps92-7",
+      "ps92-8",
+      "ps92-9",
+      "ps92-10",
+      "ps92-11",
+      "ps92-12",
+      "ps92-13",
+      "ps92-14",
+      "ps92-15",
+      "ps92-16",
+      "ps92-17",
+      "ps92-18",
+      "ps92-19",
+      "ps92-20",
+      "ps92-21",
+      "ps92-22"
+    ]
+  },
+  "source_derived_scope": {
+    "instructional_core": [
+      "finding the lowest common denominator for multivariable rational expressions",
+      "adding multivariable rational expressions",
+      "factoring and reducing after addition",
+      "subtracting multivariable rational expressions",
+      "distributing a negative sign across an entire numerator"
+    ],
+    "review_skills_present_in_exercises": [
+      "order of operations",
+      "parallel and perpendicular lines",
+      "circle center and radius",
+      "greatest-common-factor factoring",
+      "differences of two squares",
+      "perfect-square trinomials",
+      "multiplying monomials",
+      "reducing rational expressions",
+      "dividing rational expressions",
+      "linear equations",
+      "rational equations",
+      "formula substitution and rearrangement",
+      "vertical-line graph selection",
+      "ellipse graph selection",
+      "equations of lines",
+      "same-direction relative-speed applications"
+    ]
+  },
+  "shared_engine_contract": {
+    "engine_global": "Algebra2Engine",
+    "registry_global": "Algebra2CourseRegistry",
+    "registration_method": "Algebra2CourseRegistry.register(packageDef)",
+    "navigation": "free_navigation_without_attempt_consumption",
+    "multiple_choice_credit_bearing_tries": 1,
+    "fill_in_credit_bearing_tries": 2,
+    "later_correct_answers": "recorded_as_solved_without_credit",
+    "points_per_exercise": 1
+  },
+  "runtime_assets": {
+    "external_files_required": [],
+    "network_required": false,
+    "graph_assets": "generated_by_lesson_package"
+  },
+  "validation": {
+    "javascript_syntax": "PASS",
+    "package_registration": "PASS",
+    "question_count": 27,
+    "unique_question_ids": 27,
+    "practice_question_count": 5,
+    "problem_set_question_count": 22,
+    "invalid_multiple_choice_answer_indices": 0,
+    "invalid_topic_references": 0,
+    "symbolic_spot_checks": {
+      "practice_b": "(x-y)/(x+y)",
+      "practice_c": "-4ab/(a^2-b^2)",
+      "practice_d": "(a-bc)/(c-1)",
+      "problem_10": "bx^2/(x-a)",
+      "problem_11": "3y^2/10",
+      "problem_12": "(a-b)/(a+b)",
+      "problem_13": "-4rs/(r^2-s^2)",
+      "problem_17": "(x-zy)/(z-1)",
+      "problem_22": "1.75 hours"
+    },
+    "scope": "package-level source and structural validation; not a full browser regression of the entire Algebra 2 course app"
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "lesson_092_js_sha256": "02e6015a6098539857a7a2b2c44837b77b408e3102e945f0f13576c062f48d87"
+  }
+}
