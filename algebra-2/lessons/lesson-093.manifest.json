@@ -1,0 +1,157 @@
+{
+  "schema": "algebra2-lesson-manifest-v1",
+  "lesson_id": "lesson-093",
+  "lesson_number": 93,
+  "title": "Polynomial Division with Several Variables",
+  "chapter": {
+    "number": 12,
+    "title": "Equations with Three or More Variables"
+  },
+  "package_file": "lesson-093.js",
+  "content_version": "course-package-1.0",
+  "source_revision": "lesson93-2026-10-08-photos",
+  "status": "SOURCE_VERIFIED",
+  "source_verification": {
+    "basis": "User-supplied photographs used strictly as information sources for the lesson package",
+    "pages": [
+      454,
+      455,
+      456,
+      457,
+      458
+    ],
+    "source_files": [
+      "IMG_4353.jpeg",
+      "IMG_4354.jpeg",
+      "IMG_4355.jpeg",
+      "IMG_4356.jpeg",
+      "IMG_4357.jpeg",
+      "IMG_4358.jpeg",
+      "IMG_4359.jpeg",
+      "IMG_4360.jpeg",
+      "IMG_4361.jpeg",
+      "IMG_4362.jpeg"
+    ],
+    "verified_date_ct": "2026-10-08",
+    "uncertain_items": [],
+    "additional_photos_required": false,
+    "source_photographs_embedded_in_student_interface": false,
+    "graph_handling": "Native SVG redraw derived from the source-labeled coordinates for Problem Set 93 questions 19 and 20"
+  },
+  "content_inventory": {
+    "guided_topics": 7,
+    "sections": [
+      {
+        "id": "practice",
+        "label": "Practice 93",
+        "exercise_count": 5
+      },
+      {
+        "id": "problem",
+        "label": "Problem Set 93",
+        "exercise_count": 21
+      }
+    ],
+    "scored_exercises_total": 26,
+    "question_ids": [
+      "p93-a",
+      "p93-b",
+      "p93-c",
+      "p93-d",
+      "p93-e",
+      "ps93-1",
+      "ps93-2",
+      "ps93-3",
+      "ps93-4",
+      "ps93-5",
+      "ps93-6",
+      "ps93-7",
+      "ps93-8",
+      "ps93-9",
+      "ps93-10",
+      "ps93-11",
+      "ps93-12",
+      "ps93-13",
+      "ps93-14",
+      "ps93-15",
+      "ps93-16",
+      "ps93-17",
+      "ps93-18",
+      "ps93-19",
+      "ps93-20",
+      "ps93-21"
+    ]
+  },
+  "source_derived_scope": {
+    "instructional_core": [
+      "using polynomial division to test whether a denominator is a factor of a numerator",
+      "ordering multivariable polynomial terms for long division",
+      "divide-multiply-subtract-bring-down long-division cycle",
+      "interpreting a zero remainder as evidence of a reducible rational expression",
+      "polynomial division with x and y terms"
+    ],
+    "review_skills_present_in_exercises": [
+      "scientific notation",
+      "distance between points",
+      "horizontal and vertical lines",
+      "hyperbola center vertices and direction",
+      "greatest-common-factor factoring",
+      "perfect-square trinomials",
+      "differences of two squares",
+      "combining like terms",
+      "multiplying conjugates",
+      "reducing rational expressions",
+      "multiplying rational expressions",
+      "subtracting rational expressions",
+      "linear equations",
+      "radical equations and extraneous-solution checks",
+      "formula substitution",
+      "solving for a variable",
+      "equations of lines",
+      "triangle-angle applications"
+    ]
+  },
+  "shared_engine_contract": {
+    "engine_global": "Algebra2Engine",
+    "registry_global": "Algebra2CourseRegistry",
+    "registration_method": "Algebra2CourseRegistry.register(packageDef)",
+    "navigation": "free_navigation_without_attempt_consumption",
+    "multiple_choice_credit_bearing_tries": 1,
+    "fill_in_credit_bearing_tries": 2,
+    "later_correct_answers": "recorded_as_solved_without_credit",
+    "points_per_exercise": 1
+  },
+  "runtime_assets": {
+    "external_files_required": [],
+    "network_required": false,
+    "graph_assets": "generated_by_lesson_package"
+  },
+  "validation": {
+    "javascript_syntax": "PASS",
+    "package_registration": "PASS",
+    "question_count": 26,
+    "unique_question_ids": 26,
+    "practice_question_count": 5,
+    "problem_set_question_count": 21,
+    "invalid_multiple_choice_answer_indices": 0,
+    "invalid_topic_references": 0,
+    "source_answer_spot_checks": {
+      "practice_c": "1/(x+2b)",
+      "practice_d": "2x^2+5xy+y^2",
+      "practice_e": "15 degrees",
+      "problem_11": "b/(x-a)",
+      "problem_12": "1/(x^2+xy)",
+      "problem_13": "1/(x+5b)",
+      "problem_14": "2x^2+4xy+y^2",
+      "problem_16": "x=5 only",
+      "problem_19": "choice E",
+      "problem_20": "choice B",
+      "problem_21": "12 degrees"
+    },
+    "scope": "package-level source and structural validation; not a full browser regression of the entire Algebra 2 course app"
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "lesson_093_js_sha256": "09eb15d4fe2e4c67343902833db17db832ecc72b15ed77113b8d78fd27055ce7"
+  }
+}
