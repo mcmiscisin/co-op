@@ -1,0 +1,722 @@
+{
+  "schema": "algebra2-lesson-manifest-v1",
+  "lesson_id": "lesson-094",
+  "lesson_number": 94,
+  "title": "Linear Systems",
+  "chapter": {
+    "number": 13,
+    "title": "Systems of Equations"
+  },
+  "package_file": "lesson-094.js",
+  "content_version": "course-package-1.0",
+  "source_revision": "lesson94-2026-10-12-photos",
+  "status": "PARTIALLY_SOURCE_VERIFIED",
+  "source_verification": {
+    "basis": "The eleven local Lesson 94 photographs are the authoritative content source. All instructional mathematics, exercise statements, signs, exponents, denominators, radical extents, answer choices, and graph labels have been visually resolved.",
+    "pages": [
+      460,
+      461,
+      462,
+      463,
+      464
+    ],
+    "page_range": "460–464 plus Lesson 94 continuation in IMG_4387.jpeg; final printed page number unresolved",
+    "continuation_sheet": {
+      "source_file": "IMG_4387.jpeg",
+      "printed_page_number": null,
+      "exercise_numbers": [
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    "source_files": [
+      "IMG_4374.jpeg",
+      "IMG_4375.jpeg",
+      "IMG_4376.jpeg",
+      "IMG_4377.jpeg",
+      "IMG_4381.jpeg",
+      "IMG_4382.jpeg",
+      "IMG_4383.jpeg",
+      "IMG_4384.jpeg",
+      "IMG_4385.jpeg",
+      "IMG_4386.jpeg",
+      "IMG_4387.jpeg"
+    ],
+    "source_inventory": [
+      {
+        "file": "IMG_4374.jpeg",
+        "page": 460,
+        "coverage": "Chapter 13 and lesson identity; introduction; purchase model; system definition",
+        "sha256": "00421d747bb51e3912f5659d577f79517d480c62ecf70cbd68582d531a3e5077"
+      },
+      {
+        "file": "IMG_4375.jpeg",
+        "page": 460,
+        "coverage": "Purchase model and system definition continuation; printed page 460",
+        "sha256": "81e4acbbd2e9a48f2dfb357dbc296a9196404f7f68c9f6d98a2de3fafea2b1bd"
+      },
+      {
+        "file": "IMG_4376.jpeg",
+        "page": 461,
+        "coverage": "Subtraction method; finding y; interpreting and checking x and y",
+        "sha256": "afb73083ff07ee5b5ff55a74ac0ddb21f3ed4a826e66bb80c4070a1bf05dc5ff"
+      },
+      {
+        "file": "IMG_4377.jpeg",
+        "page": 461,
+        "coverage": "Substitution steps; vertical subtraction; addition-method heading; printed page 461",
+        "sha256": "89da820d727ac1d70d47aba6938f22d47a52d52289dc0103b9ad23eca2521fd0"
+      },
+      {
+        "file": "IMG_4381.jpeg",
+        "page": 462,
+        "coverage": "Addition-method example and operation-selection rule",
+        "sha256": "a0aa176472646346309aced29e954d600227be585ba83111dd0a5dbe18915f96"
+      },
+      {
+        "file": "IMG_4382.jpeg",
+        "page": 462,
+        "coverage": "Addition-method continuation; Practice 94 a and b; printed page 462",
+        "sha256": "0766ba4604e17a20bf815479f4704165321bdd35b6614ea4564ca96f943b3522"
+      },
+      {
+        "file": "IMG_4383.jpeg",
+        "page": 463,
+        "coverage": "Practice 94 c, d, e; Problem Set 94 1–4 and 8–10",
+        "sha256": "82ebdab27bb7c7c3c20147e660ae2784daf585d2044183e445e78c02120723a6"
+      },
+      {
+        "file": "IMG_4384.jpeg",
+        "page": 463,
+        "coverage": "Problem Set 94 1–12 overlap and lower exercises; printed page 463",
+        "sha256": "9d30dadd8acaa49af81780699d96dd00f98c1afc6e32725a8bd0b30bf5154284"
+      },
+      {
+        "file": "IMG_4385.jpeg",
+        "page": 464,
+        "coverage": "Problem Set 94 13–17 and upper portion of graph question 18",
+        "sha256": "5561cfb02a226e05527130ea5d8db11256d270749c03981545e7288daa33d60e"
+      },
+      {
+        "file": "IMG_4386.jpeg",
+        "page": 464,
+        "coverage": "Complete A–E line graphs for Problem Set 94 18; printed page 464",
+        "sha256": "e27e81cff0db3519da8f9e168c972f93466ae7fd779b635802517172e7a8b7a8"
+      },
+      {
+        "file": "IMG_4387.jpeg",
+        "page": null,
+        "coverage": "Lesson 94 continuation: Problem Set 94 19–22, complete ellipse graphs and equations; page-number footer cropped",
+        "sha256": "ea595d62fdb2f6fcdec4888055e11fb17e91ff4de1f3798d6b15cd081520bd3d"
+      }
+    ],
+    "archive_note": "drive-download-20261012T120648Z-1-001.zip contains ten corresponding JPEG members. IMG_4387.jpeg is a separate local photograph. No missing photo numbers were assumed to represent missing content.",
+    "verified_date_ct": "2026-10-12",
+    "verification_time_ct": "07:57 AM CDT",
+    "timezone": "America/Chicago",
+    "instructional_and_exercise_content_resolved": true,
+    "all_source_items_resolved": false,
+    "fully_source_verified": false,
+    "uncertain_items": [
+      {
+        "id": "final-continuation-page-number",
+        "category": "source_page_metadata",
+        "source_file": "IMG_4387.jpeg",
+        "affected_exercises": [
+          "ps94-19",
+          "ps94-20",
+          "ps94-21",
+          "ps94-22"
+        ],
+        "item": "The printed page number of the final continuation sheet is outside the photograph.",
+        "mathematical_content_affected": false,
+        "resolution_required": "Supply a clearer photograph of this same Lesson 94 continuation sheet that includes its printed page-number footer.",
+        "handling": "No page number inferred; runtime questions retain sourcePhoto/sourceLocation and omit numeric page."
+      }
+    ],
+    "unresolved_source_report": "IMG_4387.jpeg: the printed page-number footer is cropped. Problem Set 94 19–22 and all graph labels are readable. A photograph including the footer is needed to resolve the final page identity; no clearer exercise expression is needed.",
+    "additional_photos_required": true,
+    "additional_photos_reason": "Final continuation sheet page-number footer only.",
+    "source_photographs_embedded_in_student_interface": false,
+    "source_discrepancies": [],
+    "transcription_notes": [
+      "Practice b choice E ends with +v in its numerator, not +v². It is a printed distractor and is preserved.",
+      "Problem Set 13 choice B ends with +y in its numerator, not +y². It is a printed distractor and is preserved.",
+      "Problem Set 15 choices A and D have i outside the radical; their radicands are 21 and 2 respectively.",
+      "Problem Set 4 is (−5i²)³. The exponent 2 applies to i inside the parentheses; exponent 3 applies to the entire quantity.",
+      "Parenthesized a–e beside Problem Set 8, 13, 20, 21, 22 are Practice cross references; original scored numbers remain 8, 13, 20, 21, 22."
+    ],
+    "graph_handling": "Ten accessible native SVG graph cards retain A–E order and exact labeled coordinates for Problem Set 18 and 19. No photographs are embedded. Ellipse shapes are reconstructed from labeled centers and semiaxes; line shapes from labeled point pairs."
+  },
+  "content_inventory": {
+    "guided_topics": 8,
+    "topic_ids": [
+      "system-model",
+      "subtract",
+      "recover-check",
+      "add-or-subtract",
+      "algebra-review",
+      "complex-formulas",
+      "geometry-review",
+      "shared-work"
+    ],
+    "sections": [
+      {
+        "id": "practice",
+        "label": "Practice 94",
+        "exercise_count": 5,
+        "original_numbering": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ]
+      },
+      {
+        "id": "problem",
+        "label": "Problem Set 94",
+        "exercise_count": 22,
+        "original_numbering": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22"
+        ]
+      }
+    ],
+    "scored_exercises_total": 27,
+    "question_ids": [
+      "p94-a",
+      "p94-b",
+      "p94-c",
+      "p94-d",
+      "p94-e",
+      "ps94-1",
+      "ps94-2",
+      "ps94-3",
+      "ps94-4",
+      "ps94-5",
+      "ps94-6",
+      "ps94-7",
+      "ps94-8",
+      "ps94-9",
+      "ps94-10",
+      "ps94-11",
+      "ps94-12",
+      "ps94-13",
+      "ps94-14",
+      "ps94-15",
+      "ps94-16",
+      "ps94-17",
+      "ps94-18",
+      "ps94-19",
+      "ps94-20",
+      "ps94-21",
+      "ps94-22"
+    ],
+    "response_types": {
+      "choice": 18,
+      "numeric": 7,
+      "trip": 2
+    },
+    "question_source_mapping": [
+      {
+        "id": "p94-a",
+        "section": "practice",
+        "source_number": "a",
+        "page": 462
+      },
+      {
+        "id": "p94-b",
+        "section": "practice",
+        "source_number": "b",
+        "page": 462
+      },
+      {
+        "id": "p94-c",
+        "section": "practice",
+        "source_number": "c",
+        "page": 463
+      },
+      {
+        "id": "p94-d",
+        "section": "practice",
+        "source_number": "d",
+        "page": 463
+      },
+      {
+        "id": "p94-e",
+        "section": "practice",
+        "source_number": "e",
+        "page": 463
+      },
+      {
+        "id": "ps94-1",
+        "section": "problem",
+        "source_number": "1",
+        "page": 463
+      },
+      {
+        "id": "ps94-2",
+        "section": "problem",
+        "source_number": "2",
+        "page": 463
+      },
+      {
+        "id": "ps94-3",
+        "section": "problem",
+        "source_number": "3",
+        "page": 463
+      },
+      {
+        "id": "ps94-4",
+        "section": "problem",
+        "source_number": "4",
+        "page": 463
+      },
+      {
+        "id": "ps94-5",
+        "section": "problem",
+        "source_number": "5",
+        "page": 463
+      },
+      {
+        "id": "ps94-6",
+        "section": "problem",
+        "source_number": "6",
+        "page": 463
+      },
+      {
+        "id": "ps94-7",
+        "section": "problem",
+        "source_number": "7",
+        "page": 463
+      },
+      {
+        "id": "ps94-8",
+        "section": "problem",
+        "source_number": "8",
+        "page": 463,
+        "practice_cross_reference": "a"
+      },
+      {
+        "id": "ps94-9",
+        "section": "problem",
+        "source_number": "9",
+        "page": 463
+      },
+      {
+        "id": "ps94-10",
+        "section": "problem",
+        "source_number": "10",
+        "page": 463
+      },
+      {
+        "id": "ps94-11",
+        "section": "problem",
+        "source_number": "11",
+        "page": 463
+      },
+      {
+        "id": "ps94-12",
+        "section": "problem",
+        "source_number": "12",
+        "page": 463
+      },
+      {
+        "id": "ps94-13",
+        "section": "problem",
+        "source_number": "13",
+        "page": 464,
+        "practice_cross_reference": "b"
+      },
+      {
+        "id": "ps94-14",
+        "section": "problem",
+        "source_number": "14",
+        "page": 464
+      },
+      {
+        "id": "ps94-15",
+        "section": "problem",
+        "source_number": "15",
+        "page": 464
+      },
+      {
+        "id": "ps94-16",
+        "section": "problem",
+        "source_number": "16",
+        "page": 464
+      },
+      {
+        "id": "ps94-17",
+        "section": "problem",
+        "source_number": "17",
+        "page": 464
+      },
+      {
+        "id": "ps94-18",
+        "section": "problem",
+        "source_number": "18",
+        "page": 464
+      },
+      {
+        "id": "ps94-19",
+        "section": "problem",
+        "source_number": "19",
+        "page": null,
+        "source_photo": "IMG_4387.jpeg",
+        "source_location": "Lesson 94 continuation; printed page number not visible"
+      },
+      {
+        "id": "ps94-20",
+        "section": "problem",
+        "source_number": "20",
+        "page": null,
+        "source_photo": "IMG_4387.jpeg",
+        "source_location": "Lesson 94 continuation; printed page number not visible",
+        "practice_cross_reference": "c"
+      },
+      {
+        "id": "ps94-21",
+        "section": "problem",
+        "source_number": "21",
+        "page": null,
+        "source_photo": "IMG_4387.jpeg",
+        "source_location": "Lesson 94 continuation; printed page number not visible",
+        "practice_cross_reference": "d"
+      },
+      {
+        "id": "ps94-22",
+        "section": "problem",
+        "source_number": "22",
+        "page": null,
+        "source_photo": "IMG_4387.jpeg",
+        "source_location": "Lesson 94 continuation; printed page number not visible",
+        "practice_cross_reference": "e"
+      }
+    ]
+  },
+  "source_derived_scope": {
+    "instructional_core": [
+      "modeling two unknowns with two first-degree equations",
+      "meaning of a system and a solution pair",
+      "eliminating equal terms by subtraction",
+      "eliminating opposite terms by addition",
+      "substituting to find the second variable",
+      "checking both original equations and interpreting unit prices"
+    ],
+    "review_skills_present_in_exercises": [
+      "factoring by grouping",
+      "adding and dividing rational expressions",
+      "complex multiplication and powers of i",
+      "parallel lines",
+      "circle center and radius",
+      "perfect-square and difference-of-squares factoring",
+      "monomial multiplication",
+      "binomial squaring",
+      "rational equations and excluded values",
+      "imaginary quadratic roots",
+      "formula evaluation and rearrangement",
+      "line and ellipse graph selection",
+      "shared-work equations"
+    ]
+  },
+  "shared_engine_contract": {
+    "engine_global": "Algebra2Engine",
+    "registry_global": "Algebra2CourseRegistry",
+    "registration_method": "Algebra2CourseRegistry.register(packageDef)",
+    "engine_version_validated": "0.2.1",
+    "score_policy": "one-choice-two-fill-v1",
+    "navigation": "free_navigation_without_attempt_consumption",
+    "multiple_choice_credit_bearing_tries": 1,
+    "fill_in_credit_bearing_tries": 2,
+    "later_correct_answers": "recorded_as_solved_without_credit",
+    "points_per_exercise": 1,
+    "persistence": "drafts, notes, hints, attempts and progress use shared-engine storage and state normalization",
+    "feedback": "correct/incorrect/credit feedback supplied by shared engine",
+    "sound_and_motion": "shared-engine controls",
+    "lesson_specific_custom_state_hooks": false,
+    "engine_modified": false,
+    "mixed_response_scoring": "Existing trip behavior: one choice credit try and two typed credit tries; both components must qualify for the single exercise point."
+  },
+  "response_format_adaptations": [
+    {
+      "questions": [
+        "ps94-1",
+        "ps94-2"
+      ],
+      "source_format": "True or False",
+      "engine_type": "choice",
+      "handling": "True then False, labeled A and B by the shared choice helper."
+    },
+    {
+      "questions": [
+        "ps94-5"
+      ],
+      "source_format": "Tell whether parallel or perpendicular",
+      "engine_type": "choice",
+      "handling": "Existing choice behavior with Parallel then Perpendicular."
+    },
+    {
+      "questions": [
+        "p94-e",
+        "ps94-22"
+      ],
+      "source_format": "Translate into an equation; solve and write time as a decimal",
+      "engine_type": "trip",
+      "handling": "App-authored equation choices plus numeric time field preserve both tasks. These options are identified as app-authored and are not attributed to the photographs. Prompt requests decimal output; the shared numeric parser accepts equivalent numeric expressions."
+    },
+    {
+      "questions": [
+        "ps94-6"
+      ],
+      "source_format": "Tell center and radius",
+      "engine_type": "numeric",
+      "handling": "Separate numeric center-coordinate and radius fields; exact sqrt(7), or nearest-hundredth radius within tolerance 0.005."
+    },
+    {
+      "questions": [
+        "p94-c",
+        "p94-d",
+        "ps94-20",
+        "ps94-21"
+      ],
+      "source_format": "Solve the system",
+      "engine_type": "numeric",
+      "handling": "Separate x and y fields; one point per system."
+    }
+  ],
+  "runtime_assets": {
+    "external_files_required": [],
+    "network_required": false,
+    "third_party_libraries_required": false,
+    "graph_assets": "generated_by_lesson_package",
+    "graph_card_count": 10
+  },
+  "validation": {
+    "javascript_syntax": "PASS",
+    "syntax_command": "node --check lesson-094.js",
+    "package_registration": "PASS",
+    "registered_package_count": 1,
+    "registration_method_used": "Extracted and executed the actual first engine script from App Foundation/index.html in an isolated Node vm; intercepted registry registration, then loaded only lesson-094.js. Did not create an app or modify the foundation.",
+    "package_id": "lesson-094",
+    "lesson_number": 94,
+    "question_count": 27,
+    "unique_question_ids": 27,
+    "practice_question_count": 5,
+    "problem_set_question_count": 22,
+    "invalid_multiple_choice_answer_indices": 0,
+    "invalid_topic_references": 0,
+    "invalid_section_references": 0,
+    "missing_required_answer_keys": 0,
+    "mathematical_verification": "PASS",
+    "mathematically_checked_exercise_count": 27,
+    "all_exercise_checks": {
+      "p94-a": {
+        "result": "PASS",
+        "answer": "(x-y)(cd+r)",
+        "method": "exact rational polynomial identity; all choices checked"
+      },
+      "p94-b": {
+        "result": "PASS",
+        "answer": "(u+v)/v",
+        "method": "exact rational polynomial identity; all choices checked"
+      },
+      "ps94-3": {
+        "result": "PASS",
+        "answer": "-38-16i",
+        "method": "exact rational polynomial identity; all choices checked"
+      },
+      "ps94-4": {
+        "result": "PASS",
+        "answer": "125",
+        "method": "exact rational polynomial identity; all choices checked"
+      },
+      "ps94-7": {
+        "result": "PASS",
+        "answer": "(y-b)^2",
+        "method": "exact rational polynomial identity; all choices checked"
+      },
+      "ps94-8": {
+        "result": "PASS",
+        "answer": "(x-y)(ab+p)",
+        "method": "exact rational polynomial identity; all choices checked"
+      },
+      "ps94-9": {
+        "result": "PASS",
+        "answer": "(jx+ky)(jx-ky)",
+        "method": "exact rational polynomial identity; all choices checked"
+      },
+      "ps94-10": {
+        "result": "PASS",
+        "answer": "26x^5y^5z^5",
+        "method": "exact rational polynomial identity; all choices checked"
+      },
+      "ps94-11": {
+        "result": "PASS",
+        "answer": "u^2+2ut+t^2",
+        "method": "exact rational polynomial identity; all choices checked"
+      },
+      "ps94-12": {
+        "result": "PASS",
+        "answer": "(ax+ay)/(bx-by)",
+        "method": "exact rational polynomial identity; all choices checked"
+      },
+      "ps94-13": {
+        "result": "PASS",
+        "answer": "(x+y)/y",
+        "method": "exact rational polynomial identity; all choices checked"
+      },
+      "p94-c": {
+        "result": "PASS",
+        "answer": "x=3; y=2",
+        "method": "exact determinant solution and substitution into both source equations"
+      },
+      "p94-d": {
+        "result": "PASS",
+        "answer": "x=7; y=-2",
+        "method": "exact determinant solution and substitution into both source equations"
+      },
+      "ps94-20": {
+        "result": "PASS",
+        "answer": "x=4; y=5",
+        "method": "exact determinant solution and substitution into both source equations"
+      },
+      "ps94-21": {
+        "result": "PASS",
+        "answer": "x=6; y=-3",
+        "method": "exact determinant solution and substitution into both source equations"
+      },
+      "p94-e": {
+        "result": "PASS",
+        "answer": "t/2+t/3=1; t=1.2 hours",
+        "method": "exact combined work rate and one-job check"
+      },
+      "ps94-22": {
+        "result": "PASS",
+        "answer": "t/6+t/9=1; t=3.6 hours",
+        "method": "exact combined work rate and one-job check"
+      },
+      "ps94-1": {
+        "result": "PASS",
+        "answer": "True",
+        "method": "source definition and simultaneous-satisfaction criterion"
+      },
+      "ps94-2": {
+        "result": "PASS",
+        "answer": "True",
+        "method": "source definition and simultaneous-satisfaction criterion"
+      },
+      "ps94-5": {
+        "result": "PASS",
+        "answer": "Parallel",
+        "method": "both slopes -5; distinct intercepts 1 and 3"
+      },
+      "ps94-6": {
+        "result": "PASS",
+        "answer": "center (0,0); radius sqrt(7)",
+        "method": "circle standard form; radius squared equals 7"
+      },
+      "ps94-14": {
+        "result": "PASS",
+        "answer": "x=11/2",
+        "method": "clear 8(x-2); excluded x=2; exact original-equation substitution"
+      },
+      "ps94-15": {
+        "result": "PASS",
+        "answer": "2i,-2i",
+        "method": "exact substitution for both roots of every printed choice"
+      },
+      "ps94-16": {
+        "result": "PASS",
+        "answer": "z=1",
+        "method": "exact fractional formula substitution"
+      },
+      "ps94-17": {
+        "result": "PASS",
+        "answer": "d=(g+ef)/s",
+        "method": "substitution identity for all choices; s nonzero"
+      },
+      "ps94-18": {
+        "result": "PASS",
+        "answer": "E",
+        "method": "all five slopes/intercepts from source points; SVG line/dot geometry"
+      },
+      "ps94-19": {
+        "result": "PASS",
+        "answer": "A",
+        "method": "all five source centers/semiaxes; SVG boundary/center geometry"
+      }
+    },
+    "source_answer_spot_checks": {
+      "practice_a": "C: (x-y)(cd+r)",
+      "practice_b": "D: (u+v)/v",
+      "practice_c": "x=3,y=2",
+      "practice_d": "x=7,y=-2",
+      "practice_e": "t/2+t/3=1; t=1.2 hours",
+      "problem_3": "A: -38-16i",
+      "problem_4": "B: 125",
+      "problem_12": "B: (ax+ay)/(bx-by)",
+      "problem_14": "x=11/2",
+      "problem_15": "C: 2i,-2i",
+      "problem_16": "z=1",
+      "problem_17": "E: d=(g+ef)/s",
+      "problem_18": "E",
+      "problem_19": "A",
+      "problem_20": "x=4,y=5",
+      "problem_21": "x=6,y=-3",
+      "problem_22": "t/6+t/9=1; t=3.6 hours"
+    },
+    "answer_key_grading": "PASS (27 exercises; every incorrect choice and numeric field perturbation rejected)",
+    "shared_engine_scoring": "PASS (one choice try, two numeric tries, late correct solved without credit, one point maximum)",
+    "state_normalization": "PASS (drafts, notes, hints, attempts and section indices retained)",
+    "native_svg_geometry": "PASS",
+    "svg_unique_element_ids": "PASS",
+    "native_svg_visual_inspection": "PASS: all ten graph cards rendered with Sharp and visually inspected in two local preview sheets; exact point and shape geometry separately checked.",
+    "required_content_fields": "PASS: every exercise includes prompt, work guide, progressive hints, worked solution, answer display and answer key; all guided topics include steps and a concept check.",
+    "protected_reference_integrity": "PASS: SHA-256 comparison confirms all six present foundation and Lesson 93 reference files unchanged.",
+    "reference_packages_inspected": [
+      "Complete Lesson Packages/lesson 93/lesson-093.js",
+      "Complete Lesson Packages/lesson 93/lesson-093.manifest.json"
+    ],
+    "unavailable_reference_packages": [
+      "lesson 90 standalone package",
+      "lesson 91 standalone package",
+      "lesson 92 standalone package"
+    ],
+    "foundation_files_inspected": [
+      "App Foundation/index.html",
+      "App Foundation/README.md",
+      "App Foundation/LESSON_090_SOURCE_VERIFICATION.md",
+      "App Foundation/SHA256SUMS.txt"
+    ],
+    "full_browser_course_regression_performed": false,
+    "scope": "Package-level visual source review, all-exercise mathematical verification, actual-engine registration/helper/scoring/state checks, structural checks, and native SVG geometry/render inspection. No full browser/course regression, course-loader integration, or storage/navigation UI regression was performed. Full SOURCE_VERIFIED status withheld until the final continuation page number is resolved."
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "lesson_094_js_sha256": "6838185f53c5dabd3b7fc5e3b4b9bd6ab313d4584288bf6a7d02d577768d258b"
+  }
+}
