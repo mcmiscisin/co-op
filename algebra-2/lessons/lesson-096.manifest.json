@@ -1,0 +1,3181 @@
+{
+  "schema": "algebra2-lesson-manifest-v1",
+  "lesson_id": "lesson-096",
+  "lesson_number": 96,
+  "title": "Solving Systems by Substitution",
+  "chapter": {
+    "number": 13,
+    "title": "Systems of Equations"
+  },
+  "package_file": "lesson-096.js",
+  "content_version": "course-package-1.0",
+  "source_revision": "lesson96-2026-10-15-photos-user-page475",
+  "status": "SOURCE_VERIFIED",
+  "source_verification": {
+    "basis": "User-supplied Lesson 96 photographs are the sole authority for textbook content. Prior packages and the foundation establish implementation conventions only. User explicitly verifies the cropped continuation page number as475; that metadata confirmation supplements the photographs.",
+    "pages": [
+      470,
+      471,
+      472,
+      473,
+      474,
+      475
+    ],
+    "page_range": "470–475; pages470–474 visible in photographs, page475 explicitly verified by User",
+    "source_files": [
+      "IMG_4404.jpeg",
+      "IMG_4405.jpeg",
+      "IMG_4406.jpeg",
+      "IMG_4407.jpeg",
+      "IMG_4408.jpeg",
+      "IMG_4409.jpeg",
+      "IMG_4410.jpeg",
+      "IMG_4411.jpeg",
+      "IMG_4412.jpeg",
+      "IMG_4413.jpeg",
+      "IMG_4414.jpeg"
+    ],
+    "source_inventory": [
+      {
+        "file": "IMG_4404.jpeg",
+        "dimensions": [
+          4032,
+          3024
+        ],
+        "exifOrientation": 3,
+        "displayCorrection": "Rotate 180 degrees",
+        "coverage": "Opening title/chapter; introduction; first substitution example; Rewriting First then Substituting heading and second example setup",
+        "visiblePageNumber": null,
+        "overlap": "IMG_4405.jpeg; shared physical page is visibly numbered 470 in that overlapping view.",
+        "bytes": 3391660,
+        "sha256": "254b81945c73edd8788e531aff16a677a01a5ce9625d11aad49dca7a618ebb32"
+      },
+      {
+        "file": "IMG_4405.jpeg",
+        "dimensions": [
+          4032,
+          3024
+        ],
+        "exifOrientation": 3,
+        "displayCorrection": "Rotate 180 degrees",
+        "coverage": "Lower page 470; first example solution/definition; second example substitution and fraction clearing setup",
+        "visiblePageNumber": 470,
+        "overlap": "IMG_4404.jpeg",
+        "bytes": 3427926,
+        "sha256": "90e46aea6115451c59b7a6222f5bc873c682ea55d5d281aebe3562b9be151609"
+      },
+      {
+        "file": "IMG_4406.jpeg",
+        "dimensions": [
+          4032,
+          3024
+        ],
+        "exifOrientation": 3,
+        "displayCorrection": "Rotate 180 degrees",
+        "coverage": "Second example continuation and solution; Practice heading and a",
+        "visiblePageNumber": null,
+        "overlap": "IMG_4407.jpeg; shared physical page visibly numbered 471 in that overlapping view.",
+        "bytes": 3244633,
+        "sha256": "a9c49ccc417048f5c835bf10ef1706979cfa8cafbc2a7275395c3f5e8d6576be"
+      },
+      {
+        "file": "IMG_4407.jpeg",
+        "dimensions": [
+          4032,
+          3024
+        ],
+        "exifOrientation": 3,
+        "displayCorrection": "Rotate 180 degrees",
+        "coverage": "Practice a and b; bottom page number",
+        "visiblePageNumber": 471,
+        "overlap": "IMG_4406.jpeg",
+        "bytes": 2905832,
+        "sha256": "ad21d1c99669feb156d14e7cdc58ceb2090b7cb0ed35c593be470ad1d14813a2"
+      },
+      {
+        "file": "IMG_4408.jpeg",
+        "dimensions": [
+          4032,
+          3024
+        ],
+        "exifOrientation": 3,
+        "displayCorrection": "Rotate 180 degrees",
+        "coverage": "Practice c all A–E figures, d, e; Problem Set heading",
+        "visiblePageNumber": null,
+        "overlap": "IMG_4409.jpeg; shared physical page visibly numbered 472 in that overlapping view.",
+        "bytes": 2805312,
+        "sha256": "206cfcb1778cd763cce4693c790cea175d39738716f9edd812e05e1c5b82fe6f"
+      },
+      {
+        "file": "IMG_4409.jpeg",
+        "dimensions": [
+          4032,
+          3024
+        ],
+        "exifOrientation": 3,
+        "displayCorrection": "Rotate 180 degrees",
+        "coverage": "Practice d/e; Problem Set 1–6; bottom page number",
+        "visiblePageNumber": 472,
+        "overlap": "IMG_4408.jpeg",
+        "bytes": 3401008,
+        "sha256": "af6037dd198007a0efcec780cbd5c28885cf088e83a5b7d0012da91f72963973"
+      },
+      {
+        "file": "IMG_4410.jpeg",
+        "dimensions": [
+          4032,
+          3024
+        ],
+        "exifOrientation": 3,
+        "displayCorrection": "Rotate 180 degrees",
+        "coverage": "Problem Set 7–10 and 12–15; beginning of 16",
+        "visiblePageNumber": null,
+        "overlap": "IMG_4411.jpeg; shared physical page visibly numbered 473 in that overlapping view.",
+        "bytes": 3077349,
+        "sha256": "8f6b7f677a57485b934e6281fe09aeb0726af3c3ea83e7b958df7634840663be"
+      },
+      {
+        "file": "IMG_4411.jpeg",
+        "dimensions": [
+          4032,
+          3024
+        ],
+        "exifOrientation": 3,
+        "displayCorrection": "Rotate 180 degrees",
+        "coverage": "Problem Set 9–11 and 13–16 including all 16 choices; bottom page number",
+        "visiblePageNumber": 473,
+        "overlap": "IMG_4410.jpeg",
+        "bytes": 3112868,
+        "sha256": "a8df51cae8ef228cbac6d8b3a1a34c25c4f96f38530c49ee97363572464fb2f3"
+      },
+      {
+        "file": "IMG_4412.jpeg",
+        "dimensions": [
+          4032,
+          3024
+        ],
+        "exifOrientation": 3,
+        "displayCorrection": "Rotate 180 degrees",
+        "coverage": "Problem Set 17 all A–E figures; upper 18",
+        "visiblePageNumber": null,
+        "overlap": "IMG_4413.jpeg; shared physical page visibly numbered 474 in that overlapping view.",
+        "bytes": 2551673,
+        "sha256": "9547d8f973f2f8960e6d68ddfdac8ca759e14720d7b2f53c23c135e52fe09ae0"
+      },
+      {
+        "file": "IMG_4413.jpeg",
+        "dimensions": [
+          4032,
+          3024
+        ],
+        "exifOrientation": 3,
+        "displayCorrection": "Rotate 180 degrees",
+        "coverage": "Problem Set 17 D/E overlap and 18 all A–E figures; bottom page number",
+        "visiblePageNumber": 474,
+        "overlap": "IMG_4412.jpeg",
+        "bytes": 3063931,
+        "sha256": "e61ff325c35785d8a7453ba75cc1834966309d1b43ac8cf0d0a23196715b5881"
+      },
+      {
+        "file": "IMG_4414.jpeg",
+        "dimensions": [
+          4032,
+          3024
+        ],
+        "exifOrientation": 3,
+        "displayCorrection": "Rotate 180 degrees",
+        "coverage": "Problem Set 19–22 and blank foreground below; reverse-page bleed-through",
+        "visiblePageNumber": null,
+        "overlap": "No photograph exposes the footer. User explicitly verifies this sheet as page475.",
+        "pageNumberStatus": "CONFIRMED_BY_USER",
+        "bytes": 2646501,
+        "sha256": "702f4f4cc246a99b7fd43c76ffdb1b0d20891afd20485b10c3c94461c57040e7",
+        "confirmedPageNumber": 475,
+        "pageNumberAuthority": "User confirmation on 2026-10-15"
+      }
+    ],
+    "verified_date_ct": "2026-10-15",
+    "verified_time_ct": "10:15:33 AM CDT",
+    "timezone": "America/Chicago",
+    "all_exercise_mathematics_resolved": true,
+    "all_instructional_mathematics_resolved": true,
+    "all_source_critical_exercise_fields_resolved": true,
+    "all_bibliographic_metadata_resolved": true,
+    "uncertain_items": [],
+    "source_discrepancies": [],
+    "additional_photos_required": false,
+    "additional_photograph_request": null,
+    "full_source_verification_withheld_reason": null,
+    "source_photographs_embedded_in_student_interface": false,
+    "graph_handling": "15 native inline SVG graph choices: Practice c A–E, Problem Set 17 A–E and 18 A–E. All candidate coordinates and circle centers/radii or parabola parameters recorded separately from rendering. Axes use equal unit scaling; circles remain circles. Exact labels and directional arrows preserved, with accessible title/description. Photographic perspective and faint reverse-page bleed-through are excluded.",
+    "image_evaluation": {
+      "status": "PASS",
+      "stages": [
+        "Document orientation and regions, literal source observations, crop-boundary checks",
+        "Curriculum interpretation of expressions, instructions, and defining labels",
+        "Mathematical relationships, independent derivation, all-candidate checks"
+      ],
+      "orientation": "All 11 originals are 4032×3024 with EXIF Orientation 3; displayed after 180-degree correction.",
+      "overlap_reconciliation": "Five overlapping pairs expose pages470–474. IMG_4414 omits its footer; User explicitly verifies that continuation sheet as page475.",
+      "foreground_versus_bleed_through": "Only 15 foreground candidate figures are lesson figures. Faint mirrored figures visible through the paper are reverse-page bleed-through.",
+      "independent_review": "Source-only read-only reviewing subagent derived all keys before viewing the implementation; separate root photo review, exact-arithmetic/model checks, and final implementation review reconciled the results."
+    },
+    "instructional_source_record": [
+      {
+        "source": {
+          "photos": [
+            "IMG_4404.jpeg",
+            "IMG_4405.jpeg"
+          ],
+          "visiblePage": 470,
+          "location": "Introduction and left column"
+        },
+        "heading": "Opening substitution explanation",
+        "literalSystem": [
+          "-4x+3y=-12",
+          "y=2x-8"
+        ],
+        "literalWork": [
+          "-4x+3(2x-8)=-12",
+          "-4x+6x-24=-12",
+          "2x-24=-12",
+          "2x=-12+24",
+          "2x=12",
+          "x=6",
+          "y=2(6)-8",
+          "y=4"
+        ],
+        "independentResult": {
+          "x": 6,
+          "y": 4
+        },
+        "independentChecks": [
+          "-4(6)+3(4)=-12",
+          "4=2(6)-8"
+        ],
+        "teachingMeaning": "Replace y by an equal expression, solve the remaining single-variable equation, and substitute into an original equation. Substitution is easiest when one equation already isolates a variable. Three methods are now identified: addition, subtraction, substitution."
+      },
+      {
+        "source": {
+          "photos": [
+            "IMG_4404.jpeg",
+            "IMG_4405.jpeg",
+            "IMG_4406.jpeg"
+          ],
+          "visiblePage": 470,
+          "location": "Right column and following physical page 471"
+        },
+        "continuationPage": 471,
+        "heading": "Rewriting First then Substituting",
+        "literalSystem": [
+          "2x-7y=-8",
+          "5x+3y=21"
+        ],
+        "literalWork": [
+          "2x=7y-8",
+          "x=(7y-8)/2",
+          "5((7y-8)/2)+3y=21",
+          "(35y-40)/2+3y=21",
+          "2((35y-40)/2+3y)=2(21)",
+          "35y-40+6y=42",
+          "41y-40=42",
+          "41y=82",
+          "y=2",
+          "5x+3(2)=21",
+          "5x+6=21",
+          "5x=15",
+          "x=3"
+        ],
+        "independentResult": {
+          "x": 3,
+          "y": 2
+        },
+        "independentChecks": [
+          "2(3)-7(2)=-8",
+          "5(3)+3(2)=21"
+        ],
+        "teachingMeaning": "When neither equation is isolated, solve one equation for a variable, substitute, clear a constant nonzero denominator, solve, and back-substitute."
+      }
+    ],
+    "exercise_verification_record": [
+      {
+        "question_id": "p96-a",
+        "original_number": "a",
+        "prior_lesson_reference": 88,
+        "source": {
+          "photos": [
+            "IMG_4406.jpeg",
+            "IMG_4407.jpeg"
+          ],
+          "visiblePage": 471,
+          "location": "Practice 96, first exercise"
+        },
+        "literal_prompt": "Select the factored form of the expression x^2-4ax+3a^2.",
+        "group_instruction": null,
+        "original_response_kind": "multiple choice",
+        "printed_choices": [
+          {
+            "label": "A",
+            "text": "(x+3a)(x-a)"
+          },
+          {
+            "label": "B",
+            "text": "(x-4a)(x+3a)"
+          },
+          {
+            "label": "C",
+            "text": "(x+3a)(x+a)"
+          },
+          {
+            "label": "D",
+            "text": "(x-3a)(x-a)"
+          },
+          {
+            "label": "E",
+            "text": "(x-3a)(x+a)"
+          }
+        ],
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "practice-a",
+          "independentlyDerivedAnswer": {
+            "choice": "D",
+            "expression": "(x-3a)(x-a)"
+          },
+          "derivation": "Expand D: x^2-4ax+3a^2. The ordered candidates expand to x^2+2ax-3a^2; x^2-ax-12a^2; x^2+4ax+3a^2; x^2-4ax+3a^2; x^2-2ax-3a^2.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "uniqueness": "D alone is a polynomial identity for arbitrary a,x. Parameter coincidences at special values do not alter identity selection.",
+          "domain": "All real a,x."
+        },
+        "runtime_type": "choice",
+        "topic_id": "algebra-patterns",
+        "required_answer_fields": [],
+        "correct_choice": "D",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "(x-3a)(x-a)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "p96-b",
+        "original_number": "b",
+        "prior_lesson_reference": 84,
+        "source": {
+          "photos": [
+            "IMG_4407.jpeg"
+          ],
+          "visiblePage": 471,
+          "location": "Practice 96, second exercise"
+        },
+        "literal_prompt": "Which choice below represents the equation (h-a)/(h-b)=j after it has been solved for h?",
+        "group_instruction": null,
+        "original_response_kind": "multiple choice",
+        "printed_choices": [
+          {
+            "label": "A",
+            "text": "h=(a-bj)/(j-1)"
+          },
+          {
+            "label": "B",
+            "text": "h=j/(a-ab)"
+          },
+          {
+            "label": "C",
+            "text": "h=(a-bj)/(1-j)"
+          },
+          {
+            "label": "D",
+            "text": "h=(a+bj)/(1-j)"
+          },
+          {
+            "label": "E",
+            "text": "h=(a-b)/(1-j)"
+          }
+        ],
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "practice-b",
+          "independentlyDerivedAnswer": {
+            "choice": "C",
+            "expression": "h=(a-bj)/(1-j)"
+          },
+          "derivation": "For h≠b: h-a=j(h-b), so (1-j)h=a-bj. Division by 1-j requires j≠1. Check the result against h≠b.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "domain": "Original: h≠b. Nondegenerate displayed solution: j≠1 and a≠b.",
+          "specialCases": [
+            {
+              "condition": "j=1 and a=b",
+              "solutions": "Every h≠b."
+            },
+            {
+              "condition": "j=1 and a≠b",
+              "solutions": "No solution."
+            },
+            {
+              "condition": "j≠1 and a=b",
+              "solutions": "No solution: the candidate h=b is excluded."
+            }
+          ],
+          "uniqueness": "C is the general solved form on the nondegenerate parameter domain. No other printed expression is that identity."
+        },
+        "runtime_type": "choice",
+        "topic_id": "formulas-equations",
+        "required_answer_fields": [],
+        "correct_choice": "C",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "h=(a-bj)/(1-j)",
+          "method": "exact rational formula identity for every printed option; original denominator and parameter=1/a=b exceptional cases checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "p96-c",
+        "original_number": "c",
+        "prior_lesson_reference": 75,
+        "source": {
+          "photos": [
+            "IMG_4408.jpeg"
+          ],
+          "visiblePage": 472,
+          "location": "Practice 96, top of page"
+        },
+        "literal_prompt": "Select the graph of the two-variable equation y=x^2-8x+15.",
+        "group_instruction": null,
+        "original_response_kind": "graph multiple choice",
+        "printed_choices": null,
+        "printed_graph_choices": [
+          {
+            "label": "A",
+            "literalFigureType": "upward parabola",
+            "literalCoordinateLabels": [
+              "(2,0)",
+              "(4,-1)",
+              "(6,0)"
+            ],
+            "mathematicalModelDerivedFromSource": "y=(x-4)^2/4-1",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "vertex": [
+              4,
+              -1
+            ],
+            "branchArrows": "upward at both ends"
+          },
+          {
+            "label": "B",
+            "literalFigureType": "upward parabola",
+            "literalCoordinateLabels": [
+              "(3,0)",
+              "(4,-1)",
+              "(5,0)"
+            ],
+            "mathematicalModelDerivedFromSource": "y=(x-4)^2-1",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "vertex": [
+              4,
+              -1
+            ],
+            "branchArrows": "upward at both ends"
+          },
+          {
+            "label": "C",
+            "literalFigureType": "downward parabola",
+            "literalCoordinateLabels": [
+              "(3,-2)",
+              "(4,-1)",
+              "(5,-2)"
+            ],
+            "mathematicalModelDerivedFromSource": "y=-(x-4)^2-1",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "vertex": [
+              4,
+              -1
+            ],
+            "branchArrows": "downward at both ends"
+          },
+          {
+            "label": "D",
+            "literalFigureType": "upward parabola",
+            "literalCoordinateLabels": [
+              "(-2,5)",
+              "(-1,4)",
+              "(0,5)"
+            ],
+            "mathematicalModelDerivedFromSource": "y=(x+1)^2+4",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "vertex": [
+              -1,
+              4
+            ],
+            "branchArrows": "upward at both ends"
+          },
+          {
+            "label": "E",
+            "literalFigureType": "upward parabola",
+            "literalCoordinateLabels": [
+              "(3,2)",
+              "(4,1)",
+              "(5,2)"
+            ],
+            "mathematicalModelDerivedFromSource": "y=(x-4)^2+1",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "vertex": [
+              4,
+              1
+            ],
+            "branchArrows": "upward at both ends"
+          }
+        ],
+        "independent_mathematical_review": {
+          "id": "practice-c",
+          "independentlyDerivedAnswer": {
+            "choice": "B",
+            "vertex": [
+              4,
+              -1
+            ],
+            "xIntercepts": [
+              [
+                3,
+                0
+              ],
+              [
+                5,
+                0
+              ]
+            ]
+          },
+          "derivation": "Complete the square: y=(x-4)^2-1. Direct substitutions at x=3,4,5 give y=0,-1,0. B alone matches shape, vertex, and labels.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "allCandidateModelsChecked": true
+        },
+        "runtime_type": "choice",
+        "topic_id": "graph-models",
+        "required_answer_fields": [],
+        "correct_choice": "B",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "B: upward; vertex (4,-1); intercepts (3,0),(5,0)",
+          "method": "all five literal models/point sets, unique equation match, SVG polyline geometry and labels checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "p96-d",
+        "original_number": "d",
+        "prior_lesson_reference": 96,
+        "source": {
+          "photos": [
+            "IMG_4408.jpeg",
+            "IMG_4409.jpeg"
+          ],
+          "visiblePage": 472,
+          "location": "Practice 96, below candidate graphs"
+        },
+        "literal_prompt": "Solve the system of equations {3x-4y=14; y=2x-1}.",
+        "group_instruction": null,
+        "original_response_kind": "constructed solution pair",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "practice-d",
+          "independentlyDerivedAnswer": {
+            "x": -2,
+            "y": -5
+          },
+          "derivation": "3x-4(2x-1)=14 -> -5x+4=14 -> x=-2; y=2(-2)-1=-5. Original checks: -6+20=14 and -5=-4-1.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "numeric",
+        "topic_id": "substitute-ready",
+        "required_answer_fields": [
+          {
+            "key": "x",
+            "label": "x",
+            "value": -2,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "y",
+            "label": "y",
+            "value": -5,
+            "tolerance": 1e-9
+          }
+        ],
+        "correct_choice": null,
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "x=-2; y=-5",
+          "method": "exact determinant solution, nonzero determinant, both original equations checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "p96-e",
+        "original_number": "e",
+        "prior_lesson_reference": 15,
+        "source": {
+          "photos": [
+            "IMG_4408.jpeg",
+            "IMG_4409.jpeg"
+          ],
+          "visiblePage": 472,
+          "location": "Practice 96, above Problem Set 96"
+        },
+        "literal_prompt": "Translate the word problem below into an equation; then solve. Transport #1 and Transport #2 left the loading dock at noon and headed in opposite directions. If Transport #1 traveled at 60 mph and Transport #2 traveled at 68 mph, how many hours was it before they were 384 miles apart?",
+        "group_instruction": null,
+        "original_response_kind": "constructed equation and solution",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "practice-e",
+          "independentlyDerivedAnswer": {
+            "equation": "60t+68t=384",
+            "t": 3,
+            "units": "hours"
+          },
+          "derivation": "Opposite directions add distances: (60+68)t=384. Thus t=384/128=3 hours, giving distances 180 and 204 miles; 180+204=384.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "domain": "t≥0; equal elapsed time for both transports."
+        },
+        "runtime_type": "numeric",
+        "topic_id": "distance-models",
+        "required_answer_fields": [
+          {
+            "key": "A",
+            "label": "A: first speed",
+            "value": 60,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "B",
+            "label": "B: second speed",
+            "value": 68,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "C",
+            "label": "C: separation",
+            "value": 384,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "time",
+            "label": "Elapsed time",
+            "value": 3,
+            "tolerance": 1e-9
+          }
+        ],
+        "correct_choice": null,
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "60t+68t=384; t=3",
+          "method": "independent rate-distance equation, exact elapsed time, positive physical result and both distances"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-1",
+        "original_number": "1",
+        "prior_lesson_reference": 96,
+        "source": {
+          "photos": [
+            "IMG_4409.jpeg"
+          ],
+          "visiblePage": 472,
+          "location": "Problem Set 96, left column"
+        },
+        "literal_prompt": "There is only one method for solving a system of equations.",
+        "group_instruction": "Tell whether each sentence below is True or False.",
+        "original_response_kind": "True or False",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-01",
+          "independentlyDerivedAnswer": false,
+          "derivation": "The lesson explicitly describes addition, subtraction, and substitution methods.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "choice",
+        "topic_id": "substitute-ready",
+        "required_answer_fields": [],
+        "correct_choice": "B",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "False",
+          "method": "source statement independently checked against valid system methods"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-2",
+        "original_number": "2",
+        "prior_lesson_reference": 96,
+        "source": {
+          "photos": [
+            "IMG_4409.jpeg"
+          ],
+          "visiblePage": 472,
+          "location": "Problem Set 96, left column"
+        },
+        "literal_prompt": "The substitution method is best to use when one of the equations of a system is solved for a variable.",
+        "group_instruction": "Tell whether each sentence below is True or False.",
+        "original_response_kind": "True or False",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-02",
+          "independentlyDerivedAnswer": true,
+          "derivation": "An isolated variable permits direct replacement in the other equation, as in the opening example.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "note": "True under the textbook's stated pedagogical recommendation; 'best' is not a universal computational theorem."
+        },
+        "runtime_type": "choice",
+        "topic_id": "substitute-ready",
+        "required_answer_fields": [],
+        "correct_choice": "A",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "True",
+          "method": "source statement independently checked against valid system methods"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-3",
+        "original_number": "3",
+        "prior_lesson_reference": 29,
+        "source": {
+          "photos": [
+            "IMG_4409.jpeg"
+          ],
+          "visiblePage": 472,
+          "location": "Problem Set 96, lower left"
+        },
+        "literal_prompt": "(7.2×10^5)(3.8×10^-13)",
+        "group_instruction": "Simplify each expression below. Leave your answer in scientific notation.",
+        "original_response_kind": "scientific notation",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-03",
+          "independentlyDerivedAnswer": {
+            "scientificNotation": "2.736×10^-7",
+            "exactFraction": "171/625000000"
+          },
+          "derivation": "7.2×3.8=27.36 and 10^5×10^-13=10^-8, so 27.36×10^-8=2.736×10^-7.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "numeric",
+        "topic_id": "scientific-evaluation",
+        "required_answer_fields": [
+          {
+            "key": "coefficient",
+            "label": "Coefficient c",
+            "value": 2.736,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "exponent",
+            "label": "Exponent n",
+            "value": -7,
+            "tolerance": 1e-9
+          }
+        ],
+        "correct_choice": null,
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "2.736e-7",
+          "method": "exact decimal multiplication and exponent sum, normalized coefficient 1<=c<10"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-4",
+        "original_number": "4",
+        "prior_lesson_reference": 29,
+        "source": {
+          "photos": [
+            "IMG_4409.jpeg"
+          ],
+          "visiblePage": 472,
+          "location": "Problem Set 96, upper right"
+        },
+        "literal_prompt": "(4.5×10^18)/(8×10^12)",
+        "group_instruction": "Simplify each expression below. Leave your answer in scientific notation.",
+        "original_response_kind": "scientific notation",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-04",
+          "independentlyDerivedAnswer": {
+            "scientificNotation": "5.625×10^5",
+            "exactInteger": 562500
+          },
+          "derivation": "4.5/8=0.5625 and 10^18/10^12=10^6. Normalize 0.5625×10^6 to 5.625×10^5.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "numeric",
+        "topic_id": "scientific-evaluation",
+        "required_answer_fields": [
+          {
+            "key": "coefficient",
+            "label": "Coefficient c",
+            "value": 5.625,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "exponent",
+            "label": "Exponent n",
+            "value": 5,
+            "tolerance": 1e-9
+          }
+        ],
+        "correct_choice": null,
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "5.625e5",
+          "method": "exact quotient and exponent subtraction, normalized coefficient 1<=c<10"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-5",
+        "original_number": "5",
+        "prior_lesson_reference": 71,
+        "source": {
+          "photos": [
+            "IMG_4409.jpeg"
+          ],
+          "visiblePage": 472,
+          "location": "Problem Set 96, right column"
+        },
+        "literal_prompt": "Tell whether the lines for y+(1/2)x=7 and y=2x are parallel or perpendicular.",
+        "group_instruction": "Answer each question below.",
+        "original_response_kind": "constructed classification",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-05",
+          "independentlyDerivedAnswer": "perpendicular",
+          "derivation": "The first line is y=-(1/2)x+7; the second has slope 2. Their slope product is -1.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "choice",
+        "topic_id": "slopes-ellipse",
+        "required_answer_fields": [],
+        "correct_choice": "B",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "Perpendicular",
+          "method": "slopes -1/2 and 2 have product -1"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-6",
+        "original_number": "6",
+        "prior_lesson_reference": 78,
+        "source": {
+          "photos": [
+            "IMG_4409.jpeg"
+          ],
+          "visiblePage": 472,
+          "location": "Problem Set 96, lower right"
+        },
+        "literal_prompt": "Tell the center and vertices of the ellipse for the equation x^2/7^2+y^2/3^2=1.",
+        "group_instruction": "Answer each question below.",
+        "original_response_kind": "constructed coordinates",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-06",
+          "independentlyDerivedAnswer": {
+            "center": [
+              0,
+              0
+            ],
+            "majorVertices": [
+              [
+                -7,
+                0
+              ],
+              [
+                7,
+                0
+              ]
+            ],
+            "minorAxisEndpoints": [
+              [
+                0,
+                -3
+              ],
+              [
+                0,
+                3
+              ]
+            ]
+          },
+          "derivation": "The denominators are 7^2=49 and 3^2=9. The larger semiaxis is horizontal with length 7; the vertical semiaxis has length 3.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "wordingNote": "The source asks 'center and vertices'; major-axis vertices are (±7,0). Minor-axis endpoints are recorded separately to avoid silently using another convention."
+        },
+        "runtime_type": "numeric",
+        "topic_id": "slopes-ellipse",
+        "required_answer_fields": [
+          {
+            "key": "cx",
+            "label": "Center x",
+            "value": 0,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "cy",
+            "label": "Center y",
+            "value": 0,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "vx1",
+            "label": "Left vertex x",
+            "value": -7,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "vy1",
+            "label": "Left vertex y",
+            "value": 0,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "vx2",
+            "label": "Right vertex x",
+            "value": 7,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "vy2",
+            "label": "Right vertex y",
+            "value": 0,
+            "tolerance": 1e-9
+          }
+        ],
+        "correct_choice": null,
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "center (0,0); vertices (-7,0),(7,0)",
+          "method": "ellipse center and horizontal major vertices; x intercepts +/-sqrt(49), minor endpoints +/-sqrt(9)"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-7",
+        "original_number": "7",
+        "prior_lesson_reference": 90,
+        "source": {
+          "photos": [
+            "IMG_4410.jpeg"
+          ],
+          "visiblePage": 473,
+          "location": "Problem Set 96, upper left"
+        },
+        "literal_prompt": "r^2-s^2",
+        "group_instruction": "Select the factored form of each expression below.",
+        "original_response_kind": "multiple choice",
+        "printed_choices": [
+          {
+            "label": "A",
+            "text": "2(r+s)"
+          },
+          {
+            "label": "B",
+            "text": "(r/2-s/2)^2"
+          },
+          {
+            "label": "C",
+            "text": "(r-s)^2"
+          },
+          {
+            "label": "D",
+            "text": "(r+s)(r-s)"
+          },
+          {
+            "label": "E",
+            "text": "(r+s)^2"
+          }
+        ],
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-07",
+          "independentlyDerivedAnswer": {
+            "choice": "D",
+            "expression": "(r+s)(r-s)"
+          },
+          "derivation": "Difference of squares expands to r^2-s^2. A is linear; B=(r-s)^2/4; C and E contain a nonzero rs term, so none is the same polynomial identity.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "choice",
+        "topic_id": "algebra-patterns",
+        "required_answer_fields": [],
+        "correct_choice": "D",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "(r+s)(r-s)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-8",
+        "original_number": "8",
+        "prior_lesson_reference": 88,
+        "source": {
+          "photos": [
+            "IMG_4410.jpeg"
+          ],
+          "visiblePage": 473,
+          "location": "Problem Set 96, left column"
+        },
+        "literal_prompt": "x^2-3ax+2a^2",
+        "group_instruction": "Select the factored form of each expression below.",
+        "original_response_kind": "multiple choice",
+        "printed_choices": [
+          {
+            "label": "A",
+            "text": "(x-2a)(x-a)"
+          },
+          {
+            "label": "B",
+            "text": "(x-3a)(x+2a)"
+          },
+          {
+            "label": "C",
+            "text": "(x-2a)(x+a)"
+          },
+          {
+            "label": "D",
+            "text": "(x+2a)(x+a)"
+          },
+          {
+            "label": "E",
+            "text": "(x+2a)(x-a)"
+          }
+        ],
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-08",
+          "independentlyDerivedAnswer": {
+            "choice": "A",
+            "expression": "(x-2a)(x-a)"
+          },
+          "derivation": "A expands to x^2-3ax+2a^2. B expands to x^2-ax-6a^2; C to x^2-ax-2a^2; D to x^2+3ax+2a^2; E to x^2+ax-2a^2.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "choice",
+        "topic_id": "algebra-patterns",
+        "required_answer_fields": [],
+        "correct_choice": "A",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "(x-2a)(x-a)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-9",
+        "original_number": "9",
+        "prior_lesson_reference": 86,
+        "source": {
+          "photos": [
+            "IMG_4410.jpeg",
+            "IMG_4411.jpeg"
+          ],
+          "visiblePage": 473,
+          "location": "Problem Set 96, left column"
+        },
+        "literal_prompt": "(-3x^4 y^2 z^5)^3",
+        "group_instruction": "Select the simplified form of each expression below.",
+        "original_response_kind": "multiple choice",
+        "printed_choices": [
+          {
+            "label": "A",
+            "text": "-27x^7 y^5 z^8"
+          },
+          {
+            "label": "B",
+            "text": "-9x^7 y^5 z^8"
+          },
+          {
+            "label": "C",
+            "text": "-9x^12 y^6 z^15"
+          },
+          {
+            "label": "D",
+            "text": "-27x^64 y^8 z^125"
+          },
+          {
+            "label": "E",
+            "text": "-27x^12 y^6 z^15"
+          }
+        ],
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-09",
+          "independentlyDerivedAnswer": {
+            "choice": "E",
+            "expression": "-27x^12 y^6 z^15"
+          },
+          "derivation": "Raise each factor to the third power: (-3)^3=-27; exponents 4,2,5 multiply by 3 to 12,6,15. A/B add exponents; C has the wrong coefficient; D raises the exponents themselves.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "choice",
+        "topic_id": "algebra-patterns",
+        "required_answer_fields": [],
+        "correct_choice": "E",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "-27x^12y^6z^15",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-10",
+        "original_number": "10",
+        "prior_lesson_reference": 89,
+        "source": {
+          "photos": [
+            "IMG_4410.jpeg",
+            "IMG_4411.jpeg"
+          ],
+          "visiblePage": 473,
+          "location": "Problem Set 96, left column"
+        },
+        "literal_prompt": "(e-f)^2",
+        "group_instruction": "Select the simplified form of each expression below.",
+        "original_response_kind": "multiple choice",
+        "printed_choices": [
+          {
+            "label": "A",
+            "text": "2e-2f"
+          },
+          {
+            "label": "B",
+            "text": "e^2+2ef+f^2"
+          },
+          {
+            "label": "C",
+            "text": "e^2+f^2"
+          },
+          {
+            "label": "D",
+            "text": "e^2-2ef+f^2"
+          },
+          {
+            "label": "E",
+            "text": "e^2-f^2"
+          }
+        ],
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-10",
+          "independentlyDerivedAnswer": {
+            "choice": "D",
+            "expression": "e^2-2ef+f^2"
+          },
+          "derivation": "(e-f)(e-f)=e^2-ef-ef+f^2. Only D contains all three correct terms.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "choice",
+        "topic_id": "algebra-patterns",
+        "required_answer_fields": [],
+        "correct_choice": "D",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "e^2-2ef+f^2",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-11",
+        "original_number": "11",
+        "prior_lesson_reference": 92,
+        "source": {
+          "photos": [
+            "IMG_4411.jpeg"
+          ],
+          "visiblePage": 473,
+          "location": "Problem Set 96, lower left"
+        },
+        "literal_prompt": "(a+b)/(a^2 b)-(a+b)/(a b^2)",
+        "group_instruction": "Select the simplified form of each expression below.",
+        "original_response_kind": "multiple choice",
+        "printed_choices": [
+          {
+            "label": "A",
+            "text": "-(a^2+2ab+b^2)/(a^2 b^2)"
+          },
+          {
+            "label": "B",
+            "text": "(b^2-a^2)/(a^2 b^2)"
+          },
+          {
+            "label": "C",
+            "text": "(1-a)/(a b^2)"
+          },
+          {
+            "label": "D",
+            "text": "-2/(a^2 b)"
+          },
+          {
+            "label": "E",
+            "text": "(b^2+2ab-a^2)/(a^2 b^2)"
+          }
+        ],
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-11",
+          "independentlyDerivedAnswer": {
+            "choice": "B",
+            "expression": "(b^2-a^2)/(a^2 b^2)"
+          },
+          "derivation": "Use common denominator a^2b^2. Numerator b(a+b)-a(a+b)=ab+b^2-a^2-ab=b^2-a^2. Only B has this rational-function identity.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "domain": "a≠0 and b≠0; retain these original restrictions."
+        },
+        "runtime_type": "choice",
+        "topic_id": "algebra-patterns",
+        "required_answer_fields": [],
+        "correct_choice": "B",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "(b^2-a^2)/(a^2b^2)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-12",
+        "original_number": "12",
+        "prior_lesson_reference": 91,
+        "source": {
+          "photos": [
+            "IMG_4410.jpeg"
+          ],
+          "visiblePage": 473,
+          "location": "Problem Set 96, upper right"
+        },
+        "literal_prompt": "9xy/[2(x+y)] ÷ [6x^2 y/(x^2+2xy+y^2)]",
+        "group_instruction": "Select the simplified form of each expression below.",
+        "original_response_kind": "multiple choice",
+        "printed_choices": [
+          {
+            "label": "A",
+            "text": "(3x+3y)/(4x)"
+          },
+          {
+            "label": "B",
+            "text": "(3x^2+3xy)/(4y)"
+          },
+          {
+            "label": "C",
+            "text": "(3x+3y)/4"
+          },
+          {
+            "label": "D",
+            "text": "(3x+3y)/(2x)"
+          },
+          {
+            "label": "E",
+            "text": "(9xy+6x^2 y)/(x^2+2x+2xy+2y+y^2)"
+          }
+        ],
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-12",
+          "independentlyDerivedAnswer": {
+            "choice": "A",
+            "expression": "(3x+3y)/(4x)"
+          },
+          "derivation": "Factor x^2+2xy+y^2=(x+y)^2. Multiply by the reciprocal: [9xy/(2(x+y))][(x+y)^2/(6x^2y)]=3(x+y)/(4x). Only A is the same rational-function identity.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "domain": "x≠0, y≠0, and x+y≠0. The original denominator and nonzero-divisor conditions remain after cancellation."
+        },
+        "runtime_type": "choice",
+        "topic_id": "algebra-patterns",
+        "required_answer_fields": [],
+        "correct_choice": "A",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "(3x+3y)/(4x)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-13",
+        "original_number": "13",
+        "prior_lesson_reference": 6,
+        "source": {
+          "photos": [
+            "IMG_4410.jpeg",
+            "IMG_4411.jpeg"
+          ],
+          "visiblePage": 473,
+          "location": "Problem Set 96, right column"
+        },
+        "literal_prompt": "3(x-5)/8=-9",
+        "group_instruction": "Solve each equation below.",
+        "original_response_kind": "constructed numeric solution",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-13",
+          "independentlyDerivedAnswer": {
+            "x": -19
+          },
+          "derivation": "Multiply by 8: 3(x-5)=-72. Divide by 3: x-5=-24, hence x=-19. Check: 3(-24)/8=-9.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "numeric",
+        "topic_id": "formulas-equations",
+        "required_answer_fields": [
+          {
+            "key": "x",
+            "label": "x",
+            "value": -19,
+            "tolerance": 1e-9
+          }
+        ],
+        "correct_choice": null,
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "x=-19",
+          "method": "exact reverse operations, original lhs=-9"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-14",
+        "original_number": "14",
+        "prior_lesson_reference": 14,
+        "source": {
+          "photos": [
+            "IMG_4410.jpeg",
+            "IMG_4411.jpeg"
+          ],
+          "visiblePage": 473,
+          "location": "Problem Set 96, right column"
+        },
+        "literal_prompt": "10x+4=-9+12x",
+        "group_instruction": "Solve each equation below.",
+        "original_response_kind": "constructed numeric solution",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-14",
+          "independentlyDerivedAnswer": {
+            "x": "13/2",
+            "decimal": 6.5
+          },
+          "derivation": "10x+4=-9+12x -> 13=2x -> x=13/2. Original sides both equal 69.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "numeric",
+        "topic_id": "formulas-equations",
+        "required_answer_fields": [
+          {
+            "key": "x",
+            "label": "x",
+            "value": 6.5,
+            "tolerance": 1e-9
+          }
+        ],
+        "correct_choice": null,
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "x=13/2",
+          "method": "exact linear solution; both original sides=69"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-15",
+        "original_number": "15",
+        "prior_lesson_reference": 83,
+        "source": {
+          "photos": [
+            "IMG_4410.jpeg",
+            "IMG_4411.jpeg"
+          ],
+          "visiblePage": 473,
+          "location": "Problem Set 96, right column"
+        },
+        "literal_prompt": "In the equation F=ma, find the value of F when m=9.15 and a=32.",
+        "group_instruction": "Answer each question below.",
+        "original_response_kind": "constructed numeric answer",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-15",
+          "independentlyDerivedAnswer": {
+            "F": 292.8,
+            "exactFraction": "1464/5"
+          },
+          "derivation": "F=9.15×32=292.8.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "units": "No physical units are supplied; do not invent them."
+        },
+        "runtime_type": "numeric",
+        "topic_id": "scientific-evaluation",
+        "required_answer_fields": [
+          {
+            "key": "F",
+            "label": "F",
+            "value": 292.8,
+            "tolerance": 1e-9
+          }
+        ],
+        "correct_choice": null,
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "F=292.8",
+          "method": "exact decimal formula evaluation"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-16",
+        "original_number": "16",
+        "prior_lesson_reference": 84,
+        "source": {
+          "photos": [
+            "IMG_4410.jpeg",
+            "IMG_4411.jpeg"
+          ],
+          "visiblePage": 473,
+          "location": "Problem Set 96, lower right"
+        },
+        "literal_prompt": "Which choice below represents the equation (y-a)/(y-b)=x after it has been solved for y?",
+        "group_instruction": "Answer each question below.",
+        "original_response_kind": "multiple choice",
+        "printed_choices": [
+          {
+            "label": "A",
+            "text": "y=(a-b)/(1-x)"
+          },
+          {
+            "label": "B",
+            "text": "y=(a-bx)/(1-x)"
+          },
+          {
+            "label": "C",
+            "text": "y=(a-bx)/(x-1)"
+          },
+          {
+            "label": "D",
+            "text": "y=(a+bx)/(1-x)"
+          },
+          {
+            "label": "E",
+            "text": "y=x/(a-ab)"
+          }
+        ],
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-16",
+          "independentlyDerivedAnswer": {
+            "choice": "B",
+            "expression": "y=(a-bx)/(1-x)"
+          },
+          "derivation": "For y≠b: y-a=x(y-b), hence (1-x)y=a-bx. Division by 1-x requires x≠1. Check the candidate against y≠b.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "domain": "Original: y≠b. Nondegenerate displayed solution: x≠1 and a≠b.",
+          "specialCases": [
+            {
+              "condition": "x=1 and a=b",
+              "solutions": "Every y≠b."
+            },
+            {
+              "condition": "x=1 and a≠b",
+              "solutions": "No solution."
+            },
+            {
+              "condition": "x≠1 and a=b",
+              "solutions": "No solution: the candidate y=b is excluded."
+            }
+          ],
+          "uniqueness": "B alone is the general solved-form identity on the nondegenerate parameter domain."
+        },
+        "runtime_type": "choice",
+        "topic_id": "formulas-equations",
+        "required_answer_fields": [],
+        "correct_choice": "B",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "y=(a-bx)/(1-x)",
+          "method": "exact rational formula identity for every printed option; original denominator and parameter=1/a=b exceptional cases checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-17",
+        "original_number": "17",
+        "prior_lesson_reference": 77,
+        "source": {
+          "photos": [
+            "IMG_4412.jpeg",
+            "IMG_4413.jpeg"
+          ],
+          "visiblePage": 474,
+          "location": "Problem Set 96, upper graph item"
+        },
+        "literal_prompt": "x^2+y^2=9",
+        "group_instruction": "Select the graph of each two-variable equation below.",
+        "original_response_kind": "graph multiple choice",
+        "printed_choices": null,
+        "printed_graph_choices": [
+          {
+            "label": "A",
+            "literalFigureType": "circle",
+            "literalCoordinateLabels": [
+              "(0,3)",
+              "(3,6)",
+              "(6,3)",
+              "(3,0)",
+              "(3,3)"
+            ],
+            "mathematicalModelDerivedFromSource": "(x-3)^2+(y-3)^2=9",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "center": [
+              3,
+              3
+            ],
+            "radius": 3
+          },
+          {
+            "label": "B",
+            "literalFigureType": "circle",
+            "literalCoordinateLabels": [
+              "(0,0)",
+              "(3,3)",
+              "(6,0)",
+              "(3,-3)",
+              "(3,0)"
+            ],
+            "mathematicalModelDerivedFromSource": "(x-3)^2+y^2=9",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "center": [
+              3,
+              0
+            ],
+            "radius": 3
+          },
+          {
+            "label": "C",
+            "literalFigureType": "circle",
+            "literalCoordinateLabels": [
+              "(-3,0)",
+              "(0,3)",
+              "(3,0)",
+              "(0,-3)",
+              "(0,0)"
+            ],
+            "mathematicalModelDerivedFromSource": "x^2+y^2=9",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "center": [
+              0,
+              0
+            ],
+            "radius": 3
+          },
+          {
+            "label": "D",
+            "literalFigureType": "circle",
+            "literalCoordinateLabels": [
+              "(-6,0)",
+              "(0,6)",
+              "(6,0)",
+              "(0,-6)",
+              "(0,0)"
+            ],
+            "mathematicalModelDerivedFromSource": "x^2+y^2=36",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "center": [
+              0,
+              0
+            ],
+            "radius": 6
+          },
+          {
+            "label": "E",
+            "literalFigureType": "circle",
+            "literalCoordinateLabels": [
+              "(-sqrt(3),0)",
+              "(0,sqrt(3))",
+              "(sqrt(3),0)",
+              "(0,-sqrt(3))",
+              "(0,0)"
+            ],
+            "mathematicalModelDerivedFromSource": "x^2+y^2=3",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "center": [
+              0,
+              0
+            ],
+            "radius": "sqrt(3)"
+          }
+        ],
+        "independent_mathematical_review": {
+          "id": "problem-17",
+          "independentlyDerivedAnswer": {
+            "choice": "C",
+            "center": [
+              0,
+              0
+            ],
+            "radius": 3
+          },
+          "derivation": "x^2+y^2=3^2 is a circle centered at the origin with radius 3. C alone has these values. A and B shift the center; D has radius 6; E has radius sqrt(3).",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "allCandidateModelsChecked": true
+        },
+        "runtime_type": "choice",
+        "topic_id": "graph-models",
+        "required_answer_fields": [],
+        "correct_choice": "C",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "C: center (0,0), radius 3",
+          "method": "all five circle centers/radii/labels, unique x²+y²=9 match, SVG circles have equal axis scale"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-18",
+        "original_number": "18",
+        "prior_lesson_reference": 75,
+        "source": {
+          "photos": [
+            "IMG_4412.jpeg",
+            "IMG_4413.jpeg"
+          ],
+          "visiblePage": 474,
+          "location": "Problem Set 96, lower graph item"
+        },
+        "literal_prompt": "y=x^2-6x+10",
+        "group_instruction": "Select the graph of each two-variable equation below.",
+        "original_response_kind": "graph multiple choice",
+        "printed_choices": null,
+        "printed_graph_choices": [
+          {
+            "label": "A",
+            "literalFigureType": "upward parabola",
+            "literalCoordinateLabels": [
+              "(2,3)",
+              "(3,1)",
+              "(4,3)"
+            ],
+            "mathematicalModelDerivedFromSource": "y=2(x-3)^2+1",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "vertex": [
+              3,
+              1
+            ],
+            "branchArrows": "upward at both ends"
+          },
+          {
+            "label": "B",
+            "literalFigureType": "upward parabola",
+            "literalCoordinateLabels": [
+              "(2,0)",
+              "(3,-1)",
+              "(4,0)"
+            ],
+            "mathematicalModelDerivedFromSource": "y=(x-3)^2-1",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "vertex": [
+              3,
+              -1
+            ],
+            "branchArrows": "upward at both ends"
+          },
+          {
+            "label": "C",
+            "literalFigureType": "downward parabola",
+            "literalCoordinateLabels": [
+              "(2,0)",
+              "(3,1)",
+              "(4,0)"
+            ],
+            "mathematicalModelDerivedFromSource": "y=-(x-3)^2+1",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "vertex": [
+              3,
+              1
+            ],
+            "branchArrows": "downward at both ends"
+          },
+          {
+            "label": "D",
+            "literalFigureType": "upward parabola",
+            "literalCoordinateLabels": [
+              "(2,2)",
+              "(3,1)",
+              "(4,2)"
+            ],
+            "mathematicalModelDerivedFromSource": "y=(x-3)^2+1",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "vertex": [
+              3,
+              1
+            ],
+            "branchArrows": "upward at both ends"
+          },
+          {
+            "label": "E",
+            "literalFigureType": "downward parabola",
+            "literalCoordinateLabels": [
+              "(-2,2)",
+              "(-1,3)",
+              "(0,2)"
+            ],
+            "mathematicalModelDerivedFromSource": "y=-(x+1)^2+3",
+            "axes": {
+              "horizontal": "x",
+              "vertical": "y",
+              "axisArrows": "both directions",
+              "units": "No textual units printed; coordinate labels define values",
+              "ticks": "Regular unlabeled ticks; photographs are schematic and perspective distorted"
+            },
+            "vertex": [
+              -1,
+              3
+            ],
+            "branchArrows": "downward at both ends"
+          }
+        ],
+        "independent_mathematical_review": {
+          "id": "problem-18",
+          "independentlyDerivedAnswer": {
+            "choice": "D",
+            "vertex": [
+              3,
+              1
+            ],
+            "samplePoints": [
+              [
+                2,
+                2
+              ],
+              [
+                4,
+                2
+              ]
+            ]
+          },
+          "derivation": "Complete the square: y=(x-3)^2+1. Substitutions give y(2)=2, y(3)=1, y(4)=2. D matches all of these. A has the same vertex but wrong flank heights (3 instead of 2), corresponding to coefficient 2. B has vertex y=-1; C opens downward; E has another vertex.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "allCandidateModelsChecked": true
+        },
+        "runtime_type": "choice",
+        "topic_id": "graph-models",
+        "required_answer_fields": [],
+        "correct_choice": "D",
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "D: vertex (3,1), points (2,2),(4,2)",
+          "method": "all five literal models/point sets, unique equation match, SVG polyline geometry and labels checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-19",
+        "original_number": "19",
+        "prior_lesson_reference": 94,
+        "source": {
+          "photos": [
+            "IMG_4414.jpeg"
+          ],
+          "visiblePage": null,
+          "location": "Problem Set 96 continuation, upper left",
+          "page": 475,
+          "pageNumberBasis": "User confirmation on 2026-10-15; footer outside photo",
+          "pageNumberAuthority": "User"
+        },
+        "literal_prompt": "{2x+3y=10; 2x+4y=12}",
+        "group_instruction": "Solve each system of equations below.",
+        "original_response_kind": "constructed solution pair",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-19",
+          "independentlyDerivedAnswer": {
+            "x": 2,
+            "y": 2
+          },
+          "derivation": "Subtract the first equation from the second: y=2. Then 2x+6=10 -> x=2. Checks: 4+6=10; 4+8=12.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "numeric",
+        "topic_id": "rewrite-substitute",
+        "required_answer_fields": [
+          {
+            "key": "x",
+            "label": "x",
+            "value": 2,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "y",
+            "label": "y",
+            "value": 2,
+            "tolerance": 1e-9
+          }
+        ],
+        "correct_choice": null,
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "x=2; y=2",
+          "method": "exact determinant solution, nonzero determinant, both original equations checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-20",
+        "original_number": "20",
+        "prior_lesson_reference": 95,
+        "source": {
+          "photos": [
+            "IMG_4414.jpeg"
+          ],
+          "visiblePage": null,
+          "location": "Problem Set 96 continuation, upper middle",
+          "page": 475,
+          "pageNumberBasis": "User confirmation on 2026-10-15; footer outside photo",
+          "pageNumberAuthority": "User"
+        },
+        "literal_prompt": "{4x+y=7; 3x+2y=9}",
+        "group_instruction": "Solve each system of equations below.",
+        "original_response_kind": "constructed solution pair",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-20",
+          "independentlyDerivedAnswer": {
+            "x": 1,
+            "y": 3
+          },
+          "derivation": "From 4x+y=7, y=7-4x. Then 3x+2(7-4x)=9 -> -5x=-5 -> x=1,y=3. Checks: 4+3=7; 3+6=9.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "numeric",
+        "topic_id": "rewrite-substitute",
+        "required_answer_fields": [
+          {
+            "key": "x",
+            "label": "x",
+            "value": 1,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "y",
+            "label": "y",
+            "value": 3,
+            "tolerance": 1e-9
+          }
+        ],
+        "correct_choice": null,
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "x=1; y=3",
+          "method": "exact determinant solution, nonzero determinant, both original equations checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-21",
+        "original_number": "21",
+        "prior_lesson_reference": 96,
+        "source": {
+          "photos": [
+            "IMG_4414.jpeg"
+          ],
+          "visiblePage": null,
+          "location": "Problem Set 96 continuation, upper right",
+          "page": 475,
+          "pageNumberBasis": "User confirmation on 2026-10-15; footer outside photo",
+          "pageNumberAuthority": "User"
+        },
+        "literal_prompt": "{2x-3y=18; y=3x+1}",
+        "group_instruction": "Solve each system of equations below.",
+        "original_response_kind": "constructed solution pair",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-21",
+          "independentlyDerivedAnswer": {
+            "x": -3,
+            "y": -8
+          },
+          "derivation": "2x-3(3x+1)=18 -> -7x-3=18 -> x=-3. Then y=-8. Checks: -6+24=18; -8=3(-3)+1.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED"
+        },
+        "runtime_type": "numeric",
+        "topic_id": "substitute-ready",
+        "required_answer_fields": [
+          {
+            "key": "x",
+            "label": "x",
+            "value": -3,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "y",
+            "label": "y",
+            "value": -8,
+            "tolerance": 1e-9
+          }
+        ],
+        "correct_choice": null,
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "x=-3; y=-8",
+          "method": "exact determinant solution, nonzero determinant, both original equations checked"
+        },
+        "implementation_review": "PASS"
+      },
+      {
+        "question_id": "ps96-22",
+        "original_number": "22",
+        "prior_lesson_reference": 15,
+        "source": {
+          "photos": [
+            "IMG_4414.jpeg"
+          ],
+          "visiblePage": null,
+          "location": "Problem Set 96 continuation, below three systems",
+          "page": 475,
+          "pageNumberBasis": "User confirmation on 2026-10-15; footer outside photo",
+          "pageNumberAuthority": "User"
+        },
+        "literal_prompt": "Sleigh #1 and Sleigh #2 headed in opposite directions. If Sleigh #1 traveled at a speed of 20 mph and Sleigh #2 traveled at a speed of 45 mph, how many hours was it before they were 390 miles apart?",
+        "group_instruction": "Translate the word problem below into an equation; then solve.",
+        "original_response_kind": "constructed equation and solution",
+        "printed_choices": null,
+        "printed_graph_choices": null,
+        "independent_mathematical_review": {
+          "id": "problem-22",
+          "independentlyDerivedAnswer": {
+            "equation": "20t+45t=390",
+            "t": 6,
+            "units": "hours"
+          },
+          "derivation": "Opposite-direction distances add: 65t=390 -> t=6. Check distances: 120+270=390 miles.",
+          "reviewStatus": "SOURCE_READ_AND_INDEPENDENTLY_SOLVED",
+          "domain": "t≥0. The textbook's common-start/equal-time modeling convention is implicit in the wording."
+        },
+        "runtime_type": "numeric",
+        "topic_id": "distance-models",
+        "required_answer_fields": [
+          {
+            "key": "A",
+            "label": "A: first speed",
+            "value": 20,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "B",
+            "label": "B: second speed",
+            "value": 45,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "C",
+            "label": "C: separation",
+            "value": 390,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "time",
+            "label": "Elapsed time",
+            "value": 6,
+            "tolerance": 1e-9
+          }
+        ],
+        "correct_choice": null,
+        "source_review": "PASS",
+        "mathematical_review": {
+          "result": "PASS",
+          "answer": "20t+45t=390; t=6",
+          "method": "independent rate-distance equation, exact elapsed time, positive physical result and both distances"
+        },
+        "implementation_review": "PASS"
+      }
+    ],
+    "visible_pages": [
+      470,
+      471,
+      472,
+      473,
+      474
+    ],
+    "page_number_confirmation": {
+      "photo": "IMG_4414.jpeg",
+      "page": 475,
+      "authority": "User",
+      "evidence_type": "Explicit User verification in this conversation",
+      "date_ct": "2026-10-15",
+      "recorded_time_ct": "10:15:33 AM CDT",
+      "timezone": "America/Chicago",
+      "statement": "User verifies that the page number for Photo 4414 is Page 475",
+      "visual_footer_observation": "The footer remains outside the photograph; page475 is attributed to User confirmation, not photo inspection or sequential inference."
+    },
+    "resolved_items": [
+      {
+        "id": "continuation-page-number",
+        "affectedImage": "IMG_4414.jpeg",
+        "affectedExercises": [
+          "19",
+          "20",
+          "21",
+          "22"
+        ],
+        "category": "bibliographic metadata",
+        "status": "RESOLVED_BY_USER_CONFIRMATION",
+        "effect": "Exercise mathematics and all foreground content are readable; the page number is not visible.",
+        "additionalEvidence": "A photograph including the bottom page number, or another overlapping authoritative view exposing it.",
+        "forbiddenInference": "Do not infer the missing number from neighboring pages.",
+        "previous_status": "UNRESOLVED_NOT_VISIBLE",
+        "resolved_page": 475,
+        "resolution": {
+          "photo": "IMG_4414.jpeg",
+          "page": 475,
+          "authority": "User",
+          "evidence_type": "Explicit User verification in this conversation",
+          "date_ct": "2026-10-15",
+          "recorded_time_ct": "10:15:33 AM CDT",
+          "timezone": "America/Chicago",
+          "statement": "User verifies that the page number for Photo 4414 is Page 475",
+          "visual_footer_observation": "The footer remains outside the photograph; page475 is attributed to User confirmation, not photo inspection or sequential inference."
+        }
+      }
+    ]
+  },
+  "content_inventory": {
+    "guided_topics": 8,
+    "topics": [
+      {
+        "id": "substitute-ready",
+        "title": "Substitute an equal expression"
+      },
+      {
+        "id": "rewrite-substitute",
+        "title": "Isolate a variable before substituting"
+      },
+      {
+        "id": "algebra-patterns",
+        "title": "Factor, expand, and simplify rational expressions"
+      },
+      {
+        "id": "formulas-equations",
+        "title": "Clear denominators and collect the target variable"
+      },
+      {
+        "id": "scientific-evaluation",
+        "title": "Normalize scientific notation and evaluate formulas"
+      },
+      {
+        "id": "slopes-ellipse",
+        "title": "Read slopes and ellipse dimensions"
+      },
+      {
+        "id": "graph-models",
+        "title": "Match equations to every labeled graph feature"
+      },
+      {
+        "id": "distance-models",
+        "title": "Build an equation for opposite-direction travel"
+      }
+    ],
+    "sections": [
+      {
+        "id": "practice",
+        "label": "Practice 96",
+        "question_count": 5
+      },
+      {
+        "id": "problem",
+        "label": "Problem Set 96",
+        "question_count": 22
+      }
+    ],
+    "practice_exercises": 5,
+    "problem_set_exercises": 22,
+    "total_scored_exercises": 27,
+    "maximum_score": 27,
+    "stable_question_ids": [
+      "p96-a",
+      "p96-b",
+      "p96-c",
+      "p96-d",
+      "p96-e",
+      "ps96-1",
+      "ps96-2",
+      "ps96-3",
+      "ps96-4",
+      "ps96-5",
+      "ps96-6",
+      "ps96-7",
+      "ps96-8",
+      "ps96-9",
+      "ps96-10",
+      "ps96-11",
+      "ps96-12",
+      "ps96-13",
+      "ps96-14",
+      "ps96-15",
+      "ps96-16",
+      "ps96-17",
+      "ps96-18",
+      "ps96-19",
+      "ps96-20",
+      "ps96-21",
+      "ps96-22"
+    ],
+    "response_types": {
+      "choice": 15,
+      "numeric": 12,
+      "numeric_answer_fields": 29
+    },
+    "native_graph_choices": 15
+  },
+  "source_derived_scope": {
+    "core_instruction": [
+      "Substituting an isolated variable expression into the other equation",
+      "Rewriting first, handling fractions, recovering the second variable and checking both originals"
+    ],
+    "review": [
+      "Factoring trinomials and differences of squares",
+      "Binomial squares and monomial powers",
+      "Rational subtraction and division with original restrictions",
+      "Formula rearrangement and exceptional cases",
+      "Scientific notation and formula evaluation",
+      "Perpendicular slopes and ellipse center/vertices",
+      "Circle and parabola graph selection",
+      "Linear equations and opposite-direction distance modeling"
+    ],
+    "app_authored_instruction": "Guided explanations, progressive hints, work guides, checks, and quick concept checks are original app-authored instruction based on the photographed mathematics. The two main worked examples preserve the source equations and results."
+  },
+  "shared_engine_contract": {
+    "engine": "Algebra2Engine",
+    "engine_version": "0.2.1",
+    "registration": "Algebra2CourseRegistry.register(packageDef)",
+    "score_policy": "one-choice-two-fill-v1",
+    "choice_credit_bearing_valid_submissions": 1,
+    "fill_in_credit_bearing_valid_submissions": 2,
+    "maximum_points_per_exercise": 1,
+    "later_correct_answers": "Recorded solved with zero credit after the applicable group limit",
+    "navigation_consumes_attempt": false,
+    "persistence": "Drafts, notes, hints, attempts, topic steps, navigation and progress remain shared-engine responsibilities",
+    "feedback_sound_motion": "Shared engine; no duplicated implementation",
+    "custom_engine_modifications": false,
+    "custom_state_hooks": false
+  },
+  "response_format_adaptations": [
+    {
+      "ids": [
+        "ps96-1",
+        "ps96-2"
+      ],
+      "source": "True or False sentences",
+      "implementation": "App-authored True and False buttons use existing choice grading; source truth task preserved."
+    },
+    {
+      "ids": [
+        "ps96-5"
+      ],
+      "source": "Tell whether lines are parallel or perpendicular",
+      "implementation": "App-authored Parallel/Perpendicular choices preserve the two classifications explicitly requested by the source."
+    },
+    {
+      "ids": [
+        "ps96-3",
+        "ps96-4"
+      ],
+      "source": "Construct a normalized scientific-notation result",
+      "implementation": "Existing numeric multi-field grading assesses coefficient c and exponent n together, with the normalized form c×10ⁿ explicitly required; one point total."
+    },
+    {
+      "ids": [
+        "ps96-6"
+      ],
+      "source": "Tell ellipse center and vertices",
+      "implementation": "Six numeric fields assess center and left/right major vertices in fixed order. Worked solution also identifies both co-vertices."
+    },
+    {
+      "ids": [
+        "p96-d",
+        "ps96-19",
+        "ps96-20",
+        "ps96-21"
+      ],
+      "source": "Solve systems",
+      "implementation": "Two numeric fields assess x and y together; one point total."
+    },
+    {
+      "ids": [
+        "p96-e",
+        "ps96-22"
+      ],
+      "source": "Translate a word problem into an equation, then solve",
+      "implementation": "Four numeric fields construct A,B,C in At+Bt=C and give elapsed hours. Term order explicitly uses vehicle1 then vehicle2. Constructed equation is assessed rather than replaced by recognition; supported numeric parser used without engine changes."
+    }
+  ],
+  "mathematical_conditions": {
+    "formula_items": "p96-b: h≠b; nondegenerate formula requires j≠1 and a≠b. j=1,a=b gives every h≠b; otherwise exceptional cases give no solution. ps96-16 is the analogous result for y and parameter x.",
+    "rational_items": "ps96-11: a≠0,b≠0. ps96-12: x≠0,y≠0,x+y≠0, including nonzero divisor.",
+    "graph_distinction": "PS18 A: y=2(x−3)²+1 with flank labels (2,3),(4,3); D: y=(x−3)²+1 with (2,2),(4,2). D uniquely matches the requested equation.",
+    "ellipse": "Major vertices (−7,0),(7,0); center (0,0); co-vertices (0,−3),(0,3) supplied in solution.",
+    "units": "Travel time hours, speeds mph, distance miles. No units invented for F=ma source values."
+  },
+  "runtime_assets": {
+    "network_calls": false,
+    "third_party_runtime_libraries": false,
+    "external_assets": [],
+    "source_photographs_embedded": false,
+    "svg_namespace": "http://www.w3.org/2000/svg is a static XML namespace, not a network request"
+  },
+  "validation": {
+    "javascript_syntax": {
+      "result": "PASS",
+      "command": "node --check lesson-096.js",
+      "exit_code": 0
+    },
+    "package_registration": {
+      "result": "PASS",
+      "method": "Extract and execute actual foundation engine in isolated Node VM; intercept registry registration; load only new runtime package.",
+      "registered_package_count": 1,
+      "registered_id": "lesson-096",
+      "registered_number": 96
+    },
+    "question_count_validation": {
+      "result": "PASS",
+      "expected_practice": 5,
+      "actual_practice": 5,
+      "expected_problem_set": 22,
+      "actual_problem_set": 22,
+      "expected_total": 27,
+      "actual_total": 27
+    },
+    "unique_question_id_validation": {
+      "result": "PASS",
+      "count": 27,
+      "duplicates": []
+    },
+    "invalid_answer_index_count": 0,
+    "invalid_topic_reference_count": 0,
+    "invalid_section_reference_count": 0,
+    "missing_required_answer_key_count": 0,
+    "guides_hints_solutions_references": "PASS: every exercise has guide, at least two progressive hints, self-contained worked solution and check; all8 topics and six reference cards render.",
+    "all_exercise_mathematics": {
+      "result": "PASS",
+      "checked_exercises": 27,
+      "method": "Independent source transcription and derivation plus exact rational-polynomial identity checks, every algebraic candidate, exact linear-system solutions and original-equation substitutions, exact decimal arithmetic, all graph models/labels/rendered geometry.",
+      "all_exercise_checks": {
+        "p96-a": {
+          "result": "PASS",
+          "answer": "(x-3a)(x-a)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps96-7": {
+          "result": "PASS",
+          "answer": "(r+s)(r-s)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps96-8": {
+          "result": "PASS",
+          "answer": "(x-2a)(x-a)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps96-9": {
+          "result": "PASS",
+          "answer": "-27x^12y^6z^15",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps96-10": {
+          "result": "PASS",
+          "answer": "e^2-2ef+f^2",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps96-11": {
+          "result": "PASS",
+          "answer": "(b^2-a^2)/(a^2b^2)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps96-12": {
+          "result": "PASS",
+          "answer": "(3x+3y)/(4x)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "p96-d": {
+          "result": "PASS",
+          "answer": "x=-2; y=-5",
+          "method": "exact determinant solution, nonzero determinant, both original equations checked"
+        },
+        "ps96-19": {
+          "result": "PASS",
+          "answer": "x=2; y=2",
+          "method": "exact determinant solution, nonzero determinant, both original equations checked"
+        },
+        "ps96-20": {
+          "result": "PASS",
+          "answer": "x=1; y=3",
+          "method": "exact determinant solution, nonzero determinant, both original equations checked"
+        },
+        "ps96-21": {
+          "result": "PASS",
+          "answer": "x=-3; y=-8",
+          "method": "exact determinant solution, nonzero determinant, both original equations checked"
+        },
+        "p96-e": {
+          "result": "PASS",
+          "answer": "60t+68t=384; t=3",
+          "method": "independent rate-distance equation, exact elapsed time, positive physical result and both distances"
+        },
+        "ps96-22": {
+          "result": "PASS",
+          "answer": "20t+45t=390; t=6",
+          "method": "independent rate-distance equation, exact elapsed time, positive physical result and both distances"
+        },
+        "p96-b": {
+          "result": "PASS",
+          "answer": "h=(a-bj)/(1-j)",
+          "method": "exact rational formula identity for every printed option; original denominator and parameter=1/a=b exceptional cases checked"
+        },
+        "ps96-16": {
+          "result": "PASS",
+          "answer": "y=(a-bx)/(1-x)",
+          "method": "exact rational formula identity for every printed option; original denominator and parameter=1/a=b exceptional cases checked"
+        },
+        "ps96-1": {
+          "result": "PASS",
+          "answer": "False",
+          "method": "source statement independently checked against valid system methods"
+        },
+        "ps96-2": {
+          "result": "PASS",
+          "answer": "True",
+          "method": "source statement independently checked against valid system methods"
+        },
+        "ps96-5": {
+          "result": "PASS",
+          "answer": "Perpendicular",
+          "method": "slopes -1/2 and 2 have product -1"
+        },
+        "ps96-3": {
+          "result": "PASS",
+          "answer": "2.736e-7",
+          "method": "exact decimal multiplication and exponent sum, normalized coefficient 1<=c<10"
+        },
+        "ps96-4": {
+          "result": "PASS",
+          "answer": "5.625e5",
+          "method": "exact quotient and exponent subtraction, normalized coefficient 1<=c<10"
+        },
+        "ps96-6": {
+          "result": "PASS",
+          "answer": "center (0,0); vertices (-7,0),(7,0)",
+          "method": "ellipse center and horizontal major vertices; x intercepts +/-sqrt(49), minor endpoints +/-sqrt(9)"
+        },
+        "ps96-13": {
+          "result": "PASS",
+          "answer": "x=-19",
+          "method": "exact reverse operations, original lhs=-9"
+        },
+        "ps96-14": {
+          "result": "PASS",
+          "answer": "x=13/2",
+          "method": "exact linear solution; both original sides=69"
+        },
+        "ps96-15": {
+          "result": "PASS",
+          "answer": "F=292.8",
+          "method": "exact decimal formula evaluation"
+        },
+        "p96-c": {
+          "result": "PASS",
+          "answer": "B: upward; vertex (4,-1); intercepts (3,0),(5,0)",
+          "method": "all five literal models/point sets, unique equation match, SVG polyline geometry and labels checked"
+        },
+        "ps96-18": {
+          "result": "PASS",
+          "answer": "D: vertex (3,1), points (2,2),(4,2)",
+          "method": "all five literal models/point sets, unique equation match, SVG polyline geometry and labels checked"
+        },
+        "ps96-17": {
+          "result": "PASS",
+          "answer": "C: center (0,0), radius 3",
+          "method": "all five circle centers/radii/labels, unique x²+y²=9 match, SVG circles have equal axis scale"
+        }
+      },
+      "native_figures_checked": 15,
+      "literal_coordinate_labels_checked": 55,
+      "parabola_polyline_points_checked": 1210,
+      "revalidated_date_ct": "2026-10-15",
+      "revalidated_time_ct": "10:15:33 AM CDT",
+      "revalidated_runtime_sha256": "ca47a163659d828e5ee788a5a1de1a5b2bc1c756d70460401e650b55938b2ea3"
+    },
+    "representative_answer_key_spot_checks": [
+      {
+        "id": "p96-d",
+        "answer": "x=-2,y=-5",
+        "check": "3(-2)-4(-5)=14; -5=2(-2)-1"
+      },
+      {
+        "id": "ps96-3",
+        "answer": "2.736×10^-7",
+        "check": "27.36×10^-8 normalized"
+      },
+      {
+        "id": "ps96-12",
+        "answer": "A: (3x+3y)/(4x)",
+        "check": "Multiply by reciprocal; retain x,y,x+y nonzero"
+      },
+      {
+        "id": "ps96-17",
+        "answer": "C",
+        "check": "center(0,0), radius3, four intercepts ±3"
+      },
+      {
+        "id": "ps96-18",
+        "answer": "D",
+        "check": "vertex(3,1), flanks(2,2),(4,2); A flanks have y3"
+      },
+      {
+        "id": "ps96-22",
+        "answer": "20t+45t=390; t=6h",
+        "check": "120+270=390 miles"
+      }
+    ],
+    "independent_review": {
+      "result": "PASS: prior content review carried forward after full content equivalence check; source metadata limitation resolved by User confirmation",
+      "reviewed_runtime_sha256": "1de9883866a51d03b32991b4e63c8765a7f6e3334fc0282a110f21d4992e9b91",
+      "review_scope": "Every foreground lesson explanation/example, Practice exercise, Problem Set exercise, and all 15 foreground graph candidates.",
+      "source_only_review_before_implementation": true,
+      "counts": {
+        "totalQuestions": 27,
+        "practiceQuestions": 5,
+        "problemSetQuestions": 22,
+        "choiceQuestions": 15,
+        "numericQuestions": 12,
+        "numericFields": 29,
+        "topics": 8,
+        "originalPrintedTextCandidates": 45,
+        "originalGraphCandidates": 15,
+        "nativeFiguresRenderedAndVisuallyReviewed": 15,
+        "openImplementationFindings": 0
+      },
+      "findings": [],
+      "resolved_findings": [
+        {
+          "id": "svg-label-axis-overlap",
+          "status": "RESOLVED_IN_REVIEWED_HASH",
+          "initialIssue": "Earlier generic label offsets placed some parabola vertices across the x-axis and circle vertical intercept labels on the y-axis. The small radical circle left label also needed outward placement.",
+          "resolution": "The reviewed hash moves positive-height vertices below the x-axis with adequate clearance, the negative-height downward vertex above the x-axis, circle vertical labels right of the y-axis, and the radical circle left label outward. All 15 figures rerendered and visually inspected after the changes.",
+          "geometryPreserved": true
+        }
+      ],
+      "assessments": [
+        {
+          "topic": "Ellipse vertices terminology",
+          "status": "ACCEPTABLE",
+          "detail": "The source asks for center and vertices. Standard terminology calls the two major-axis endpoints vertices; the runtime assesses (−7,0),(7,0), explains semiaxes 7 and 3, and explicitly supplies co-vertices (0,−3),(0,3) in its worked solution. No missing mathematical result or terminology defect identified."
+        },
+        {
+          "topic": "Practice formula degenerate cases",
+          "status": "PASS",
+          "detail": "p96-b requires h≠b, divides by 1−j only for j≠1, rejects a=b candidates when j≠1, and handles j=1 as all h≠b when a=b and no solution otherwise."
+        },
+        {
+          "topic": "Problem Set formula degenerate cases",
+          "status": "PASS",
+          "detail": "ps96-16 requires y≠b, divides by 1−x only for x≠1, rejects a=b candidates when x≠1, and handles x=1 as all y≠b when a=b and no solution otherwise."
+        },
+        {
+          "topic": "Original rational-division restrictions",
+          "status": "PASS",
+          "detail": "ps96-12 retains x+y≠0, x≠0, and y≠0 after cancellation."
+        },
+        {
+          "topic": "PS18 similar parabolas",
+          "status": "PASS",
+          "detail": "A preserves a=2 with (2,3),(3,1),(4,3); D preserves a=1 with (2,2),(3,1),(4,2). D is keyed correctly."
+        },
+        {
+          "topic": "Source wording and native figure interpretation",
+          "status": "PASS",
+          "detail": "All mathematical tasks, values, equation signs/exponents, required original choices/order, graph coordinate labels, and solution sets match the independently derived source record. Light rephrasing of incidental prose preserves the mathematical task. All five PS17 candidates remain circles."
+        },
+        {
+          "topic": "Constructed response adaptations",
+          "status": "ACCEPTABLE_REQUIRES_MANIFEST_DISCLOSURE",
+          "detail": "The two travel exercises assess coefficients A,B,C in At+Bt=C plus elapsed time, preserving explicit equation construction; instructions constrain term order. Scientific notation uses coefficient/exponent fields. PS5 supplies app-authored classification choices. Source True/False is represented by two app-authored choices. These adaptations should be identified in the manifest."
+        },
+        {
+          "topic": "Source page-number limitation",
+          "status": "RESOLVED_BY_USER_CONFIRMATION",
+          "detail": "User explicitly verifies IMG_4414 as page475 on 2026-10-15. Current runtime assigns page475 to Problem Set19–22 and has no unresolved source items.",
+          "prior_assessment": {
+            "status": "CORRECTLY_DISCLOSED",
+            "detail": "Runtime sourceStatus stays PARTIALLY_SOURCE_VERIFIED, lists only visible pages 470–474, leaves final continuation exercises without an inferred page, and identifies IMG_4414 missing footer. No additional photo is necessary for reading the exercise mathematics; a footer view is necessary to resolve the bibliographic field."
+          }
+        }
+      ],
+      "prior_version_result": "PASS_WITH_SOURCE_METADATA_LIMITATION",
+      "carry_forward_basis": "The independent review examined the recorded prior runtime hash. The current update changes source metadata only, proven by full question/topic/reference comparison. No claim that the subagent reviewed a new hash."
+    },
+    "actual_engine_grading": "PASS: all 27 correct drafts, every wrong choice, and each perturbed numeric field checked",
+    "shared_engine_scoring": "PASS: all27 exercises checked for first-correct one-point scoring and late-correct solved/zero; all12 fill-in exercises also checked for second-try credit. No mixed-response exercise occurs in this lesson.",
+    "state_normalization": "PASS: all four application fields, notes, hints, attempt and navigation indices retained",
+    "browser_validation": {
+      "topics": [
+        {
+          "heading": "Substitute an equal expression",
+          "result": "PASS: all steps rendered"
+        },
+        {
+          "heading": "Isolate a variable before substituting",
+          "result": "PASS: all steps rendered"
+        },
+        {
+          "heading": "Factor, expand, and simplify rational expressions",
+          "result": "PASS: all steps rendered"
+        },
+        {
+          "heading": "Clear denominators and collect the target variable",
+          "result": "PASS: all steps rendered"
+        },
+        {
+          "heading": "Normalize scientific notation and evaluate formulas",
+          "result": "PASS: all steps rendered"
+        },
+        {
+          "heading": "Read slopes and ellipse dimensions",
+          "result": "PASS: all steps rendered"
+        },
+        {
+          "heading": "Match equations to every labeled graph feature",
+          "result": "PASS: all steps rendered"
+        },
+        {
+          "heading": "Build an equation for opposite-direction travel",
+          "result": "PASS: all steps rendered"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p96-a",
+          "heading": "Factoring a trinomial",
+          "choices": 5,
+          "fields": 0,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "p96-b",
+          "heading": "Solving a formula for h",
+          "choices": 5,
+          "fields": 0,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "p96-c",
+          "heading": "Selecting a parabola",
+          "choices": 5,
+          "fields": 0,
+          "graphs": 5,
+          "result": "PASS"
+        },
+        {
+          "id": "p96-d",
+          "heading": "Substitution with y isolated",
+          "choices": 0,
+          "fields": 2,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "p96-e",
+          "heading": "Constructing a distance equation",
+          "choices": 0,
+          "fields": 4,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-1",
+          "heading": "Substitution concepts",
+          "choices": 2,
+          "fields": 0,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-2",
+          "heading": "Substitution concepts",
+          "choices": 2,
+          "fields": 0,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-3",
+          "heading": "Multiplying scientific notation",
+          "choices": 0,
+          "fields": 2,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-4",
+          "heading": "Dividing scientific notation",
+          "choices": 0,
+          "fields": 2,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-5",
+          "heading": "Parallel or perpendicular lines",
+          "choices": 2,
+          "fields": 0,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-6",
+          "heading": "Center and vertices of an ellipse",
+          "choices": 0,
+          "fields": 6,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-7",
+          "heading": "Difference of squares",
+          "choices": 5,
+          "fields": 0,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-8",
+          "heading": "Factoring a trinomial",
+          "choices": 5,
+          "fields": 0,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-9",
+          "heading": "Power of a monomial",
+          "choices": 5,
+          "fields": 0,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-10",
+          "heading": "Square of a difference",
+          "choices": 5,
+          "fields": 0,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-11",
+          "heading": "Subtracting rational expressions",
+          "choices": 5,
+          "fields": 0,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-12",
+          "heading": "Dividing rational expressions",
+          "choices": 5,
+          "fields": 0,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-13",
+          "heading": "Solving a linear equation",
+          "choices": 0,
+          "fields": 1,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-14",
+          "heading": "Variables on both sides",
+          "choices": 0,
+          "fields": 1,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-15",
+          "heading": "Evaluating F=ma",
+          "choices": 0,
+          "fields": 1,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-16",
+          "heading": "Solving a formula for y",
+          "choices": 5,
+          "fields": 0,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-17",
+          "heading": "Selecting a circle",
+          "choices": 5,
+          "fields": 0,
+          "graphs": 5,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-18",
+          "heading": "Distinguishing similar parabolas",
+          "choices": 5,
+          "fields": 0,
+          "graphs": 5,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-19",
+          "heading": "Solving a system",
+          "choices": 0,
+          "fields": 2,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-20",
+          "heading": "Rewriting before substitution",
+          "choices": 0,
+          "fields": 2,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-21",
+          "heading": "Substitution with y isolated",
+          "choices": 0,
+          "fields": 2,
+          "graphs": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-22",
+          "heading": "Constructing a distance equation",
+          "choices": 0,
+          "fields": 4,
+          "graphs": 0,
+          "result": "PASS"
+        }
+      ],
+      "submissions": [
+        {
+          "id": "ps96-18",
+          "result": "PASS: D correct on first choice submission; shared feedback +1 point"
+        },
+        {
+          "id": "p96-d",
+          "result": "PASS: incorrect try1, correct try2 earns one point; notes/hint retained"
+        },
+        {
+          "id": "p96-a",
+          "result": "PASS: incorrect first submission uses credit; second correct submission recorded solved with zero credit"
+        },
+        {
+          "id": "p96-e",
+          "result": "PASS: incomplete four-field answer rejected without using a try"
+        },
+        {
+          "id": "p96-e",
+          "result": "PASS: equation coefficients 60,68,384 and time3 jointly earn one point on first valid try"
+        },
+        {
+          "id": "ps96-3",
+          "result": "PASS: normalized coefficient/exponent answer earns one point total"
+        }
+      ],
+      "persistence": [
+        {
+          "id": "p96-d",
+          "result": "PASS: draft x=-2/y=-4, notes, hint, one attempt, navigation restored after reload"
+        },
+        {
+          "id": "p96-c",
+          "result": "PASS: unsent graph choice B, note and hint retained across navigation; full credit try remains"
+        },
+        {
+          "id": "p96-c",
+          "result": "PASS: unsent graph draft and hint restored after reload without attempt consumption"
+        }
+      ],
+      "graph_rendering": [
+        {
+          "coordinateLabels": [
+            {
+              "text": "(0,3)",
+              "x": "138",
+              "y": "93"
+            },
+            {
+              "text": "(3,6)",
+              "x": "209",
+              "y": "40"
+            },
+            {
+              "text": "(6,3)",
+              "x": "255",
+              "y": "127"
+            },
+            {
+              "text": "(3,0)",
+              "x": "209",
+              "y": "181"
+            },
+            {
+              "text": "(3,3)",
+              "x": "207",
+              "y": "97"
+            }
+          ],
+          "description": "Circle with center (3,3), radius 3; labeled points (0,3), (3,6), (6,3), (3,0), (3,3)."
+        },
+        {
+          "coordinateLabels": [
+            {
+              "text": "(0,0)",
+              "x": "138",
+              "y": "147"
+            },
+            {
+              "text": "(3,3)",
+              "x": "209",
+              "y": "94"
+            },
+            {
+              "text": "(6,0)",
+              "x": "255",
+              "y": "181"
+            },
+            {
+              "text": "(3,−3)",
+              "x": "209",
+              "y": "235"
+            },
+            {
+              "text": "(3,0)",
+              "x": "207",
+              "y": "151"
+            }
+          ],
+          "description": "Circle with center (3,0), radius 3; labeled points (0,0), (3,3), (6,0), (3,−3), (3,0)."
+        },
+        {
+          "coordinateLabels": [
+            {
+              "text": "(−3,0)",
+              "x": "84",
+              "y": "147"
+            },
+            {
+              "text": "(0,3)",
+              "x": "155",
+              "y": "94"
+            },
+            {
+              "text": "(3,0)",
+              "x": "201",
+              "y": "181"
+            },
+            {
+              "text": "(0,−3)",
+              "x": "155",
+              "y": "235"
+            },
+            {
+              "text": "(0,0)",
+              "x": "153",
+              "y": "151"
+            }
+          ],
+          "description": "Circle with center (0,0), radius 3; labeled points (−3,0), (0,3), (3,0), (0,−3), (0,0)."
+        },
+        {
+          "coordinateLabels": [
+            {
+              "text": "(−6,0)",
+              "x": "44",
+              "y": "147"
+            },
+            {
+              "text": "(0,6)",
+              "x": "155",
+              "y": "40"
+            },
+            {
+              "text": "(6,0)",
+              "x": "255",
+              "y": "181"
+            },
+            {
+              "text": "(0,−6)",
+              "x": "155",
+              "y": "289"
+            },
+            {
+              "text": "(0,0)",
+              "x": "153",
+              "y": "151"
+            }
+          ],
+          "description": "Circle with center (0,0), radius 6; labeled points (−6,0), (0,6), (6,0), (0,−6), (0,0)."
+        },
+        {
+          "coordinateLabels": [
+            {
+              "text": "(−√3,0)",
+              "x": "106.823",
+              "y": "147"
+            },
+            {
+              "text": "(0,√3)",
+              "x": "155",
+              "y": "116.823"
+            },
+            {
+              "text": "(√3,0)",
+              "x": "178.177",
+              "y": "181"
+            },
+            {
+              "text": "(0,−√3)",
+              "x": "155",
+              "y": "212.177"
+            },
+            {
+              "text": "(0,0)",
+              "x": "153",
+              "y": "151"
+            }
+          ],
+          "description": "Circle with center (0,0), radius √3; labeled points (−√3,0), (0,√3), (√3,0), (0,−√3), (0,0)."
+        }
+      ],
+      "reference": "PASS: all six reference cards rendered",
+      "console_errors_or_warnings": [],
+      "result": "PASS",
+      "scope": "Isolated temporary foundation copy, all eight topic screens and their steps, all27 exercises, all15 source figures, representative choice/numeric/application/scientific grading, invalid response behavior, notes/hints/attempt/draft restoration. No production integration or full course regression.",
+      "navigation_without_attempts": "PASS: visited eight topics and all27 exercises before first submission; 0 solved and0 points",
+      "source_photographs_displayed": false,
+      "runtime_sha256": "1de9883866a51d03b32991b4e63c8765a7f6e3334fc0282a110f21d4992e9b91",
+      "prior_version_validation": true,
+      "carry_forward_basis": "Original comprehensive browser checks apply to the recorded prior runtime hash. All instructional/question content and SVGs are unchanged by exact comparison; this update separately checks Source page475 on the four affected exercise screens."
+    },
+    "full_browser_course_regression_performed": false,
+    "production_course_integration_performed": false,
+    "protected_reference_integrity": {
+      "result": "PASS",
+      "protected_existing_files": 55,
+      "changed_files": [],
+      "method": "SHA-256 comparison against pre-update baseline; only the two Lesson96 package artifacts may change."
+    },
+    "scope": "Current metadata update records User verification of IMG_4414 as page475. Syntax, actual-engine registration/structure/all27 grading/scoring/state checks, all27 independent math checks, all15 figure models/geometry and complete content equivalence checks rerun. Focused isolated browser checks confirm page475 on Problem Set19–22. Original comprehensive source/content/SVG/browser review evidence retains its prior runtime hash and is carried forward because instructional content is unchanged. No production loader modification or full course regression.",
+    "metadata_confirmation_validation": {
+      "result": "PASS",
+      "authority": {
+        "photo": "IMG_4414.jpeg",
+        "page": 475,
+        "authority": "User",
+        "evidence_type": "Explicit User verification in this conversation",
+        "date_ct": "2026-10-15",
+        "recorded_time_ct": "10:15:33 AM CDT",
+        "timezone": "America/Chicago",
+        "statement": "User verifies that the page number for Photo 4414 is Page 475",
+        "visual_footer_observation": "The footer remains outside the photograph; page475 is attributed to User confirmation, not photo inspection or sequential inference."
+      },
+      "current_runtime_sha256": "ca47a163659d828e5ee788a5a1de1a5b2bc1c756d70460401e650b55938b2ea3",
+      "previous_runtime_sha256": "1de9883866a51d03b32991b4e63c8765a7f6e3334fc0282a110f21d4992e9b91",
+      "question_content_equivalence": "PASS: all27 prompts, choices, answers, guides, hints, solutions, figures, topic references and response types equal previous version after excluding source-location metadata",
+      "topic_and_reference_equivalence": "PASS: all topics, sections, hero text and reference material unchanged",
+      "affected_question_ids": [
+        "ps96-19",
+        "ps96-20",
+        "ps96-21",
+        "ps96-22"
+      ],
+      "source_status": "SOURCE_VERIFIED",
+      "unresolved_item_count": 0,
+      "additional_photos_required": false,
+      "revalidated_date_ct": "2026-10-15",
+      "revalidated_time_ct": "10:15:33 AM CDT"
+    },
+    "browser_metadata_validation": {
+      "result": "PASS",
+      "scope": "Focused browser check of Source page475 display for all four affected exercises in an isolated temporary course copy; no submissions or full course regression.",
+      "questions": [
+        {
+          "id": "ps96-19",
+          "page": 475,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-20",
+          "page": 475,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-21",
+          "page": 475,
+          "result": "PASS"
+        },
+        {
+          "id": "ps96-22",
+          "page": 475,
+          "result": "PASS"
+        }
+      ],
+      "console_errors_or_warnings": [],
+      "runtime_sha256": "ca47a163659d828e5ee788a5a1de1a5b2bc1c756d70460401e650b55938b2ea3"
+    }
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "lesson_096_js_sha256": "ca47a163659d828e5ee788a5a1de1a5b2bc1c756d70460401e650b55938b2ea3"
+  }
+}
