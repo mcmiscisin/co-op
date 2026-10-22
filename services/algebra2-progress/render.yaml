@@ -36,5 +36,7 @@ services:
         sync: false
       - key: INSTRUCTOR_USERNAME
         sync: false
-      - key: INSTRUCTOR_PASSWORD_HASH
+      - key: INSTRUCTOR_SETUP_TOKEN_HASH
+        sync: false
+      - key: INSTRUCTOR_SETUP_EXPIRES_AT
         sync: false

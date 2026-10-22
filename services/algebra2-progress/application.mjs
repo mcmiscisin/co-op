@@ -3,7 +3,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { appDirectory, validateProgress } from './catalog.mjs';
-import { token, tokenHash, validPasswordHash, verifyPassword, LoginLimiter } from './auth.mjs';
+import { token, tokenHash, passwordHash, validPasswordHash, verifyPassword, LoginLimiter } from './auth.mjs';
+import { setupHtml, setupScript } from './instructor-setup.mjs';
 
 const clone = value => structuredClone(value);
 const emptyAccounts = () => ({ schema: 'algebra2-accounts-v1', students: {}, enrollments: {}, sessions: {} });
@@ -18,10 +19,10 @@ function cookies(request) {
   for (const item of (request.headers.cookie || '').split(';')) { const index = item.indexOf('='); if (index > 0) result[item.slice(0, index).trim()] = item.slice(index + 1).trim(); }
   return result;
 }
-async function body(request) {
+async function body(request, limit = 5_000_000) {
   if (!/^application\/json(?:;|$)/i.test(request.headers['content-type'] || '')) throw fail(415, 'Send JSON content.');
   let length = 0; const chunks = [];
-  for await (const chunk of request) { length += chunk.length; if (length > 5_000_000) throw fail(413, 'Progress exceeds the 5 MB request limit.'); chunks.push(chunk); }
+  for await (const chunk of request) { length += chunk.length; if (length > limit) throw fail(413, 'Request exceeds the allowed size.'); chunks.push(chunk); }
   try {
     const value = JSON.parse(Buffer.concat(chunks).toString('utf8'));
     if (!value || typeof value !== 'object' || Array.isArray(value)) throw Error();
@@ -30,7 +31,9 @@ async function body(request) {
 }
 
 export function createApplication({ store, catalog, config }) {
-  if (!validPasswordHash(config.passwordHash) || !config.instructorUsername) throw Error('Configure an instructor username and generated password hash before starting.');
+  const fixedPassword = validPasswordHash(config.passwordHash);
+  const setupConfigured = !config.passwordHash && /^[a-f0-9]{64}$/.test(config.setupTokenHash || '') && Number.isFinite(Date.parse(config.setupExpiresAt));
+  if ((!fixedPassword && !setupConfigured) || typeof config.instructorUsername !== 'string' || !config.instructorUsername || config.instructorUsername.length > 80) throw Error('Configure an instructor username and generated password hash, or a private expiring setup link, before starting.');
   const appUrl = new URL(config.publicAppUrl), apiUrl = new URL(config.apiPublicUrl || config.publicAppUrl);
   const production = config.production === true;
   if (production && (appUrl.protocol !== 'https:' || apiUrl.protocol !== 'https:')) throw Error('Production requires HTTPS application and API URLs.');
@@ -39,10 +42,24 @@ export function createApplication({ store, catalog, config }) {
   const sameSite = config.sameSite || 'Lax';
   if (!['Lax', 'Strict', 'None'].includes(sameSite) || (!production && sameSite === 'None')) throw Error('Invalid session cookie configuration.');
   const limiter = new LoginLimiter(), enrollmentLimiter = new LoginLimiter({ attempts: 60 });
+  const setupLimiter = new LoginLimiter({ attempts: 60 });
   const instanceId = crypto.randomUUID(), startedAt = new Date().toISOString();
   let passwordChecks = 0;
   const sessionCookie = (value, maxAge) => `${cookieName}=${value}; HttpOnly; Path=/; SameSite=${sameSite}; Max-Age=${maxAge}${production ? '; Secure' : ''}`;
   function json(response, status, value, headers = {}) { response.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8', ...headers }); response.end(JSON.stringify(value)); }
+  async function instructorRecord() {
+    const accounts = await store.read('accounts.json', emptyAccounts());
+    if (accounts.instructor) {
+      if (!validPasswordHash(accounts.instructor.passwordHash) || typeof accounts.instructor.username !== 'string') throw fail(503, 'Instructor configuration requires repair.');
+      return accounts.instructor;
+    }
+    return fixedPassword ? { username: config.instructorUsername, passwordHash: config.passwordHash } : null;
+  }
+  async function requireSetup(request, secret) {
+    if (!setupLimiter.take(request.socket.remoteAddress || 'unknown')) throw fail(429, 'Too many setup requests. Please wait before retrying.');
+    if (!setupConfigured || Date.parse(config.setupExpiresAt) <= Date.now() || typeof secret !== 'string' || !/^[\w-]{43}$/.test(secret) || !crypto.timingSafeEqual(Buffer.from(tokenHash(secret), 'hex'), Buffer.from(config.setupTokenHash, 'hex'))) throw fail(410, 'This setup link is unavailable or expired. Request a replacement link.');
+    if (await instructorRecord()) throw fail(410, 'Instructor setup is already complete. Use instructor sign-in.');
+  }
   async function identify(request) {
     const secret = cookies(request)[cookieName];
     if (!secret || !/^[\w-]{43}$/.test(secret)) return null;
@@ -69,6 +86,27 @@ export function createApplication({ store, catalog, config }) {
       if (request.method === 'OPTIONS') { response.writeHead(204, { 'Access-Control-Allow-Methods': 'GET, POST, PUT, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Max-Age': '600' }); response.end(); return; }
       if (['POST', 'PUT'].includes(request.method) && !allowedOrigins.has(origin)) throw fail(403, 'A valid application origin is required.');
       if (route === '/api/health' && request.method === 'GET') return json(response, 200, { status: 'ok', version: '0.3.0', instanceId, startedAt, gradePolicy: catalog.engine.gradePolicy });
+      if ((route === '/instructor/setup' || route === '/instructor/setup.js') && request.method === 'GET') {
+        response.writeHead(200, { 'Content-Type': route.endsWith('.js') ? 'text/javascript; charset=utf-8' : 'text/html; charset=utf-8' });
+        return response.end(route.endsWith('.js') ? setupScript : setupHtml);
+      }
+      if (route === '/api/instructor/setup/status' && request.method === 'POST') {
+        const data = await body(request, 4096); await requireSetup(request, data.token);
+        return json(response, 200, { available: true, username: config.instructorUsername });
+      }
+      if (route === '/api/instructor/setup' && request.method === 'POST') {
+        const data = await body(request, 4096); await requireSetup(request, data.token);
+        if (typeof data.password !== 'string' || data.password.length < 15 || data.password.length > 256 || data.password !== data.confirmation) throw fail(400, 'Enter matching passphrases of 15–256 characters. Spaces are allowed.');
+        if (passwordChecks >= 2) throw fail(429, 'Another sign-in or setup is being checked. Please retry.');
+        let encoded; passwordChecks++;
+        try { encoded = await passwordHash(data.password); } finally { passwordChecks--; }
+        await store.update('accounts.json', emptyAccounts(), accounts => {
+          if (accounts.instructor) throw fail(410, 'Instructor setup is already complete. Use instructor sign-in.');
+          if (Date.parse(config.setupExpiresAt) <= Date.now()) throw fail(410, 'This setup link has expired. Request a replacement link.');
+          accounts.instructor = { username: config.instructorUsername, passwordHash: encoded, createdAt: new Date().toISOString() };
+        });
+        return json(response, 201, { initialized: true, signInUrl: '/' });
+      }
       if (route === '/api/session' && request.method === 'GET') {
         const session = await identify(request);
         return json(response, 200, session ? { authenticated: true, role: session.role, student: session.student && { id: session.student.id, name: session.student.name } } : { authenticated: false });
@@ -77,9 +115,11 @@ export function createApplication({ store, catalog, config }) {
         const data = await body(request), username = String(data.username || '').slice(0, 80), ip = request.socket.remoteAddress || 'unknown';
         const allowedIp = limiter.take(`ip:${ip}`), allowedUser = limiter.take(`user:${username.toLowerCase()}`);
         if (!allowedIp || !allowedUser || passwordChecks >= 2) throw fail(429, 'Too many sign-in attempts. Please wait before retrying.');
+        const instructor = await instructorRecord();
+        if (!instructor) throw fail(503, 'Complete private instructor setup before signing in.');
         let valid; passwordChecks++;
-        try { valid = await verifyPassword(data.password, config.passwordHash); } finally { passwordChecks--; }
-        if (!valid || username !== config.instructorUsername) throw fail(401, 'Incorrect instructor username or passphrase.');
+        try { valid = await verifyPassword(data.password, instructor.passwordHash); } finally { passwordChecks--; }
+        if (!valid || username !== instructor.username) throw fail(401, 'Incorrect instructor username or passphrase.');
         const secret = token(), expiresAt = Date.now() + 8 * 60 * 60 * 1000;
         await store.update('accounts.json', emptyAccounts(), accounts => { prune(accounts); accounts.sessions[tokenHash(secret)] = { role: 'instructor', expiresAt }; });
         return json(response, 200, { authenticated: true, role: 'instructor' }, { 'Set-Cookie': sessionCookie(secret, 8 * 60 * 60) });

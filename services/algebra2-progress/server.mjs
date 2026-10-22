@@ -23,6 +23,8 @@ export async function start(environment = process.env) {
     apiPublicUrl: environment.API_PUBLIC_URL || publicUrl,
     instructorUsername: environment.INSTRUCTOR_USERNAME,
     passwordHash: environment.INSTRUCTOR_PASSWORD_HASH,
+    setupTokenHash: environment.INSTRUCTOR_SETUP_TOKEN_HASH,
+    setupExpiresAt: environment.INSTRUCTOR_SETUP_EXPIRES_AT,
     sameSite: environment.SESSION_SAME_SITE || 'Lax'
   } });
   await store.ready();
