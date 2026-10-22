@@ -1,0 +1,40 @@
+# Approved free preview. No paid disk, database, or paid compute is requested.
+services:
+  - type: web
+    name: algebra2-progress-preview
+    runtime: node
+    plan: free
+    region: ohio
+    repo: https://github.com/mcmiscisin/co-op
+    branch: algebra2-preview
+    autoDeployTrigger: "off"
+    buildCommand: node services/algebra2-progress/build-check.mjs
+    startCommand: node services/algebra2-progress/server.mjs
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 24.19.0
+      - key: NODE_ENV
+        value: production
+      - key: STORAGE_DRIVER
+        value: github
+      - key: GITHUB_CODE_REPOSITORY
+        value: mcmiscisin/co-op
+      - key: GITHUB_DATA_OWNER
+        value: mcmiscisin
+      - key: GITHUB_DATA_BRANCH
+        value: main
+      - key: SESSION_SAME_SITE
+        value: Lax
+      - key: GITHUB_DATA_REPOSITORY
+        sync: false
+      - key: GITHUB_APP_ID
+        sync: false
+      - key: GITHUB_APP_INSTALLATION_ID
+        sync: false
+      - key: GITHUB_APP_PRIVATE_KEY
+        sync: false
+      - key: INSTRUCTOR_USERNAME
+        sync: false
+      - key: INSTRUCTOR_PASSWORD_HASH
+        sync: false

@@ -1,0 +1,12 @@
+{
+  "name": "algebra2-progress-preview",
+  "private": true,
+  "type": "module",
+  "version": "0.3.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}
