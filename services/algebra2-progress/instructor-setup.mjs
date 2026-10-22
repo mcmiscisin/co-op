@@ -21,10 +21,13 @@ export const setupScript = `'use strict';
   history.replaceState(null, '', location.pathname);
   const notify = (text, error = false) => { message.textContent = text; message.dataset.error = String(error); };
   async function send(route, data) {
-    const response = await fetch(route, { method: 'POST', credentials: 'same-origin', cache: 'no-store', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data), signal: AbortSignal.timeout(120000) });
-    const result = await response.json();
-    if (!response.ok) { const error = Error(result.error || 'Setup could not be completed. Please retry.'); error.status = response.status; throw error; }
-    return result;
+    const controller = new AbortController(), timer = setTimeout(() => controller.abort(), 120000);
+    try {
+      const response = await fetch(route, { method: 'POST', credentials: 'same-origin', cache: 'no-store', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data), signal: controller.signal });
+      const result = await response.json();
+      if (!response.ok) { const error = Error(result.error || 'Setup could not be completed. Please retry.'); error.status = response.status; throw error; }
+      return result;
+    } finally { clearTimeout(timer); }
   }
   document.getElementById('visibility').addEventListener('click', event => {
     const show = password.type === 'password'; password.type = confirmation.type = show ? 'text' : 'password';
@@ -38,7 +41,7 @@ export const setupScript = `'use strict';
       await send('/api/instructor/setup', { token: secret, password: password.value, confirmation: confirmation.value });
       secret = ''; password.value = confirmation.value = ''; form.hidden = true; message.hidden = true; document.getElementById('complete').hidden = false;
     } catch (error) {
-      notify(error.name === 'TimeoutError' ? 'The service is taking longer to respond. Retry; if setup already completed, open instructor sign-in.' : error.message, true);
+      notify(error.name === 'AbortError' ? 'The service is taking longer to respond. Retry; if setup already completed, open instructor sign-in.' : error.message, true);
       if (error.status === 410) { form.hidden = true; secret = ''; password.value = confirmation.value = ''; }
     } finally { save.disabled = false; password.readOnly = confirmation.readOnly = false; }
   });
