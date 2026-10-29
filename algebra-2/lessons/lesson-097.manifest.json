@@ -1,0 +1,5868 @@
+{
+  "schema": "algebra2-lesson-manifest-v1",
+  "lesson_id": "lesson-097",
+  "lesson_number": 97,
+  "title": "Graphing Systems",
+  "chapter": {
+    "number": 13,
+    "title": "Systems of Equations"
+  },
+  "package_file": "lesson-097.js",
+  "content_version": "course-package-1.0",
+  "source_revision": "lesson97-2026-10-15-photos-user-page482",
+  "status": "SOURCE_VERIFIED",
+  "source_verification": {
+    "basis": "All13 User-supplied Lesson97 photographs are authoritative for textbook mathematics. User explicitly confirms IMG_4427 is page482 and its faded graphs are reverse-page bleed-through; both confirmations supplement the photographs. Foundation and prior lessons provide implementation conventions only.",
+    "pages": [
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482
+    ],
+    "visible_pages": [
+      476,
+      477,
+      478,
+      479,
+      480,
+      481
+    ],
+    "page_range": "476–482; footers476–481 observed; page482 explicitly confirmed by User",
+    "source_files": [
+      "IMG_4415.jpeg",
+      "IMG_4416.jpeg",
+      "IMG_4417.jpeg",
+      "IMG_4418.jpeg",
+      "IMG_4419.jpeg",
+      "IMG_4420.jpeg",
+      "IMG_4421.jpeg",
+      "IMG_4422.jpeg",
+      "IMG_4423.jpeg",
+      "IMG_4424.jpeg",
+      "IMG_4425.jpeg",
+      "IMG_4426.jpeg",
+      "IMG_4427.jpeg"
+    ],
+    "source_inventory": [
+      {
+        "filename": "IMG_4415.jpeg",
+        "bytes": 3068344,
+        "sha256": "7cc4a285d4b5da7ad225546ec9d9575f1794dd52fb2c2f6728056537542fc5c7",
+        "page": 476,
+        "page_authority": "Overlapping original IMG_4416.jpeg has visible footer",
+        "overlap": "IMG_4416.jpeg",
+        "stage1_literal_document_observations": "Top chapter/title, introduction, system y=2x+1 and y-x=2, combined graph, solution interpretation; bottom/single graph partly cropped.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      },
+      {
+        "filename": "IMG_4416.jpeg",
+        "bytes": 3544637,
+        "sha256": "e8e25e79a3e11c11fb753fce59fc9eb53e1a2f67a89ba8153206a4b11450daf9",
+        "page": 476,
+        "page_authority": "Visible footer in original",
+        "overlap": "IMG_4415.jpeg",
+        "stage1_literal_document_observations": "Lower page with complete single-line graph, slope discussion, y-x=2 rewrite, graph-precision warning, Systems of Parallel Lines heading; footer476 visible.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      },
+      {
+        "filename": "IMG_4417.jpeg",
+        "bytes": 3402377,
+        "sha256": "d60b2d22abe02ecc0643a713ae28d15d23992ef37959c1de948534cca82dc947",
+        "page": 477,
+        "page_authority": "Overlapping original IMG_4418.jpeg has visible footer",
+        "overlap": "IMG_4418.jpeg",
+        "stage1_literal_document_observations": "Top parallel-system example and contradiction; Systems of the Same Line example and identity; lower figures cropped.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      },
+      {
+        "filename": "IMG_4418.jpeg",
+        "bytes": 3287308,
+        "sha256": "676b40e2f3ef281fe477912c3731b8140004869696cd893b6f54b6edbd98a9fb",
+        "page": 477,
+        "page_authority": "Visible footer in original",
+        "overlap": "IMG_4417.jpeg",
+        "stage1_literal_document_observations": "Lower complete parallel and coincident graphs, explanations; continuation sentence; footer477 visible.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      },
+      {
+        "filename": "IMG_4419.jpeg",
+        "bytes": 2888751,
+        "sha256": "94f9b54ef881defbfcc8a4461668519a593e99caf48700af1ef123fef137f9bf",
+        "page": 478,
+        "page_authority": "Overlapping original IMG_4420.jpeg has visible footer",
+        "overlap": "IMG_4420.jpeg",
+        "stage1_literal_document_observations": "Top continuation, Three Kinds of Linear Systems; Practice97 a,b,c stem and partial choices.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      },
+      {
+        "filename": "IMG_4420.jpeg",
+        "bytes": 3182486,
+        "sha256": "e47dca0ac9b78c55f8e261da0dd2690ac2fadc700bcc2c49c6456268c730ccc4",
+        "page": 478,
+        "page_authority": "Visible footer in original",
+        "overlap": "IMG_4419.jpeg",
+        "stage1_literal_document_observations": "Lower overlap a,b,c; all c A-E complete; footer478 visible.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      },
+      {
+        "filename": "IMG_4421.jpeg",
+        "bytes": 3048718,
+        "sha256": "0475a4e2714e9e367e7510cfc871be4f51f5c87ff71473cf97cfef87167d82ca",
+        "page": 479,
+        "page_authority": "Overlapping original IMG_4422.jpeg has visible footer",
+        "overlap": "IMG_4422.jpeg",
+        "stage1_literal_document_observations": "Top all d A-E graphs, e word problem, Problem Set97 heading; lower tasks cropped.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      },
+      {
+        "filename": "IMG_4422.jpeg",
+        "bytes": 3236948,
+        "sha256": "402ffe8a99770ba67fb14bed7132feeca58476d72d7dff7512d10a10ddb9497d",
+        "page": 479,
+        "page_authority": "Visible footer in original",
+        "overlap": "IMG_4421.jpeg",
+        "stage1_literal_document_observations": "Lower overlap d/e; Problem Set1-7 complete; footer479 visible.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      },
+      {
+        "filename": "IMG_4423.jpeg",
+        "bytes": 3141910,
+        "sha256": "e483fd1ddd7207b13a76f173ca8d2f3beb33eedf41d044e421435ea8523fbd08",
+        "page": 480,
+        "page_authority": "Overlapping original IMG_4424.jpeg has visible footer",
+        "overlap": "IMG_4424.jpeg",
+        "stage1_literal_document_observations": "Top PS8-10,13-16 complete;11 and17 partly cropped.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      },
+      {
+        "filename": "IMG_4424.jpeg",
+        "bytes": 3446024,
+        "sha256": "ca6ab84bb57152dd40c3dd1f67b18371fb9f2b2a8cf4a52825632d61cc7a3f20",
+        "page": 480,
+        "page_authority": "Visible footer in original",
+        "overlap": "IMG_4423.jpeg",
+        "stage1_literal_document_observations": "Lower overlap10,11,14-17;12,17,18,19 complete; footer480 visible.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      },
+      {
+        "filename": "IMG_4425.jpeg",
+        "bytes": 3002526,
+        "sha256": "3a11257f541aa51e3b1a0e5c1fee6c86dc43c9f2fa999c049b093c8e232d862d",
+        "page": 481,
+        "page_authority": "Overlapping original IMG_4426.jpeg has visible footer",
+        "overlap": "IMG_4426.jpeg",
+        "stage1_literal_document_observations": "Top all PS20 A-E;21 stem and upper graphs partial.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      },
+      {
+        "filename": "IMG_4426.jpeg",
+        "bytes": 3312667,
+        "sha256": "57a6edbc07184373251f0dc462ed2cccd33464ac42e626e5b5db252996e81840",
+        "page": 481,
+        "page_authority": "Visible footer in original",
+        "overlap": "IMG_4425.jpeg",
+        "stage1_literal_document_observations": "Lower overlaps20 D/E; all21 A-E complete; footer481 visible.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      },
+      {
+        "filename": "IMG_4427.jpeg",
+        "bytes": 2802773,
+        "sha256": "93162959088204ec7000332b3f698ea0df27e428241ce6e3c7baa8372cc0088b",
+        "page": 482,
+        "page_authority": "User confirmation; footer not visible",
+        "overlap": null,
+        "stage1_literal_document_observations": "Chapter header, translate-then-solve instruction, complete22; no footer; faded reverse graphs excluded by User authority.",
+        "stage2_curriculum_interpretation": "Readable orientation established; source tasks/choices/equations, printed prior-lesson references and practice links identified before answers. Source graph markings distinguished from angles and reverse-page bleed-through.",
+        "stage3_relationship_review": "All overlapping coverage reconciled; instructions, equations, graph labels, ticks and shapes checked together; independent calculations follow source transcription.",
+        "review_status": "COMPLETE",
+        "stored_dimensions": [
+          4032,
+          3024
+        ],
+        "exif_orientation": 3,
+        "readable_dimensions": [
+          4032,
+          3024
+        ],
+        "orientation_review": "EXIF3 requires180-degree display correction;tool views and transposed focused crops are readable upright."
+      }
+    ],
+    "verified_date_ct": "2026-10-15",
+    "verified_time_ct": "10:46:50 AM CDT",
+    "timezone": "America/Chicago",
+    "page_number_confirmation": {
+      "photo": "IMG_4427.jpeg",
+      "page": 482,
+      "authority": "User",
+      "date_ct": "2026-10-15",
+      "basis": "Explicit confirmation in the Lesson97 request; footer outside photograph; not inferred from sequence"
+    },
+    "bleed_through_confirmation": {
+      "photo": "IMG_4427.jpeg",
+      "authority": "User",
+      "date_ct": "2026-10-15",
+      "basis": "Faded graphs belong to the reverse side and are excluded from lesson information"
+    },
+    "all_exercise_mathematics_resolved": true,
+    "all_instructional_mathematics_resolved": true,
+    "all_source_critical_fields_resolved": true,
+    "all_bibliographic_metadata_resolved": true,
+    "uncertain_items": [],
+    "source_discrepancies": [],
+    "additional_photos_required": false,
+    "source_photographs_embedded_in_student_interface": false,
+    "image_evaluation": {
+      "status": "PASS",
+      "stages": [
+        "Document orientation and regions, literal observations, original-resolution focused crops and overlap reconciliation",
+        "Curriculum interpretation of tasks, notation, source labels and marked tick positions",
+        "Mathematical relationships, independently derived answers, native models and implementation comparison"
+      ],
+      "orientation": "All13 images stored4032×3024 with EXIF3; upright inspection after180-degree correction.",
+      "foreground_rule": "20 exercise graph candidates and4 instructional graphs only. Reverse-page figures, including all faded graphs in IMG_4427, are excluded.",
+      "independent_source_review": "All 13 originals and focused source crops inspected before any implementation or proposed answers were supplied. No implementation inspected. This temporary record only.",
+      "checks": [
+        "All13 originals visually inspected with upright orientation.",
+        "Original-resolution focused graph/expression crops inspected.",
+        "Source transcription precedes independent solutions;no implementation inspected.",
+        "All40 expression candidates checked by exact polynomial/rational cross multiplication.",
+        "All5 formula17 candidates checked for isolation/equivalence/domains.",
+        "All20 graph candidates compared with independent stem solutions.",
+        "34 native line models checked by exact rational substitution.",
+        "System/equation candidates substituted into originals with exact fractions.",
+        "Source hashes distinct; originals read-only.",
+        "Implementation/runtime/browser checks not part of this source-only record."
+      ]
+    },
+    "instructional_sections": [
+      {
+        "title": "Graphing systems on the same coordinate plane",
+        "pages": [
+          476
+        ],
+        "concepts": [
+          "Graph each equation separately on one coordinate plane.",
+          "Common intersection satisfies both equations.",
+          "Use slope-intercept form, y-intercept and rise/run."
+        ],
+        "example": [
+          "y=2x+1",
+          "y-x=2"
+        ],
+        "rewritten": [
+          "y=2x+1",
+          "y=x+2"
+        ],
+        "solution": [
+          1,
+          3
+        ]
+      },
+      {
+        "title": "Graphing precision",
+        "pages": [
+          476
+        ],
+        "literal_summary": "It is usually hard to read an exact intersection; the whole-number example is easy. Hypothetical x=2.82396,y=4.8219 illustrates graph-reading limitations.",
+        "instructional_guardrail": "Use algebra to confirm exact graph coordinates; do not state that every graph reading is intrinsically inexact. Hypothetical decimals are not another scored exercise."
+      },
+      {
+        "title": "Systems of Parallel Lines",
+        "pages": [
+          476,
+          477
+        ],
+        "equations": [
+          "y=3x+2",
+          "y=3x-3"
+        ],
+        "algebra": "2=-3 contradiction",
+        "solutions": "none"
+      },
+      {
+        "title": "Systems of the Same Line",
+        "pages": [
+          477,
+          478
+        ],
+        "equations": [
+          "4x+2y=8",
+          "y=-2x+4"
+        ],
+        "algebra": "8=8 identity",
+        "solutions": "Infinitely many: (t,-2t+4) for all real t."
+      },
+      {
+        "title": "Three Kinds of Linear Systems",
+        "pages": [
+          478
+        ],
+        "concepts": [
+          "One crossing gives one solution pair.",
+          "Distinct parallel lines give no solutions; source term inconsistent.",
+          "Coincident graphs give infinitely many solutions; source term dependent."
+        ]
+      }
+    ],
+    "instructional_figure_records": [
+      {
+        "id": "teaching-single",
+        "page": 476,
+        "photos": [
+          "IMG_4415.jpeg",
+          "IMG_4416.jpeg"
+        ],
+        "axes": {
+          "names": [
+            "x",
+            "y"
+          ],
+          "directions": "x positive right; y positive up",
+          "ticks": "Regular unnumbered ticks; unit interpretation supported by printed integer coordinate labels.",
+          "arrows": "Both ends of axes and infinite lines.",
+          "shading": null,
+          "point_style": "Solid dots; no finite endpoints."
+        },
+        "printed_equation_labels": [
+          "y=2x+1"
+        ],
+        "printed_point_labels": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "native_models": [
+          "y=2*x+1"
+        ],
+        "checks": [
+          "Both points satisfy equation; slope(3-1)/(1-0)=2."
+        ]
+      },
+      {
+        "id": "teaching-intersection",
+        "page": 476,
+        "photos": [
+          "IMG_4415.jpeg",
+          "IMG_4416.jpeg"
+        ],
+        "axes": {
+          "names": [
+            "x",
+            "y"
+          ],
+          "directions": "x positive right; y positive up",
+          "ticks": "Regular unnumbered ticks; unit interpretation supported by printed integer coordinate labels.",
+          "arrows": "Both ends of axes and infinite lines.",
+          "shading": null,
+          "point_style": "Solid dots; no finite endpoints."
+        },
+        "original_equations": [
+          "y=2x+1",
+          "y-x=2"
+        ],
+        "printed_equation_labels": [
+          "y=2x+1",
+          "y=x+2"
+        ],
+        "printed_point_labels": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "native_models": [
+          "y=2*x+1",
+          "y=x+2"
+        ],
+        "checks": [
+          "2x+1=x+2 =>x=1,y=3; both intercepts and common point verified."
+        ]
+      },
+      {
+        "id": "teaching-parallel",
+        "page": 477,
+        "photos": [
+          "IMG_4417.jpeg",
+          "IMG_4418.jpeg"
+        ],
+        "axes": {
+          "names": [
+            "x",
+            "y"
+          ],
+          "directions": "x positive right; y positive up",
+          "ticks": "Regular unnumbered ticks; unit interpretation supported by printed integer coordinate labels.",
+          "arrows": "Both ends of axes and infinite lines.",
+          "shading": null,
+          "point_style": "Solid dots; no finite endpoints."
+        },
+        "printed_equation_labels": [
+          "y=3x+2",
+          "y=3x-3"
+        ],
+        "printed_point_labels": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            0,
+            -3
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "native_models": [
+          "y=3*x+2",
+          "y=3*x-3"
+        ],
+        "checks": [
+          "All four labeled points satisfy corresponding line. Equal slopes3, distinct intercepts. 2=-3 contradiction."
+        ]
+      },
+      {
+        "id": "teaching-coincident",
+        "page": 477,
+        "photos": [
+          "IMG_4417.jpeg",
+          "IMG_4418.jpeg"
+        ],
+        "axes": {
+          "names": [
+            "x",
+            "y"
+          ],
+          "directions": "x positive right; y positive up",
+          "ticks": "Regular unnumbered ticks; unit interpretation supported by printed integer coordinate labels.",
+          "arrows": "Both ends of axes and infinite lines.",
+          "shading": null,
+          "point_style": "Solid dots; no finite endpoints."
+        },
+        "printed_equation_labels": [
+          "4x+2y=8",
+          "and",
+          "y=-2x+4"
+        ],
+        "printed_point_labels": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "native_models": [
+          "y=-2*x+4"
+        ],
+        "checks": [
+          "Both labeled points satisfy both equations. Divide first by2:2x+y=4. Substitution gives8=8. All(t,-2t+4) solve both."
+        ]
+      }
+    ],
+    "exercise_verification_record": [
+      {
+        "id": "practice-a",
+        "original_number": "a",
+        "section": "Practice97",
+        "page": 478,
+        "photos": [
+          "IMG_4419.jpeg",
+          "IMG_4420.jpeg"
+        ],
+        "prompt": "Select the factored form of the expression 16a^6b^6-25x^6y^6.",
+        "independent_answer": {
+          "choice": "E",
+          "index": 4,
+          "expression": "(4a^3b^3+5x^3y^3)(4a^3b^3-5x^3y^3)"
+        },
+        "independent_derivation": [
+          "Recognize(4a^3b^3)^2-(5x^3y^3)^2.",
+          "Apply(U+V)(U-V).",
+          "Expand all five candidates; E alone equals target."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 90,
+        "printed_choices": [
+          "(16a^3b^3+25x^3y^3)(16a^3b^3-25x^3y^3)",
+          "(4a^3b^3-5x^3y^3)^2",
+          "(8a^2b^2+12.5x^2y^2)(8a^2b^2-12.5x^2y^2)",
+          "(4a^3b^3+5x^3y^3)^2",
+          "(4a^3b^3+5x^3y^3)(4a^3b^3-5x^3y^3)"
+        ],
+        "candidate_checks": [
+          {
+            "letter": "A",
+            "exact_input_formula": "(16*a**3*b**3+25*x**3*y**3)*(16*a**3*b**3-25*x**3*y**3)",
+            "cross_multiplied_difference_polynomial": "-600*x**6*y**6 + 240*a**6*b**6",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "B",
+            "exact_input_formula": "(4*a**3*b**3-5*x**3*y**3)**2",
+            "cross_multiplied_difference_polynomial": "50*x**6*y**6 + -40*a**3*b**3*x**3*y**3",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "C",
+            "exact_input_formula": "(8*a**2*b**2+Rational(25,2)*x**2*y**2)*(8*a**2*b**2-Rational(25,2)*x**2*y**2)",
+            "cross_multiplied_difference_polynomial": "-625/4*x**4*y**4 + 25*x**6*y**6 + 64*a**4*b**4 + -16*a**6*b**6",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "D",
+            "exact_input_formula": "(4*a**3*b**3+5*x**3*y**3)**2",
+            "cross_multiplied_difference_polynomial": "50*x**6*y**6 + 40*a**3*b**3*x**3*y**3",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "E",
+            "exact_input_formula": "(4*a**3*b**3+5*x**3*y**3)*(4*a**3*b**3-5*x**3*y**3)",
+            "cross_multiplied_difference_polynomial": "0",
+            "generic_equivalence": true
+          }
+        ],
+        "question_id": "p97-a",
+        "topic_id": "algebra-patterns",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "E",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "(4a^3b^3+5x^3y^3)(4a^3b^3-5x^3y^3)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "practice-b",
+        "original_number": "b",
+        "section": "Practice97",
+        "page": 478,
+        "photos": [
+          "IMG_4419.jpeg",
+          "IMG_4420.jpeg"
+        ],
+        "prompt": "Solve the system of equations {y=6x;4x-2y=-4}.",
+        "independent_answer": {
+          "x": "1/2",
+          "y": 3
+        },
+        "independent_derivation": [
+          "4x-2(6x)=-4 =>-8x=-4 =>x=1/2.",
+          "y=6(1/2)=3.",
+          "Check3=6(1/2);4(1/2)-2(3)=-4."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 96,
+        "question_id": "p97-b",
+        "topic_id": "graph-intersection",
+        "runtime_type": "numeric",
+        "required_answer_fields": [
+          {
+            "key": "x",
+            "label": "x",
+            "value": 0.5,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "y",
+            "label": "y",
+            "value": 3,
+            "tolerance": 1e-9
+          }
+        ],
+        "runtime_correct_choice": null,
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "x=1/2; y=3",
+          "method": "exact independent system solution, both original equations verified"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "practice-c",
+        "original_number": "c",
+        "section": "Practice97",
+        "page": 478,
+        "photos": [
+          "IMG_4419.jpeg",
+          "IMG_4420.jpeg"
+        ],
+        "prompt": "Select the graph of the system of equations {y=2x-3;3x+y=7}.",
+        "independent_answer": {
+          "choice": "B",
+          "index": 1,
+          "solution": [
+            2,
+            1
+          ]
+        },
+        "independent_derivation": [
+          "Second line y=-3x+7.",
+          "2x-3=-3x+7 =>5x=10 =>x=2,y=1.",
+          "B alone has correct slopes,intercepts,intersection."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 97,
+        "graph_record": "practice-c",
+        "question_id": "p97-c",
+        "topic_id": "graph-intersection",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "B",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "B: intersection (2,1)",
+          "method": "all five source-derived models, classifications, unique equation-pair match, marked dots, labels and native clipped line endpoints verified"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "practice-d",
+        "original_number": "d",
+        "section": "Practice97",
+        "page": 479,
+        "photos": [
+          "IMG_4421.jpeg",
+          "IMG_4422.jpeg"
+        ],
+        "prompt": "Select the graph of the system of equations {y=x+3;y-x=-1}.",
+        "independent_answer": {
+          "choice": "A",
+          "index": 0,
+          "solution_type": "none"
+        },
+        "independent_derivation": [
+          "Second line y=x-1.",
+          "Slopes1 equal,intercepts3/-1 differ.",
+          "Substitution yields3=-1; A alone matches."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 97,
+        "graph_record": "practice-d",
+        "question_id": "p97-d",
+        "topic_id": "parallel-lines",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "A",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "A: distinct parallel rising lines, no solutions",
+          "method": "all five source-derived models, classifications, unique equation-pair match, marked dots, labels and native clipped line endpoints verified"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "practice-e",
+        "original_number": "e",
+        "section": "Practice97",
+        "page": 479,
+        "photos": [
+          "IMG_4421.jpeg",
+          "IMG_4422.jpeg"
+        ],
+        "prompt": "Translate the word problem below into a system of equations; then solve. Two numbers have a sum of24,and3 times the first number minus the second number is equal to12. What are the two numbers?",
+        "independent_answer": {
+          "variables": "x=first number,y=second number",
+          "system": [
+            "x+y=24",
+            "3x-y=12"
+          ],
+          "x": 9,
+          "y": 15
+        },
+        "independent_derivation": [
+          "Add equations:4x=36, x=9.",
+          "y=24-9=15.",
+          "Check9+15=24;3(9)-15=12."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 94,
+        "question_id": "p97-e",
+        "topic_id": "build-system",
+        "runtime_type": "numeric",
+        "required_answer_fields": [
+          {
+            "key": "A",
+            "label": "A: sum x coefficient",
+            "value": 1,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "B",
+            "label": "B: sum y coefficient",
+            "value": 1,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "C",
+            "label": "C: sum",
+            "value": 24,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "D",
+            "label": "D: difference x coefficient",
+            "value": 3,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "E",
+            "label": "E: difference y coefficient",
+            "value": -1,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "F",
+            "label": "F: weighted difference",
+            "value": 12,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "x",
+            "label": "First number x",
+            "value": 9,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "y",
+            "label": "Second number y",
+            "value": 15,
+            "tolerance": 1e-9
+          }
+        ],
+        "runtime_correct_choice": null,
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "x+y=24; 3x-y=12; x=9; y=15",
+          "method": "exact independent system solution, both original equations verified; all six constructed coefficients/constants verified"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-01",
+        "original_number": 1,
+        "section": "Problem Set97",
+        "page": 479,
+        "photos": [
+          "IMG_4422.jpeg"
+        ],
+        "prompt": "Tell whether each sentence below is True or False. On a graph,the solution to a system of linear equations is represented by the point where the lines intersect.",
+        "independent_answer": true,
+        "independent_derivation": [
+          "A common point satisfies both equations.",
+          "Context is a unique intersection; dependent systems have a common line of solutions."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 97,
+        "question_id": "ps97-1",
+        "topic_id": "graph-intersection",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "A",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "True",
+          "method": "intersection belongs to both lines; single-intersection context, with other cases explained"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-02",
+        "original_number": 2,
+        "section": "Problem Set97",
+        "page": 479,
+        "photos": [
+          "IMG_4422.jpeg"
+        ],
+        "prompt": "Tell whether each sentence below is True or False. A system with equations whose graphs are parallel lines does not have solutions.",
+        "independent_answer": true,
+        "independent_derivation": [
+          "Distinct parallel lines have no common point.",
+          "The lesson separately treats coincident graphs as the same line."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 97,
+        "question_id": "ps97-2",
+        "topic_id": "parallel-lines",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "A",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "True",
+          "method": "source parallel means distinct; distinct parallel lines do not intersect"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-03",
+        "original_number": 3,
+        "section": "Problem Set97",
+        "page": 479,
+        "photos": [
+          "IMG_4422.jpeg"
+        ],
+        "prompt": "Rewrite each number below in scientific notation. 5,000,000,000.",
+        "independent_answer": {
+          "coefficient": 5,
+          "exponent": 9
+        },
+        "independent_derivation": [
+          "Decimal moves nine places left;5×10^9 restores original."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 29,
+        "question_id": "ps97-3",
+        "topic_id": "scientific-notation",
+        "runtime_type": "scientific",
+        "required_answer_fields": [
+          {
+            "key": "coefficient",
+            "label": "Coefficient c",
+            "value": 5,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "exponent",
+            "label": "Exponent n",
+            "value": 9,
+            "tolerance": 1e-9
+          }
+        ],
+        "runtime_correct_choice": null,
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "5e9",
+          "method": "5*10^9 exactly equals5,000,000,000; normalized integer exponent"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-04",
+        "original_number": 4,
+        "section": "Problem Set97",
+        "page": 479,
+        "photos": [
+          "IMG_4422.jpeg"
+        ],
+        "prompt": "Rewrite each number below in scientific notation. 0.0000473.",
+        "independent_answer": {
+          "coefficient": "4.73",
+          "exponent": -5
+        },
+        "independent_derivation": [
+          "Move decimal five places right;4.73×10^-5 restores original."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 29,
+        "question_id": "ps97-4",
+        "topic_id": "scientific-notation",
+        "runtime_type": "scientific",
+        "required_answer_fields": [
+          {
+            "key": "coefficient",
+            "label": "Coefficient c",
+            "value": 4.73,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "exponent",
+            "label": "Exponent n",
+            "value": -5,
+            "tolerance": 1e-9
+          }
+        ],
+        "runtime_correct_choice": null,
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "4.73e-5",
+          "method": "4.73*10^-5 exactly equals0.0000473; normalized integer exponent"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-05",
+        "original_number": 5,
+        "section": "Problem Set97",
+        "page": 479,
+        "photos": [
+          "IMG_4422.jpeg"
+        ],
+        "prompt": "Find the distance between the points(4,-7)and(0,-2)on the coordinate plane.",
+        "independent_answer": {
+          "exact": "sqrt(41)",
+          "approximate": "6.4031242374328487"
+        },
+        "independent_derivation": [
+          "Differences -4 and5.",
+          "d=sqrt((-4)^2+5^2)=sqrt(41).",
+          "Source specifies no decimal precision."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 82,
+        "question_id": "ps97-5",
+        "topic_id": "coordinate-measures",
+        "runtime_type": "numeric",
+        "required_answer_fields": [
+          {
+            "key": "distance",
+            "label": "Distance",
+            "value": 6.4031242374328485,
+            "tolerance": 1e-9
+          }
+        ],
+        "runtime_correct_choice": null,
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "sqrt(41)",
+          "method": "distance formula: sqrt(16+25)=sqrt(41), nonnegative exact radical"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-06",
+        "original_number": 6,
+        "section": "Problem Set97",
+        "page": 479,
+        "photos": [
+          "IMG_4422.jpeg"
+        ],
+        "prompt": "Tell the center and radius of the circle for the equation(x-5)^2+(y-4)^2=81.",
+        "independent_answer": {
+          "center": [
+            5,
+            4
+          ],
+          "radius": 9
+        },
+        "independent_derivation": [
+          "Match(h,k)=(5,4),r^2=81.",
+          "Radius is positive9."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 77,
+        "question_id": "ps97-6",
+        "topic_id": "coordinate-measures",
+        "runtime_type": "numeric",
+        "required_answer_fields": [
+          {
+            "key": "cx",
+            "label": "Center x",
+            "value": 5,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "cy",
+            "label": "Center y",
+            "value": 4,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "radius",
+            "label": "Radius",
+            "value": 9,
+            "tolerance": 1e-9
+          }
+        ],
+        "runtime_correct_choice": null,
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "center (5,4); radius 9",
+          "method": "center from shifted squares; positive sqrt81=9; (14,4) lies on circle"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-07",
+        "original_number": 7,
+        "section": "Problem Set97",
+        "page": 479,
+        "photos": [
+          "IMG_4422.jpeg"
+        ],
+        "prompt": "Select the factored form of xyz+x^2y^2z^2.",
+        "independent_answer": {
+          "choice": "B",
+          "index": 1,
+          "expression": "xyz(1+xyz)"
+        },
+        "independent_derivation": [
+          "Factor common xyz; expand every candidate to verify uniqueness."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 88,
+        "printed_choices": [
+          "x^3y^3z^3",
+          "xyz(1+xyz)",
+          "xyz(1+x^2y^2z^2)",
+          "x^2y^2z^2(xyz+1)",
+          "xyz(xyz+2)"
+        ],
+        "candidate_checks": [
+          {
+            "letter": "A",
+            "exact_input_formula": "x**3*y**3*z**3",
+            "cross_multiplied_difference_polynomial": "-1*x*y*z + -1*x**2*y**2*z**2 + 1*x**3*y**3*z**3",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "B",
+            "exact_input_formula": "x*y*z*(1+x*y*z)",
+            "cross_multiplied_difference_polynomial": "0",
+            "generic_equivalence": true
+          },
+          {
+            "letter": "C",
+            "exact_input_formula": "x*y*z*(1+x**2*y**2*z**2)",
+            "cross_multiplied_difference_polynomial": "-1*x**2*y**2*z**2 + 1*x**3*y**3*z**3",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "D",
+            "exact_input_formula": "x**2*y**2*z**2*(x*y*z+1)",
+            "cross_multiplied_difference_polynomial": "-1*x*y*z + 1*x**3*y**3*z**3",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "E",
+            "exact_input_formula": "x*y*z*(x*y*z+2)",
+            "cross_multiplied_difference_polynomial": "1*x*y*z",
+            "generic_equivalence": false
+          }
+        ],
+        "question_id": "ps97-7",
+        "topic_id": "algebra-patterns",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "B",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "xyz(1+xyz)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-08",
+        "original_number": 8,
+        "section": "Problem Set97",
+        "page": 480,
+        "photos": [
+          "IMG_4423.jpeg"
+        ],
+        "prompt": "Select the factored form of y^2-2yz+z^2.",
+        "independent_answer": {
+          "choice": "A",
+          "index": 0,
+          "expression": "(y-z)^2"
+        },
+        "independent_derivation": [
+          "Perfect square(U-V)^2=U^2-2UV+V^2.",
+          "All candidates expanded."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 89,
+        "printed_choices": [
+          "(y-z)^2",
+          "(y+z)(y-z)",
+          "(y+z)^2",
+          "(y+z)(y+1)",
+          "(y-z)(z-1)"
+        ],
+        "candidate_checks": [
+          {
+            "letter": "A",
+            "exact_input_formula": "(y-z)**2",
+            "cross_multiplied_difference_polynomial": "0",
+            "generic_equivalence": true
+          },
+          {
+            "letter": "B",
+            "exact_input_formula": "(y+z)*(y-z)",
+            "cross_multiplied_difference_polynomial": "-2*z**2 + 2*y*z",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "C",
+            "exact_input_formula": "(y+z)**2",
+            "cross_multiplied_difference_polynomial": "4*y*z",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "D",
+            "exact_input_formula": "(y+z)*(y+1)",
+            "cross_multiplied_difference_polynomial": "1*z + -1*z**2 + 1*y + 3*y*z",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "E",
+            "exact_input_formula": "(y-z)*(z-1)",
+            "cross_multiplied_difference_polynomial": "1*z + -2*z**2 + -1*y + 3*y*z + -1*y**2",
+            "generic_equivalence": false
+          }
+        ],
+        "question_id": "ps97-8",
+        "topic_id": "algebra-patterns",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "A",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "(y-z)^2",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-09",
+        "original_number": 9,
+        "section": "Problem Set97",
+        "page": 480,
+        "photos": [
+          "IMG_4423.jpeg"
+        ],
+        "prompt": "Select the factored form of4g^6h^6-9j^6k^6.",
+        "independent_answer": {
+          "choice": "B",
+          "index": 1,
+          "expression": "(2g^3h^3+3j^3k^3)(2g^3h^3-3j^3k^3)"
+        },
+        "independent_derivation": [
+          "Difference of squares(2g^3h^3)^2-(3j^3k^3)^2.",
+          "All candidates expanded independently."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 90,
+        "printed_practice_link": "(a)",
+        "printed_choices": [
+          "(2g^3h^3+3j^3k^3)^2",
+          "(2g^3h^3+3j^3k^3)(2g^3h^3-3j^3k^3)",
+          "(2g^2h^2+4.5j^2k^2)(2g^2h^2-4.5j^2k^2)",
+          "(2g^3h^3-3j^3k^3)^2",
+          "(4g^3h^3+9j^3k^3)(4g^3h^3-9j^3k^3)"
+        ],
+        "candidate_checks": [
+          {
+            "letter": "A",
+            "exact_input_formula": "(2*g**3*h**3+3*j**3*k**3)**2",
+            "cross_multiplied_difference_polynomial": "18*j**6*k**6 + 12*g**3*h**3*j**3*k**3",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "B",
+            "exact_input_formula": "(2*g**3*h**3+3*j**3*k**3)*(2*g**3*h**3-3*j**3*k**3)",
+            "cross_multiplied_difference_polynomial": "0",
+            "generic_equivalence": true
+          },
+          {
+            "letter": "C",
+            "exact_input_formula": "(2*g**2*h**2+Rational(9,2)*j**2*k**2)*(2*g**2*h**2-Rational(9,2)*j**2*k**2)",
+            "cross_multiplied_difference_polynomial": "-81/4*j**4*k**4 + 9*j**6*k**6 + 4*g**4*h**4 + -4*g**6*h**6",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "D",
+            "exact_input_formula": "(2*g**3*h**3-3*j**3*k**3)**2",
+            "cross_multiplied_difference_polynomial": "18*j**6*k**6 + -12*g**3*h**3*j**3*k**3",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "E",
+            "exact_input_formula": "(4*g**3*h**3+9*j**3*k**3)*(4*g**3*h**3-9*j**3*k**3)",
+            "cross_multiplied_difference_polynomial": "-72*j**6*k**6 + 12*g**6*h**6",
+            "generic_equivalence": false
+          }
+        ],
+        "question_id": "ps97-9",
+        "topic_id": "algebra-patterns",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "B",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "(2g^3h^3+3j^3k^3)(2g^3h^3-3j^3k^3)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-10",
+        "original_number": 10,
+        "section": "Problem Set97",
+        "page": 480,
+        "photos": [
+          "IMG_4423.jpeg",
+          "IMG_4424.jpeg"
+        ],
+        "prompt": "Select the simplified form of -(1/4)x^4y^5+(3/4)x^4y^5.",
+        "independent_answer": {
+          "choice": "B",
+          "index": 1,
+          "expression": "(1/2)x^4y^5"
+        },
+        "independent_derivation": [
+          "Add coefficients -1/4+3/4=1/2; powers stay unchanged.",
+          "All candidates expanded."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 86,
+        "printed_choices": [
+          "(1/2)x^16y^25",
+          "(1/2)x^4y^5",
+          "-(3/16)x^16y^25",
+          "(1/2)x^8y^10",
+          "-(3/16)x^8y^10"
+        ],
+        "candidate_checks": [
+          {
+            "letter": "A",
+            "exact_input_formula": "Rational(1,2)*x**16*y**25",
+            "cross_multiplied_difference_polynomial": "-1/2*x**4*y**5 + 1/2*x**16*y**25",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "B",
+            "exact_input_formula": "Rational(1,2)*x**4*y**5",
+            "cross_multiplied_difference_polynomial": "0",
+            "generic_equivalence": true
+          },
+          {
+            "letter": "C",
+            "exact_input_formula": "-Rational(3,16)*x**16*y**25",
+            "cross_multiplied_difference_polynomial": "-1/2*x**4*y**5 + -3/16*x**16*y**25",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "D",
+            "exact_input_formula": "Rational(1,2)*x**8*y**10",
+            "cross_multiplied_difference_polynomial": "-1/2*x**4*y**5 + 1/2*x**8*y**10",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "E",
+            "exact_input_formula": "-Rational(3,16)*x**8*y**10",
+            "cross_multiplied_difference_polynomial": "-1/2*x**4*y**5 + -3/16*x**8*y**10",
+            "generic_equivalence": false
+          }
+        ],
+        "question_id": "ps97-10",
+        "topic_id": "algebra-patterns",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "B",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "(1/2)x^4y^5",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-11",
+        "original_number": 11,
+        "section": "Problem Set97",
+        "page": 480,
+        "photos": [
+          "IMG_4423.jpeg",
+          "IMG_4424.jpeg"
+        ],
+        "prompt": "Select the simplified form of(j+k)^2.",
+        "independent_answer": {
+          "choice": "A",
+          "index": 0,
+          "expression": "j^2+2jk+k^2"
+        },
+        "independent_derivation": [
+          "Multiply(j+k)(j+k)=j^2+jk+jk+k^2.",
+          "Combine middle terms; all candidates checked."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 89,
+        "printed_choices": [
+          "j^2+2jk+k^2",
+          "j^2+jk+k^2",
+          "j^2-2jk+k^2",
+          "2j+2k",
+          "j^2+k^2"
+        ],
+        "candidate_checks": [
+          {
+            "letter": "A",
+            "exact_input_formula": "j**2+2*j*k+k**2",
+            "cross_multiplied_difference_polynomial": "0",
+            "generic_equivalence": true
+          },
+          {
+            "letter": "B",
+            "exact_input_formula": "j**2+j*k+k**2",
+            "cross_multiplied_difference_polynomial": "-1*j*k",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "C",
+            "exact_input_formula": "j**2-2*j*k+k**2",
+            "cross_multiplied_difference_polynomial": "-4*j*k",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "D",
+            "exact_input_formula": "2*j+2*k",
+            "cross_multiplied_difference_polynomial": "2*k + -1*k**2 + 2*j + -2*j*k + -1*j**2",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "E",
+            "exact_input_formula": "j**2+k**2",
+            "cross_multiplied_difference_polynomial": "-2*j*k",
+            "generic_equivalence": false
+          }
+        ],
+        "question_id": "ps97-11",
+        "topic_id": "algebra-patterns",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "A",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "j^2+2jk+k^2",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-12",
+        "original_number": 12,
+        "section": "Problem Set97",
+        "page": 480,
+        "photos": [
+          "IMG_4424.jpeg"
+        ],
+        "prompt": "Select the simplified form of[(x^2+2ax+a^2)/(x^2y^2)]*[xy^3/(xy+ay)].",
+        "independent_answer": {
+          "choice": "D",
+          "index": 3,
+          "expression": "(x+a)/x"
+        },
+        "independent_derivation": [
+          "Factor numerator(x+a)^2 and second denominator y(x+a).",
+          "Product=((x+a)^2*x*y^3)/(x^2*y^3*(x+a)).",
+          "Cancel nonzero factors to(x+a)/x.",
+          "Check rational equivalence of all five on original domain."
+        ],
+        "domain": "x!=0,y!=0,x+a!=0; retain restrictions after cancellation.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 91,
+        "printed_choices": [
+          "y/(x+a)",
+          "(x^2+2ax+xy^3+a^2)/(x^2y^2+xy+ay)",
+          "(xy+ay)/x",
+          "(x+a)/x",
+          "(x+a)/(xy)"
+        ],
+        "candidate_checks": [
+          {
+            "letter": "A",
+            "exact_input_formula": "y/(x+a)",
+            "cross_multiplied_difference_polynomial": "1*x**3*y**4 + -1*x**4*y**3 + 1*a*x**2*y**4 + -3*a*x**3*y**3 + -3*a**2*x**2*y**3 + -1*a**3*x*y**3",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "B",
+            "exact_input_formula": "(x**2+2*a*x+x*y**3+a**2)/(x**2*y**2+x*y+a*y)",
+            "cross_multiplied_difference_polynomial": "-1*x**4*y**4 + 1*x**4*y**6 + 1*x**5*y**3 + -1*x**5*y**5 + -3*a*x**3*y**4 + 1*a*x**3*y**6 + 3*a*x**4*y**3 + -2*a*x**4*y**5 + -3*a**2*x**2*y**4 + 3*a**2*x**3*y**3 + -1*a**2*x**3*y**5 + -1*a**3*x*y**4 + 1*a**3*x**2*y**3",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "C",
+            "exact_input_formula": "(x*y+a*y)/x",
+            "cross_multiplied_difference_polynomial": "-1*x**4*y**3 + 1*x**4*y**4 + -2*a*x**3*y**3 + 2*a*x**3*y**4 + -1*a**2*x**2*y**3 + 1*a**2*x**2*y**4",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "D",
+            "exact_input_formula": "(x+a)/x",
+            "cross_multiplied_difference_polynomial": "0",
+            "generic_equivalence": true
+          },
+          {
+            "letter": "E",
+            "exact_input_formula": "(x+a)/(x*y)",
+            "cross_multiplied_difference_polynomial": "1*x**4*y**3 + -1*x**4*y**4 + 2*a*x**3*y**3 + -2*a*x**3*y**4 + 1*a**2*x**2*y**3 + -1*a**2*x**2*y**4",
+            "generic_equivalence": false
+          }
+        ],
+        "question_id": "ps97-12",
+        "topic_id": "algebra-patterns",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "D",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "(x+a)/x",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-13",
+        "original_number": 13,
+        "section": "Problem Set97",
+        "page": 480,
+        "photos": [
+          "IMG_4423.jpeg"
+        ],
+        "prompt": "Select the simplified form of x/(10xy^2)+y/(5x^2y).",
+        "independent_answer": {
+          "choice": "A",
+          "index": 0,
+          "expression": "(x^2+2y^2)/(10x^2y^2)"
+        },
+        "independent_derivation": [
+          "LCD10x^2y^2.",
+          "Numerators x*x=x^2 and y*(2y)=2y^2.",
+          "Sum(x^2+2y^2)/(10x^2y^2); all candidates checked."
+        ],
+        "domain": "x!=0,y!=0.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 92,
+        "printed_choices": [
+          "(x^2+2y^2)/(10x^2y^2)",
+          "(2x^2+y^2)/(5x^2y^2)",
+          "(x+2y^2)/(10xy^2)",
+          "(x^2+y^2)/(10x^2y^2)",
+          "(x+y)/(10x^2y^2)"
+        ],
+        "candidate_checks": [
+          {
+            "letter": "A",
+            "exact_input_formula": "(x**2+2*y**2)/(10*x**2*y**2)",
+            "cross_multiplied_difference_polynomial": "0",
+            "generic_equivalence": true
+          },
+          {
+            "letter": "B",
+            "exact_input_formula": "(2*x**2+y**2)/(5*x**2*y**2)",
+            "cross_multiplied_difference_polynomial": "75*x**5*y**3",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "C",
+            "exact_input_formula": "(x+2*y**2)/(10*x*y**2)",
+            "cross_multiplied_difference_polynomial": "-100*x**2*y**5 + 100*x**3*y**5",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "D",
+            "exact_input_formula": "(x**2+y**2)/(10*x**2*y**2)",
+            "cross_multiplied_difference_polynomial": "-50*x**3*y**5",
+            "generic_equivalence": false
+          },
+          {
+            "letter": "E",
+            "exact_input_formula": "(x+y)/(10*x**2*y**2)",
+            "cross_multiplied_difference_polynomial": "50*x**3*y**4 + -100*x**3*y**5 + 50*x**4*y**3 + -50*x**5*y**3",
+            "generic_equivalence": false
+          }
+        ],
+        "question_id": "ps97-13",
+        "topic_id": "algebra-patterns",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "A",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "(x^2+2y^2)/(10x^2y^2)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-14",
+        "original_number": 14,
+        "section": "Problem Set97",
+        "page": 480,
+        "photos": [
+          "IMG_4423.jpeg",
+          "IMG_4424.jpeg"
+        ],
+        "prompt": "Solve each equation below. 1/2+3/(x-1)=1.",
+        "independent_answer": {
+          "solutions": [
+            7
+          ]
+        },
+        "independent_derivation": [
+          "Exclude x=1 before clearing denominators.",
+          "3/(x-1)=1/2 =>6=x-1 =>x=7.",
+          "Check1/2+3/6=1."
+        ],
+        "domain": "Real x!=1; no extraneous candidates.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 20,
+        "question_id": "ps97-14",
+        "topic_id": "formulas-equations",
+        "runtime_type": "numeric",
+        "required_answer_fields": [
+          {
+            "key": "x",
+            "label": "x",
+            "value": 7,
+            "tolerance": 1e-9
+          }
+        ],
+        "runtime_correct_choice": null,
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "x=7",
+          "method": "3/(x-1)=1/2 implies x=7; original denominator x!=1 and original sum checked"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-15",
+        "original_number": 15,
+        "section": "Problem Set97",
+        "page": 480,
+        "photos": [
+          "IMG_4423.jpeg",
+          "IMG_4424.jpeg"
+        ],
+        "prompt": "Solve each equation below. x^2+5x=0.",
+        "independent_answer": {
+          "solutions": [
+            -5,
+            0
+          ]
+        },
+        "independent_derivation": [
+          "Factor x(x+5)=0; x=0 or-5.",
+          "Check both in original.",
+          "Do not divide by x before considering x=0."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 40,
+        "question_id": "ps97-15",
+        "topic_id": "formulas-equations",
+        "runtime_type": "numeric",
+        "required_answer_fields": [
+          {
+            "key": "root1",
+            "label": "Smaller root",
+            "value": -5,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "root2",
+            "label": "Larger root",
+            "value": 0,
+            "tolerance": 1e-9
+          }
+        ],
+        "runtime_correct_choice": null,
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "x=-5,0",
+          "method": "x(x+5)=0, complete two-root solution set in increasing order"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-16",
+        "original_number": 16,
+        "section": "Problem Set97",
+        "page": 480,
+        "photos": [
+          "IMG_4423.jpeg",
+          "IMG_4424.jpeg"
+        ],
+        "prompt": "In the equation A=(1/2)bh,find the value of A when b=10 and h=8.",
+        "independent_answer": {
+          "A": 40
+        },
+        "independent_derivation": [
+          "A=(1/2)*10*8=40.",
+          "Source specifies no units."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 83,
+        "question_id": "ps97-16",
+        "topic_id": "formulas-equations",
+        "runtime_type": "numeric",
+        "required_answer_fields": [
+          {
+            "key": "A",
+            "label": "A",
+            "value": 40,
+            "tolerance": 1e-9
+          }
+        ],
+        "runtime_correct_choice": null,
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "A=40",
+          "method": "exact substitution into A=bh/2"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-17",
+        "original_number": 17,
+        "section": "Problem Set97",
+        "page": 480,
+        "photos": [
+          "IMG_4423.jpeg",
+          "IMG_4424.jpeg"
+        ],
+        "prompt": "Which choice below represents the equation stv-s=av after it has been solved for s?",
+        "independent_answer": {
+          "choice": "E",
+          "index": 4,
+          "expression": "s=av/(tv-1)"
+        },
+        "independent_derivation": [
+          "Factor s(tv-1)=av.",
+          "Divide by tv-1 only if nonzero.",
+          "At tv=1,original requires av=0:all real s if av=0;otherwise none.",
+          "A is an equivalent rearrangement where tv!=0 but is not isolated."
+        ],
+        "domain": "Generic formula requires tv!=1. At tv=1:all s if av=0;no s if av!=0.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 84,
+        "printed_choices": [
+          "s=(av+s)/(tv)",
+          "s=av+tv-1",
+          "s=av/(tv+1)",
+          "s=atv^2+stv",
+          "s=av/(tv-1)"
+        ],
+        "candidate_checks": [
+          {
+            "letter": "A",
+            "finding": "Equivalent if tv!=0,but s remains on RHS;not solved for s."
+          },
+          {
+            "letter": "B",
+            "finding": "Not equivalent: a=v=1,t=2 gives s=2 but original s=1."
+          },
+          {
+            "letter": "C",
+            "finding": "Wrong denominator sign: a=v=1,t=2 gives1/3 instead of1."
+          },
+          {
+            "letter": "D",
+            "finding": "Not isolated or equivalent: a=v=1,t=2,s=1 gives RHS4."
+          },
+          {
+            "letter": "E",
+            "finding": "Unique generally valid isolated formula when tv!=1."
+          }
+        ],
+        "question_id": "ps97-17",
+        "topic_id": "formulas-equations",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "E",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "s=av/(tv-1)",
+          "method": "all five formula candidates checked; E isolates s for tv!=1; tv=1 gives all s if av=0, none otherwise; A still contains s"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-18",
+        "original_number": 18,
+        "section": "Problem Set97",
+        "page": 480,
+        "photos": [
+          "IMG_4424.jpeg"
+        ],
+        "prompt": "Solve each system of equations below. {x+y=5;7x-y=3}.",
+        "independent_answer": {
+          "x": 1,
+          "y": 4
+        },
+        "independent_derivation": [
+          "Add8x=8=>x=1.",
+          "y=4.",
+          "Check1+4=5;7-4=3."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 94,
+        "question_id": "ps97-18",
+        "topic_id": "graph-intersection",
+        "runtime_type": "numeric",
+        "required_answer_fields": [
+          {
+            "key": "x",
+            "label": "x",
+            "value": 1,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "y",
+            "label": "y",
+            "value": 4,
+            "tolerance": 1e-9
+          }
+        ],
+        "runtime_correct_choice": null,
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "x=1; y=4",
+          "method": "exact independent system solution, both original equations verified"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-19",
+        "original_number": 19,
+        "section": "Problem Set97",
+        "page": 480,
+        "photos": [
+          "IMG_4424.jpeg"
+        ],
+        "prompt": "Solve each system of equations below. {y=-6x;9x-2y=7}.",
+        "independent_answer": {
+          "x": "1/3",
+          "y": -2
+        },
+        "independent_derivation": [
+          "Substitute9x-2(-6x)=7=>21x=7=>x=1/3.",
+          "y=-2.",
+          "Check-2=-6(1/3);9(1/3)-2(-2)=7."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 96,
+        "printed_practice_link": "(b)",
+        "question_id": "ps97-19",
+        "topic_id": "graph-intersection",
+        "runtime_type": "numeric",
+        "required_answer_fields": [
+          {
+            "key": "x",
+            "label": "x",
+            "value": 0.3333333333333333,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "y",
+            "label": "y",
+            "value": -2,
+            "tolerance": 1e-9
+          }
+        ],
+        "runtime_correct_choice": null,
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "x=1/3; y=-2",
+          "method": "exact independent system solution, both original equations verified"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-20",
+        "original_number": 20,
+        "section": "Problem Set97",
+        "page": 481,
+        "photos": [
+          "IMG_4425.jpeg",
+          "IMG_4426.jpeg"
+        ],
+        "prompt": "Select the graph of each system of equations below. {y=2x-1;3x+y=4}.",
+        "independent_answer": {
+          "choice": "D",
+          "index": 3,
+          "solution": [
+            1,
+            1
+          ]
+        },
+        "independent_derivation": [
+          "Rewrite y=-3x+4.",
+          "2x-1=-3x+4=>5x=5=>x=1,y=1.",
+          "D alone matches slopes,intercepts,common point."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 97,
+        "printed_practice_link": "(c)",
+        "graph_record": "problem-20",
+        "question_id": "ps97-20",
+        "topic_id": "graph-intersection",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "D",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "D: intersection (1,1)",
+          "method": "all five source-derived models, classifications, unique equation-pair match, marked dots, labels and native clipped line endpoints verified"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-21",
+        "original_number": 21,
+        "section": "Problem Set97",
+        "page": 481,
+        "photos": [
+          "IMG_4425.jpeg",
+          "IMG_4426.jpeg"
+        ],
+        "prompt": "Select the graph of each system of equations below. {y=x+2;y-x=-4}.",
+        "independent_answer": {
+          "choice": "E",
+          "index": 4,
+          "solution_type": "none"
+        },
+        "independent_derivation": [
+          "Rewrite y=x-4.",
+          "Same slope1,different intercepts2/-4;substitution gives2=-4.",
+          "E alone matches distinct parallel lines."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 97,
+        "printed_practice_link": "(d)",
+        "graph_record": "problem-21",
+        "question_id": "ps97-21",
+        "topic_id": "parallel-lines",
+        "runtime_type": "choice",
+        "required_answer_fields": [],
+        "runtime_correct_choice": "E",
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "E: distinct parallel rising lines, no solutions",
+          "method": "all five source-derived models, classifications, unique equation-pair match, marked dots, labels and native clipped line endpoints verified"
+        },
+        "implementation_check": "PASS"
+      },
+      {
+        "id": "problem-22",
+        "original_number": 22,
+        "section": "Problem Set97",
+        "page": 482,
+        "photos": [
+          "IMG_4427.jpeg"
+        ],
+        "prompt": "Translate the word problem below into a system of equations;then solve. Two numbers have a sum of37,and4 times the first number minus the second number is equal to43. What are the two numbers?",
+        "independent_answer": {
+          "variables": "x=first number,y=second number",
+          "system": [
+            "x+y=37",
+            "4x-y=43"
+          ],
+          "x": 16,
+          "y": 21
+        },
+        "independent_derivation": [
+          "Add5x=80=>x=16.",
+          "y=37-16=21.",
+          "Check16+21=37;4(16)-21=43."
+        ],
+        "domain": "Real variables unless otherwise stated.",
+        "source_review": "VERIFIED_AGAINST_ORIGINALS",
+        "mathematics_review": "INDEPENDENTLY_VERIFIED",
+        "uncertainty": [],
+        "prior_lesson_reference": 94,
+        "printed_practice_link": "(e)",
+        "page_authority": "Direct User confirmation;footer not visible.",
+        "excluded_background": "Faded reverse-page graphs excluded by direct User authority.",
+        "question_id": "ps97-22",
+        "topic_id": "build-system",
+        "runtime_type": "numeric",
+        "required_answer_fields": [
+          {
+            "key": "A",
+            "label": "A: sum x coefficient",
+            "value": 1,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "B",
+            "label": "B: sum y coefficient",
+            "value": 1,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "C",
+            "label": "C: sum",
+            "value": 37,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "D",
+            "label": "D: difference x coefficient",
+            "value": 4,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "E",
+            "label": "E: difference y coefficient",
+            "value": -1,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "F",
+            "label": "F: weighted difference",
+            "value": 43,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "x",
+            "label": "First number x",
+            "value": 16,
+            "tolerance": 1e-9
+          },
+          {
+            "key": "y",
+            "label": "Second number y",
+            "value": 21,
+            "tolerance": 1e-9
+          }
+        ],
+        "runtime_correct_choice": null,
+        "package_mathematical_check": {
+          "result": "PASS",
+          "answer": "x+y=37; 4x-y=43; x=16; y=21",
+          "method": "exact independent system solution, both original equations verified; all six constructed coefficients/constants verified"
+        },
+        "implementation_check": "PASS"
+      }
+    ],
+    "graph_source_records": {
+      "practice-c": {
+        "page": 478,
+        "photos": [
+          "IMG_4419.jpeg",
+          "IMG_4420.jpeg"
+        ],
+        "axes": {
+          "names": [
+            "x",
+            "y"
+          ],
+          "directions": "x positive right; y positive up",
+          "ticks": "Regular unnumbered ticks; unit interpretation supported by printed integer coordinate labels.",
+          "arrows": "Both ends of axes and infinite lines.",
+          "shading": null,
+          "point_style": "Solid dots; no finite endpoints."
+        },
+        "stem": [
+          "y=2x-3",
+          "3x+y=7"
+        ],
+        "choices": [
+          {
+            "letter": "A",
+            "lines": [
+              {
+                "native_model": "y=2*x-3",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -3
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "One marked y-dot -3; line crosses x-axis halfway between ticks1/2. Native slope2 is reconstruction from tick geometry, not a printed equation."
+              }
+            ],
+            "printed_coordinate_labels": [],
+            "printed_text_labels": [
+              "Infinite solutions"
+            ],
+            "relation": "One visible rising line (coincident graphs)",
+            "candidate_check": "Fails second negative-slope stem line; has infinitely many instead of unique solution."
+          },
+          {
+            "letter": "B",
+            "lines": [
+              {
+                "native_model": "y=2*x-3",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -3
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    2,
+                    1
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=-3*x+7",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    7
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    2,
+                    1
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [
+              [
+                2,
+                1
+              ]
+            ],
+            "printed_text_labels": [],
+            "relation": "One rising and one falling line intersect at(2,1)",
+            "candidate_check": "Matches both:1=2(2)-3;3(2)+1=7."
+          },
+          {
+            "letter": "C",
+            "lines": [
+              {
+                "native_model": "y=2*x-3",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -3
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    1,
+                    -1
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=6*x-7",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -7
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    1,
+                    -1
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [
+              [
+                1,
+                -1
+              ]
+            ],
+            "printed_text_labels": [],
+            "relation": "Two rising lines meet at(1,-1)",
+            "candidate_check": "Fails second equation:3(1)-1=2,not7; second slope positive."
+          },
+          {
+            "letter": "D",
+            "lines": [
+              {
+                "native_model": "y=3*x/4+9/4",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    -3,
+                    0
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    1,
+                    3
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=-3*x+6",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    6
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    1,
+                    3
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [
+              [
+                1,
+                3
+              ]
+            ],
+            "printed_text_labels": [],
+            "relation": "Shallow rising and steep falling lines meet at(1,3)",
+            "candidate_check": "Fails both stem equations. Preserve marked x-intercept -3, not -2."
+          },
+          {
+            "letter": "E",
+            "lines": [
+              {
+                "native_model": "y=-3*x+6",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    6
+                  ],
+                  [
+                    2,
+                    0
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=-3*x-4",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -4
+                  ],
+                  [
+                    -3,
+                    5
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [],
+            "printed_text_labels": [
+              "No solutions"
+            ],
+            "relation": "Two parallel falling lines",
+            "candidate_check": "Fails stem unequal slopes+2,-3 and unique solution."
+          }
+        ]
+      },
+      "practice-d": {
+        "page": 479,
+        "photos": [
+          "IMG_4421.jpeg",
+          "IMG_4422.jpeg"
+        ],
+        "axes": {
+          "names": [
+            "x",
+            "y"
+          ],
+          "directions": "x positive right; y positive up",
+          "ticks": "Regular unnumbered ticks; unit interpretation supported by printed integer coordinate labels.",
+          "arrows": "Both ends of axes and infinite lines.",
+          "shading": null,
+          "point_style": "Solid dots; no finite endpoints."
+        },
+        "stem": [
+          "y=x+3",
+          "y-x=-1"
+        ],
+        "choices": [
+          {
+            "letter": "A",
+            "lines": [
+              {
+                "native_model": "y=x+3",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    -3,
+                    0
+                  ],
+                  [
+                    0,
+                    3
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=x-1",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [],
+            "printed_text_labels": [
+              "No solutions"
+            ],
+            "relation": "Two distinct parallel rising lines",
+            "candidate_check": "Matches both stem equations."
+          },
+          {
+            "letter": "B",
+            "lines": [
+              {
+                "native_model": "y=x+3",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    -3,
+                    0
+                  ],
+                  [
+                    0,
+                    3
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    -2,
+                    1
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=-x-1",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    -2,
+                    1
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [
+              [
+                -2,
+                1
+              ]
+            ],
+            "printed_text_labels": [],
+            "relation": "Rising/falling pair meet at(-2,1)",
+            "candidate_check": "Fails y-x=-1 since1-(-2)=3."
+          },
+          {
+            "letter": "C",
+            "lines": [
+              {
+                "native_model": "y=x-1",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [],
+            "printed_text_labels": [
+              "Infinite solutions"
+            ],
+            "relation": "One visible rising line",
+            "candidate_check": "Fails distinct lines in stem."
+          },
+          {
+            "letter": "D",
+            "lines": [
+              {
+                "native_model": "y=-x+3",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    3
+                  ],
+                  [
+                    3,
+                    0
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [],
+            "printed_text_labels": [
+              "Infinite solutions"
+            ],
+            "relation": "One visible falling line",
+            "candidate_check": "Fails both positive-slope stem lines."
+          },
+          {
+            "letter": "E",
+            "lines": [
+              {
+                "native_model": "y=x-1",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -1
+                  ],
+                  [
+                    1,
+                    0
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    2,
+                    1
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=-x+3",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    3
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    2,
+                    1
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [
+              [
+                2,
+                1
+              ]
+            ],
+            "printed_text_labels": [],
+            "relation": "Rising/falling pair meet at(2,1)",
+            "candidate_check": "Fails first equation:1!=2+3."
+          }
+        ]
+      },
+      "problem-20": {
+        "page": 481,
+        "photos": [
+          "IMG_4425.jpeg",
+          "IMG_4426.jpeg"
+        ],
+        "axes": {
+          "names": [
+            "x",
+            "y"
+          ],
+          "directions": "x positive right; y positive up",
+          "ticks": "Regular unnumbered ticks; unit interpretation supported by printed integer coordinate labels.",
+          "arrows": "Both ends of axes and infinite lines.",
+          "shading": null,
+          "point_style": "Solid dots; no finite endpoints."
+        },
+        "stem": [
+          "y=2x-1",
+          "3x+y=4"
+        ],
+        "choices": [
+          {
+            "letter": "A",
+            "lines": [
+              {
+                "native_model": "y=2*x-1",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    -1,
+                    -3
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=-x-4",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    -4,
+                    0
+                  ],
+                  [
+                    0,
+                    -4
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    -1,
+                    -3
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [
+              [
+                -1,
+                -3
+              ]
+            ],
+            "printed_text_labels": [],
+            "relation": "Rising/falling pair meet at(-1,-3)",
+            "candidate_check": "Fails3x+y=4:3(-1)-3=-6."
+          },
+          {
+            "letter": "B",
+            "lines": [
+              {
+                "native_model": "y=2*x-1",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Marked y-dot-1; x crossing halfway between0/1 supports native slope2."
+              },
+              {
+                "native_model": "y=2*x-5",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -5
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Marked y-dot-5; x crossing halfway between2/3; drawn parallel to first."
+              }
+            ],
+            "printed_coordinate_labels": [],
+            "printed_text_labels": [
+              "No solutions"
+            ],
+            "relation": "Two parallel rising lines",
+            "candidate_check": "Fails stem unequal slopes+2,-3."
+          },
+          {
+            "letter": "C",
+            "lines": [
+              {
+                "native_model": "y=-3*x+4",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Marked y-dot4; falling line crosses x-axis between1/2,near4/3. Native model adopts second stem line while preserving marked intercept/tick geometry. Exact equation is not printed on candidate."
+              }
+            ],
+            "printed_coordinate_labels": [],
+            "printed_text_labels": [
+              "Infinite solutions"
+            ],
+            "relation": "One visible falling line",
+            "candidate_check": "Fails unique intersection of stem lines."
+          },
+          {
+            "letter": "D",
+            "lines": [
+              {
+                "native_model": "y=2*x-1",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -1
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=-3*x+4",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [
+              [
+                1,
+                1
+              ]
+            ],
+            "printed_text_labels": [],
+            "relation": "Rising/falling pair meet at(1,1)",
+            "candidate_check": "Matches both:1=2(1)-1;3(1)+1=4."
+          },
+          {
+            "letter": "E",
+            "lines": [
+              {
+                "native_model": "y=-2*x+2",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    2
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    2,
+                    -2
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=-3*x+4",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    4
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    2,
+                    -2
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [
+              [
+                2,
+                -2
+              ]
+            ],
+            "printed_text_labels": [],
+            "relation": "Two falling lines meet at(2,-2)",
+            "candidate_check": "Fails first equation:-2!=2(2)-1."
+          }
+        ]
+      },
+      "problem-21": {
+        "page": 481,
+        "photos": [
+          "IMG_4425.jpeg",
+          "IMG_4426.jpeg"
+        ],
+        "axes": {
+          "names": [
+            "x",
+            "y"
+          ],
+          "directions": "x positive right; y positive up",
+          "ticks": "Regular unnumbered ticks; unit interpretation supported by printed integer coordinate labels.",
+          "arrows": "Both ends of axes and infinite lines.",
+          "shading": null,
+          "point_style": "Solid dots; no finite endpoints."
+        },
+        "stem": [
+          "y=x+2",
+          "y-x=-4"
+        ],
+        "choices": [
+          {
+            "letter": "A",
+            "lines": [
+              {
+                "native_model": "y=x-4",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -4
+                  ],
+                  [
+                    4,
+                    0
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    1,
+                    -3
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=-5*x+2",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    2
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    1,
+                    -3
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [
+              [
+                1,
+                -3
+              ]
+            ],
+            "printed_text_labels": [],
+            "relation": "Rising and steep falling pair meet at(1,-3)",
+            "candidate_check": "Fails first equation:-3!=1+2."
+          },
+          {
+            "letter": "B",
+            "lines": [
+              {
+                "native_model": "y=x-4",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -4
+                  ],
+                  [
+                    4,
+                    0
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [],
+            "printed_text_labels": [
+              "Infinite solutions"
+            ],
+            "relation": "One visible rising line",
+            "candidate_check": "Fails distinct stem lines."
+          },
+          {
+            "letter": "C",
+            "lines": [
+              {
+                "native_model": "y=x+2",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    2
+                  ],
+                  [
+                    -2,
+                    0
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    -1,
+                    1
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=2*x+3",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    3
+                  ]
+                ],
+                "source_explicit_labels_on_line": [
+                  [
+                    -1,
+                    1
+                  ]
+                ],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [
+              [
+                -1,
+                1
+              ]
+            ],
+            "printed_text_labels": [],
+            "relation": "Two rising lines meet at(-1,1)",
+            "candidate_check": "Fails second equation:1-(-1)=2,not-4."
+          },
+          {
+            "letter": "D",
+            "lines": [
+              {
+                "native_model": "y=x+2",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    -2,
+                    0
+                  ],
+                  [
+                    0,
+                    2
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [],
+            "printed_text_labels": [
+              "Infinite solutions"
+            ],
+            "relation": "One visible rising line",
+            "candidate_check": "Fails distinct stem lines."
+          },
+          {
+            "letter": "E",
+            "lines": [
+              {
+                "native_model": "y=x+2",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    -2,
+                    0
+                  ],
+                  [
+                    0,
+                    2
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              },
+              {
+                "native_model": "y=x-4",
+                "source_dots_read_from_axis_ticks": [
+                  [
+                    0,
+                    -4
+                  ],
+                  [
+                    4,
+                    0
+                  ]
+                ],
+                "source_explicit_labels_on_line": [],
+                "basis": "Exact model through the recorded tick-read dots and/or explicit coordinate labels."
+              }
+            ],
+            "printed_coordinate_labels": [],
+            "printed_text_labels": [
+              "No solutions"
+            ],
+            "relation": "Two distinct parallel rising lines",
+            "candidate_check": "Matches both stem slopes1 and intercepts2,-4."
+          }
+        ]
+      }
+    },
+    "graph_handling": "24 native inline SVGs:4 instructional graphs and20 choices across Practice c/d and Problem Set20/21. Preserve axis names, regular tick marks, all marked source dots, printed coordinates, solution notes, directional arrows and instructional equation labels. Equal x/y unit scale. Repeated equivalent line models render as one coincident line.",
+    "graph_model_provenance": "Printed coordinate labels are distinguished from coordinates read from source tick marks. For coincident Practice c A, Problem Set20 C and the parallel20 B candidate, native slopes realize the source schematic crossings/relations; these derived equations are not represented as extra printed source labels. All source-defined point/line relationships and candidate classifications remain intact. Practice c D rising line is defined by the marked(-3,0) and printed(1,3), yielding y=(3/4)x+9/4; no convenient replacement line was substituted.",
+    "resolved_interpretation_findings": [
+      {
+        "location": "Practice c D",
+        "status": "RESOLVED",
+        "finding": "Marked x-intercept-3 plus explicit(1,3) defines rising model(3/4)x+9/4. Falling y-intercept6 defines-3x+6."
+      },
+      {
+        "location": "Practice c A;Problem20 B/C",
+        "status": "MODEL_PROVENANCE_DOCUMENTED",
+        "finding": "These candidates have fewer than two printed coordinate labels. Native equations are realizations preserving marked intercepts/tick crossings/relations; exact slopes are not additional printed source labels."
+      },
+      {
+        "location": "Problem12",
+        "status": "VERIFIED",
+        "finding": "Preserve original x!=0,y!=0,x+a!=0."
+      },
+      {
+        "location": "Problem17",
+        "status": "VERIFIED",
+        "finding": "Generic isolation tv!=1;all/no-s special cases recorded."
+      },
+      {
+        "location": "IMG_4427",
+        "status": "USER_AUTHORITY_RECORDED",
+        "finding": "Page482 and bleed-through exclusion are User-confirmed rather than footer observation."
+      }
+    ],
+    "instructional_wording_notes": [
+      "The source warns that exact intersections are usually difficult to read from a sketch. Native instruction preserves that warning while teaching algebraic verification, rather than asserting every graph reading is necessarily inexact.",
+      "Problem Set1 is interpreted in the source single-intersection context; its solution also explains zero/infinite cases. Source parallel-line language in Problem Set2 means distinct parallel lines, as explained in its solution."
+    ]
+  },
+  "content_inventory": {
+    "guided_topics": 9,
+    "topics": [
+      {
+        "id": "graph-intersection",
+        "title": "Graph both equations on one plane"
+      },
+      {
+        "id": "parallel-lines",
+        "title": "Distinct parallel lines have no solution"
+      },
+      {
+        "id": "same-line",
+        "title": "Two equations can describe the same line"
+      },
+      {
+        "id": "classify-systems",
+        "title": "Distinguish the three kinds of linear systems"
+      },
+      {
+        "id": "algebra-patterns",
+        "title": "Use factors and common denominators"
+      },
+      {
+        "id": "scientific-notation",
+        "title": "Rewrite numbers in scientific notation"
+      },
+      {
+        "id": "coordinate-measures",
+        "title": "Find a distance, center, and radius"
+      },
+      {
+        "id": "formulas-equations",
+        "title": "Solve equations and isolate a formula variable"
+      },
+      {
+        "id": "build-system",
+        "title": "Translate two relationships into a system"
+      }
+    ],
+    "sections": [
+      {
+        "id": "practice",
+        "label": "Practice 97",
+        "question_count": 5
+      },
+      {
+        "id": "problem",
+        "label": "Problem Set 97",
+        "question_count": 22
+      }
+    ],
+    "practice_exercises": 5,
+    "problem_set_exercises": 22,
+    "total_scored_exercises": 27,
+    "maximum_score": 27,
+    "stable_question_ids": [
+      "p97-a",
+      "p97-b",
+      "p97-c",
+      "p97-d",
+      "p97-e",
+      "ps97-1",
+      "ps97-2",
+      "ps97-3",
+      "ps97-4",
+      "ps97-5",
+      "ps97-6",
+      "ps97-7",
+      "ps97-8",
+      "ps97-9",
+      "ps97-10",
+      "ps97-11",
+      "ps97-12",
+      "ps97-13",
+      "ps97-14",
+      "ps97-15",
+      "ps97-16",
+      "ps97-17",
+      "ps97-18",
+      "ps97-19",
+      "ps97-20",
+      "ps97-21",
+      "ps97-22"
+    ],
+    "response_types": {
+      "choice": 15,
+      "numeric": 10,
+      "scientific": 2
+    },
+    "numeric_answer_fields": 34,
+    "exercise_graph_choices": 20,
+    "instructional_figures": 4,
+    "total_native_figures": 24
+  },
+  "source_derived_scope": {
+    "core_instruction": [
+      "Graph two equations on one coordinate plane and verify the intersection",
+      "Distinct parallel systems, contradictions and no solutions",
+      "Coincident systems, identities and infinitely many solution pairs",
+      "Classify the three linear-system outcomes"
+    ],
+    "review": [
+      "Factoring and polynomial simplification",
+      "Rational multiplication and addition",
+      "Scientific notation",
+      "Distance and circle center/radius",
+      "Rational and quadratic equations; formula evaluation and rearrangement",
+      "Substitution/elimination and constructing systems from two number relationships"
+    ],
+    "app_authored_instruction": "Guides, progressive hints, worked solutions, checks, reference cards and unscored concept checks are original app instruction derived from the photographed mathematics. Main instructional examples use source equations, coordinates and conclusions."
+  },
+  "shared_engine_contract": {
+    "engine": "Algebra2Engine",
+    "engine_version": "0.2.1",
+    "registration": "Algebra2CourseRegistry.register(packageDef)",
+    "score_policy": "one-choice-two-fill-v1",
+    "choice_credit_bearing_valid_submissions": 1,
+    "fill_in_credit_bearing_valid_submissions": 2,
+    "maximum_points_per_exercise": 1,
+    "later_correct_answers": "Recorded solved, zero credit after applicable group limit",
+    "navigation_consumes_attempt": false,
+    "persistence": "Shared engine retains drafts, notes, hints, attempts, topic steps, navigation and progress",
+    "feedback_sound_motion": "Shared engine responsibilities",
+    "custom_engine_modifications": false,
+    "custom_state_hooks": false
+  },
+  "response_format_adaptations": [
+    {
+      "ids": [
+        "ps97-1",
+        "ps97-2"
+      ],
+      "source": "True or False sentences",
+      "implementation": "App-authored True/False buttons use existing choice behavior; source task preserved."
+    },
+    {
+      "ids": [
+        "ps97-3",
+        "ps97-4"
+      ],
+      "source": "Rewrite in scientific notation",
+      "implementation": "Existing scientific type assesses coefficient and integer exponent together, enforcing normalized coefficient magnitude; one point total."
+    },
+    {
+      "ids": [
+        "ps97-6"
+      ],
+      "source": "Tell circle center and radius",
+      "implementation": "Three numeric fields for center x/y and radius; one point total."
+    },
+    {
+      "ids": [
+        "ps97-15"
+      ],
+      "source": "Solve quadratic equation",
+      "implementation": "Two numeric fields require the complete root set in explicit increasing order; source has no prescribed root order."
+    },
+    {
+      "ids": [
+        "p97-b",
+        "ps97-18",
+        "ps97-19"
+      ],
+      "source": "Solve systems",
+      "implementation": "Two numeric fields assess x and y together; one point total."
+    },
+    {
+      "ids": [
+        "p97-e",
+        "ps97-22"
+      ],
+      "source": "Translate into a system of equations, then solve",
+      "implementation": "Eight numeric fields construct A,B,C,D,E,F in Ax+By=C and Dx+Ey=F, then provide x and y. Instructions fix source relationship order and first-number-first terms. The sum and weighted difference are constructed, not replaced by answer recognition. One two-try fill-in group, one point total."
+    },
+    {
+      "ids": [
+        "ps97-5"
+      ],
+      "source": "Find distance",
+      "implementation": "Numeric field accepts exact sqrt(41); shared numeric-expression parser supplies grading."
+    }
+  ],
+  "mathematical_conditions": {
+    "rational_expressions": "PS12: x≠0,y≠0,x+a≠0. PS13: x≠0,y≠0. Restrictions retained after cancellation.",
+    "rational_equation": "PS14: x≠1; x7 checked in original.",
+    "quadratic": "PS15 includes both−5 and0; no division by x that would lose the zero root.",
+    "formula": "PS17 s=av/(tv−1) for tv≠1. If tv=1, all s work when av=0; otherwise no s works. Source choiceA is equivalent on tv≠0 but still contains s and does not isolate it.",
+    "graph_tasks": "Each candidate is compared by both line models/relations, marked points and source notes, not by a familiar intersection alone.",
+    "word_models": "Practice e: x+y=24,3x−y=12→(9,15). PS22: x+y=37,4x−y=43→(16,21).",
+    "units": "Distance in coordinate units; source supplies no units for area evaluation, so none invented."
+  },
+  "runtime_assets": {
+    "network_calls": false,
+    "third_party_runtime_libraries": false,
+    "external_assets": [],
+    "source_photographs_embedded": false,
+    "svg_namespace": "The standard SVG XML namespace is a static identifier, not a network request."
+  },
+  "validation": {
+    "javascript_syntax": {
+      "result": "PASS",
+      "command": "node --check lesson-097.js",
+      "exit_code": 0
+    },
+    "package_registration": {
+      "result": "PASS",
+      "method": "Actual foundation engine extracted and loaded in isolated Node VM; registration intercepted; one new runtime loaded.",
+      "registered_package_count": 1,
+      "registered_id": "lesson-097",
+      "registered_number": 97
+    },
+    "question_count_validation": {
+      "result": "PASS",
+      "expected_practice": 5,
+      "actual_practice": 5,
+      "expected_problem_set": 22,
+      "actual_problem_set": 22,
+      "expected_total": 27,
+      "actual_total": 27
+    },
+    "unique_question_id_validation": {
+      "result": "PASS",
+      "count": 27,
+      "duplicates": []
+    },
+    "invalid_answer_index_count": 0,
+    "invalid_topic_reference_count": 0,
+    "invalid_section_reference_count": 0,
+    "missing_required_answer_key_count": 0,
+    "exercise_completeness": "PASS: every scored exercise has a faithful task, key, work guide, progressive hints, self-contained worked solution and check. All9 topics, their worked steps and8 reference cards render.",
+    "all_exercise_mathematics": {
+      "result": "PASS",
+      "exercise_count": 27,
+      "all_exercises": {
+        "p97-a": {
+          "result": "PASS",
+          "answer": "(4a^3b^3+5x^3y^3)(4a^3b^3-5x^3y^3)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps97-7": {
+          "result": "PASS",
+          "answer": "xyz(1+xyz)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps97-8": {
+          "result": "PASS",
+          "answer": "(y-z)^2",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps97-9": {
+          "result": "PASS",
+          "answer": "(2g^3h^3+3j^3k^3)(2g^3h^3-3j^3k^3)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps97-10": {
+          "result": "PASS",
+          "answer": "(1/2)x^4y^5",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps97-11": {
+          "result": "PASS",
+          "answer": "j^2+2jk+k^2",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps97-12": {
+          "result": "PASS",
+          "answer": "(x+a)/x",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "ps97-13": {
+          "result": "PASS",
+          "answer": "(x^2+2y^2)/(10x^2y^2)",
+          "method": "exact rational-polynomial identity; every printed candidate checked"
+        },
+        "p97-b": {
+          "result": "PASS",
+          "answer": "x=1/2; y=3",
+          "method": "exact independent system solution, both original equations verified"
+        },
+        "ps97-18": {
+          "result": "PASS",
+          "answer": "x=1; y=4",
+          "method": "exact independent system solution, both original equations verified"
+        },
+        "ps97-19": {
+          "result": "PASS",
+          "answer": "x=1/3; y=-2",
+          "method": "exact independent system solution, both original equations verified"
+        },
+        "p97-e": {
+          "result": "PASS",
+          "answer": "x+y=24; 3x-y=12; x=9; y=15",
+          "method": "exact independent system solution, both original equations verified; all six constructed coefficients/constants verified"
+        },
+        "ps97-22": {
+          "result": "PASS",
+          "answer": "x+y=37; 4x-y=43; x=16; y=21",
+          "method": "exact independent system solution, both original equations verified; all six constructed coefficients/constants verified"
+        },
+        "ps97-3": {
+          "result": "PASS",
+          "answer": "5e9",
+          "method": "5*10^9 exactly equals5,000,000,000; normalized integer exponent"
+        },
+        "ps97-4": {
+          "result": "PASS",
+          "answer": "4.73e-5",
+          "method": "4.73*10^-5 exactly equals0.0000473; normalized integer exponent"
+        },
+        "ps97-5": {
+          "result": "PASS",
+          "answer": "sqrt(41)",
+          "method": "distance formula: sqrt(16+25)=sqrt(41), nonnegative exact radical"
+        },
+        "ps97-6": {
+          "result": "PASS",
+          "answer": "center (5,4); radius 9",
+          "method": "center from shifted squares; positive sqrt81=9; (14,4) lies on circle"
+        },
+        "ps97-14": {
+          "result": "PASS",
+          "answer": "x=7",
+          "method": "3/(x-1)=1/2 implies x=7; original denominator x!=1 and original sum checked"
+        },
+        "ps97-15": {
+          "result": "PASS",
+          "answer": "x=-5,0",
+          "method": "x(x+5)=0, complete two-root solution set in increasing order"
+        },
+        "ps97-16": {
+          "result": "PASS",
+          "answer": "A=40",
+          "method": "exact substitution into A=bh/2"
+        },
+        "ps97-1": {
+          "result": "PASS",
+          "answer": "True",
+          "method": "intersection belongs to both lines; single-intersection context, with other cases explained"
+        },
+        "ps97-2": {
+          "result": "PASS",
+          "answer": "True",
+          "method": "source parallel means distinct; distinct parallel lines do not intersect"
+        },
+        "ps97-17": {
+          "result": "PASS",
+          "answer": "s=av/(tv-1)",
+          "method": "all five formula candidates checked; E isolates s for tv!=1; tv=1 gives all s if av=0, none otherwise; A still contains s"
+        },
+        "p97-c": {
+          "result": "PASS",
+          "answer": "B: intersection (2,1)",
+          "method": "all five source-derived models, classifications, unique equation-pair match, marked dots, labels and native clipped line endpoints verified"
+        },
+        "p97-d": {
+          "result": "PASS",
+          "answer": "A: distinct parallel rising lines, no solutions",
+          "method": "all five source-derived models, classifications, unique equation-pair match, marked dots, labels and native clipped line endpoints verified"
+        },
+        "ps97-20": {
+          "result": "PASS",
+          "answer": "D: intersection (1,1)",
+          "method": "all five source-derived models, classifications, unique equation-pair match, marked dots, labels and native clipped line endpoints verified"
+        },
+        "ps97-21": {
+          "result": "PASS",
+          "answer": "E: distinct parallel rising lines, no solutions",
+          "method": "all five source-derived models, classifications, unique equation-pair match, marked dots, labels and native clipped line endpoints verified"
+        }
+      },
+      "exercise_graph_choices": 20,
+      "marked_exercise_graph_dots": 59,
+      "printed_exercise_coordinate_labels": 10,
+      "native_line_endpoints_checked": 68,
+      "instructional_examples": "Source equations independently checked: intersection(1,3); parallel contradiction2=-3; same line identity8=8; native instructional figures checked in separate implementation review",
+      "restrictions": "ps12 x,y,x+a nonzero; ps13 x,y nonzero; ps14 x!=1; ps17 tv!=1 plus all/no-s exceptional cases"
+    },
+    "representative_answer_key_spot_checks": [
+      {
+        "id": "p97-b",
+        "answer": "x1/2,y3",
+        "check": "4(1/2)-2(3)=-4;3=6(1/2)"
+      },
+      {
+        "id": "p97-c",
+        "answer": "B:(2,1)",
+        "check": "1=2(2)-3;3(2)+1=7"
+      },
+      {
+        "id": "ps97-12",
+        "answer": "D:(x+a)/x",
+        "check": "Factor square and y(x+a); retain original exclusions"
+      },
+      {
+        "id": "ps97-15",
+        "answer": "-5,0",
+        "check": "Both satisfy x²+5x=0"
+      },
+      {
+        "id": "ps97-17",
+        "answer": "E:s=av/(tv-1)",
+        "check": "s(tv-1)=av; zero-coefficient special cases retained"
+      },
+      {
+        "id": "ps97-21",
+        "answer": "E:no solutions",
+        "check": "y=x+2 and y=x-4 are distinct parallel lines"
+      },
+      {
+        "id": "ps97-22",
+        "answer": "x16,y21",
+        "check": "16+21=37;4(16)-21=43"
+      }
+    ],
+    "independent_review": {
+      "runtime_sha256": "6686b5f7644e3ba3489e821928f859657b8cef7af1537a636f9cd917c297dd61",
+      "review_scope": "All27 stems/answers,printed expression choices,20 candidate models/dots/labels,4 instructional models and source content;viewed seven full-page browser previews separately.",
+      "source_only_record_completed_before_implementation_read": true,
+      "key_checks": [
+        {
+          "source_id": "practice-a",
+          "runtime_id": "p97-a",
+          "correct_index_matches": true
+        },
+        {
+          "source_id": "practice-c",
+          "runtime_id": "p97-c",
+          "correct_index_matches": true
+        },
+        {
+          "source_id": "practice-d",
+          "runtime_id": "p97-d",
+          "correct_index_matches": true
+        },
+        {
+          "source_id": "problem-07",
+          "runtime_id": "ps97-7",
+          "correct_index_matches": true
+        },
+        {
+          "source_id": "problem-08",
+          "runtime_id": "ps97-8",
+          "correct_index_matches": true
+        },
+        {
+          "source_id": "problem-09",
+          "runtime_id": "ps97-9",
+          "correct_index_matches": true
+        },
+        {
+          "source_id": "problem-10",
+          "runtime_id": "ps97-10",
+          "correct_index_matches": true
+        },
+        {
+          "source_id": "problem-11",
+          "runtime_id": "ps97-11",
+          "correct_index_matches": true
+        },
+        {
+          "source_id": "problem-12",
+          "runtime_id": "ps97-12",
+          "correct_index_matches": true
+        },
+        {
+          "source_id": "problem-13",
+          "runtime_id": "ps97-13",
+          "correct_index_matches": true
+        },
+        {
+          "source_id": "problem-17",
+          "runtime_id": "ps97-17",
+          "correct_index_matches": true
+        },
+        {
+          "source_id": "problem-20",
+          "runtime_id": "ps97-20",
+          "correct_index_matches": true
+        },
+        {
+          "source_id": "problem-21",
+          "runtime_id": "ps97-21",
+          "correct_index_matches": true
+        },
+        {
+          "runtime_id": "p97-b",
+          "all_numeric_fields_match_independent_answer": true
+        },
+        {
+          "runtime_id": "p97-e",
+          "all_numeric_fields_match_independent_answer": true
+        },
+        {
+          "runtime_id": "ps97-3",
+          "all_numeric_fields_match_independent_answer": true
+        },
+        {
+          "runtime_id": "ps97-4",
+          "all_numeric_fields_match_independent_answer": true
+        },
+        {
+          "runtime_id": "ps97-5",
+          "all_numeric_fields_match_independent_answer": true
+        },
+        {
+          "runtime_id": "ps97-6",
+          "all_numeric_fields_match_independent_answer": true
+        },
+        {
+          "runtime_id": "ps97-14",
+          "all_numeric_fields_match_independent_answer": true
+        },
+        {
+          "runtime_id": "ps97-15",
+          "all_numeric_fields_match_independent_answer": true
+        },
+        {
+          "runtime_id": "ps97-16",
+          "all_numeric_fields_match_independent_answer": true
+        },
+        {
+          "runtime_id": "ps97-18",
+          "all_numeric_fields_match_independent_answer": true
+        },
+        {
+          "runtime_id": "ps97-19",
+          "all_numeric_fields_match_independent_answer": true
+        },
+        {
+          "runtime_id": "ps97-22",
+          "all_numeric_fields_match_independent_answer": true
+        },
+        {
+          "runtime_id": "ps97-1",
+          "independent_true_answer_matches": true
+        },
+        {
+          "runtime_id": "ps97-2",
+          "independent_true_answer_matches": true
+        }
+      ],
+      "choice_transcription_checks": [
+        {
+          "question": "p97-a",
+          "letter": "A",
+          "source": "(16a^3b^3+25x^3y^3)(16a^3b^3-25x^3y^3)",
+          "runtime_math": "(16a^3b^3+25x^3y^3)(16a^3b^3-25x^3y^3)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "p97-a",
+          "letter": "B",
+          "source": "(4a^3b^3-5x^3y^3)^2",
+          "runtime_math": "(4a^3b^3-5x^3y^3)^2",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "p97-a",
+          "letter": "C",
+          "source": "(8a^2b^2+12.5x^2y^2)(8a^2b^2-12.5x^2y^2)",
+          "runtime_math": "(8a^2b^2+12.5x^2y^2)(8a^2b^2-12.5x^2y^2)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "p97-a",
+          "letter": "D",
+          "source": "(4a^3b^3+5x^3y^3)^2",
+          "runtime_math": "(4a^3b^3+5x^3y^3)^2",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "p97-a",
+          "letter": "E",
+          "source": "(4a^3b^3+5x^3y^3)(4a^3b^3-5x^3y^3)",
+          "runtime_math": "(4a^3b^3+5x^3y^3)(4a^3b^3-5x^3y^3)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-7",
+          "letter": "A",
+          "source": "x^3y^3z^3",
+          "runtime_math": "x^3y^3z^3",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-7",
+          "letter": "B",
+          "source": "xyz(1+xyz)",
+          "runtime_math": "xyz(1+xyz)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-7",
+          "letter": "C",
+          "source": "xyz(1+x^2y^2z^2)",
+          "runtime_math": "xyz(1+x^2y^2z^2)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-7",
+          "letter": "D",
+          "source": "x^2y^2z^2(xyz+1)",
+          "runtime_math": "x^2y^2z^2(xyz+1)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-7",
+          "letter": "E",
+          "source": "xyz(xyz+2)",
+          "runtime_math": "xyz(xyz+2)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-8",
+          "letter": "A",
+          "source": "(y-z)^2",
+          "runtime_math": "(y-z)^2",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-8",
+          "letter": "B",
+          "source": "(y+z)(y-z)",
+          "runtime_math": "(y+z)(y-z)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-8",
+          "letter": "C",
+          "source": "(y+z)^2",
+          "runtime_math": "(y+z)^2",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-8",
+          "letter": "D",
+          "source": "(y+z)(y+1)",
+          "runtime_math": "(y+z)(y+1)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-8",
+          "letter": "E",
+          "source": "(y-z)(z-1)",
+          "runtime_math": "(y-z)(z-1)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-9",
+          "letter": "A",
+          "source": "(2g^3h^3+3j^3k^3)^2",
+          "runtime_math": "(2g^3h^3+3j^3k^3)^2",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-9",
+          "letter": "B",
+          "source": "(2g^3h^3+3j^3k^3)(2g^3h^3-3j^3k^3)",
+          "runtime_math": "(2g^3h^3+3j^3k^3)(2g^3h^3-3j^3k^3)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-9",
+          "letter": "C",
+          "source": "(2g^2h^2+4.5j^2k^2)(2g^2h^2-4.5j^2k^2)",
+          "runtime_math": "(2g^2h^2+4.5j^2k^2)(2g^2h^2-4.5j^2k^2)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-9",
+          "letter": "D",
+          "source": "(2g^3h^3-3j^3k^3)^2",
+          "runtime_math": "(2g^3h^3-3j^3k^3)^2",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-9",
+          "letter": "E",
+          "source": "(4g^3h^3+9j^3k^3)(4g^3h^3-9j^3k^3)",
+          "runtime_math": "(4g^3h^3+9j^3k^3)(4g^3h^3-9j^3k^3)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-10",
+          "letter": "A",
+          "source": "(1/2)x^16y^25",
+          "runtime_math": "(1)/(2)x^16y^25",
+          "literal_normalized_agreement": false,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": true
+        },
+        {
+          "question": "ps97-10",
+          "letter": "B",
+          "source": "(1/2)x^4y^5",
+          "runtime_math": "(1)/(2)x^4y^5",
+          "literal_normalized_agreement": false,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": true
+        },
+        {
+          "question": "ps97-10",
+          "letter": "C",
+          "source": "-(3/16)x^16y^25",
+          "runtime_math": "-(3)/(16)x^16y^25",
+          "literal_normalized_agreement": false,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": true
+        },
+        {
+          "question": "ps97-10",
+          "letter": "D",
+          "source": "(1/2)x^8y^10",
+          "runtime_math": "(1)/(2)x^8y^10",
+          "literal_normalized_agreement": false,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": true
+        },
+        {
+          "question": "ps97-10",
+          "letter": "E",
+          "source": "-(3/16)x^8y^10",
+          "runtime_math": "-(3)/(16)x^8y^10",
+          "literal_normalized_agreement": false,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": true
+        },
+        {
+          "question": "ps97-11",
+          "letter": "A",
+          "source": "j^2+2jk+k^2",
+          "runtime_math": "j^2+2jk+k^2",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-11",
+          "letter": "B",
+          "source": "j^2+jk+k^2",
+          "runtime_math": "j^2+jk+k^2",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-11",
+          "letter": "C",
+          "source": "j^2-2jk+k^2",
+          "runtime_math": "j^2-2jk+k^2",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-11",
+          "letter": "D",
+          "source": "2j+2k",
+          "runtime_math": "2j+2k",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-11",
+          "letter": "E",
+          "source": "j^2+k^2",
+          "runtime_math": "j^2+k^2",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-12",
+          "letter": "A",
+          "source": "y/(x+a)",
+          "runtime_math": "(y)/(x+a)",
+          "literal_normalized_agreement": false,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": true
+        },
+        {
+          "question": "ps97-12",
+          "letter": "B",
+          "source": "(x^2+2ax+xy^3+a^2)/(x^2y^2+xy+ay)",
+          "runtime_math": "(x^2+2ax+xy^3+a^2)/(x^2y^2+xy+ay)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-12",
+          "letter": "C",
+          "source": "(xy+ay)/x",
+          "runtime_math": "(xy+ay)/(x)",
+          "literal_normalized_agreement": false,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": true
+        },
+        {
+          "question": "ps97-12",
+          "letter": "D",
+          "source": "(x+a)/x",
+          "runtime_math": "(x+a)/(x)",
+          "literal_normalized_agreement": false,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": true
+        },
+        {
+          "question": "ps97-12",
+          "letter": "E",
+          "source": "(x+a)/(xy)",
+          "runtime_math": "(x+a)/(xy)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-13",
+          "letter": "A",
+          "source": "(x^2+2y^2)/(10x^2y^2)",
+          "runtime_math": "(x^2+2y^2)/(10x^2y^2)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-13",
+          "letter": "B",
+          "source": "(2x^2+y^2)/(5x^2y^2)",
+          "runtime_math": "(2x^2+y^2)/(5x^2y^2)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-13",
+          "letter": "C",
+          "source": "(x+2y^2)/(10xy^2)",
+          "runtime_math": "(x+2y^2)/(10xy^2)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-13",
+          "letter": "D",
+          "source": "(x^2+y^2)/(10x^2y^2)",
+          "runtime_math": "(x^2+y^2)/(10x^2y^2)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-13",
+          "letter": "E",
+          "source": "(x+y)/(10x^2y^2)",
+          "runtime_math": "(x+y)/(10x^2y^2)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-17",
+          "letter": "A",
+          "source": "s=(av+s)/(tv)",
+          "runtime_math": "s=(av+s)/(tv)",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-17",
+          "letter": "B",
+          "source": "s=av+tv-1",
+          "runtime_math": "s=av+tv-1",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-17",
+          "letter": "C",
+          "source": "s=av/(tv+1)",
+          "runtime_math": "s=(av)/(tv+1)",
+          "literal_normalized_agreement": false,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": true
+        },
+        {
+          "question": "ps97-17",
+          "letter": "D",
+          "source": "s=atv^2+stv",
+          "runtime_math": "s=atv^2+stv",
+          "literal_normalized_agreement": true,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": false
+        },
+        {
+          "question": "ps97-17",
+          "letter": "E",
+          "source": "s=av/(tv-1)",
+          "runtime_math": "s=(av)/(tv-1)",
+          "literal_normalized_agreement": false,
+          "mathematical_content_and_grouping_manually_compared_with_original": "PASS",
+          "fraction_parentheses_only_difference": true
+        }
+      ],
+      "graph_checks": [
+        {
+          "question": "p97-c",
+          "choice": "A",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-c",
+          "choice": "B",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-c",
+          "choice": "C",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-c",
+          "choice": "D",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-c",
+          "choice": "E",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-d",
+          "choice": "A",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-d",
+          "choice": "B",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-d",
+          "choice": "C",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-d",
+          "choice": "D",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-d",
+          "choice": "E",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-20",
+          "choice": "A",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-20",
+          "choice": "B",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-20",
+          "choice": "C",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-20",
+          "choice": "D",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-20",
+          "choice": "E",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-21",
+          "choice": "A",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-21",
+          "choice": "B",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-21",
+          "choice": "C",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-21",
+          "choice": "D",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-21",
+          "choice": "E",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        }
+      ],
+      "findings": [],
+      "visual_review_previews": [
+        "p97-c-preview.jpg",
+        "p97-d-preview.jpg",
+        "ps97-20-preview.jpg",
+        "ps97-21-preview.jpg",
+        "topic-1-preview.jpg",
+        "topic-2-preview.jpg",
+        "topic-3-preview.jpg"
+      ],
+      "readability": "All20 candidate graphs and4 teaching figures visually inspected in full-page previews. Labels and marks are legible,within figure bounds;axis/line arrows and tick scale are coherent.",
+      "pending": [],
+      "native_svg_checks": [
+        {
+          "figure": "p97-c-A",
+          "models": [
+            [
+              2,
+              -3
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "Infinite solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-c-B",
+          "models": [
+            [
+              2,
+              -3
+            ],
+            [
+              -3,
+              7
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(2,1)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-c-C",
+          "models": [
+            [
+              2,
+              -3
+            ],
+            [
+              6,
+              -7
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(1,−1)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-c-D",
+          "models": [
+            [
+              0.75,
+              2.25
+            ],
+            [
+              -3,
+              6
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(1,3)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-c-E",
+          "models": [
+            [
+              -3,
+              6
+            ],
+            [
+              -3,
+              -4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "No solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-d-A",
+          "models": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "No solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-d-B",
+          "models": [
+            [
+              1,
+              3
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(−2,1)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-d-C",
+          "models": [
+            [
+              1,
+              -1
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "Infinite solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-d-D",
+          "models": [
+            [
+              -1,
+              3
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "Infinite solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-d-E",
+          "models": [
+            [
+              1,
+              -1
+            ],
+            [
+              -1,
+              3
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(2,1)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-20-A",
+          "models": [
+            [
+              2,
+              -1
+            ],
+            [
+              -1,
+              -4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(−1,−3)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-20-B",
+          "models": [
+            [
+              2,
+              -1
+            ],
+            [
+              2,
+              -5
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "No solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-20-C",
+          "models": [
+            [
+              -3,
+              4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "Infinite solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-20-D",
+          "models": [
+            [
+              2,
+              -1
+            ],
+            [
+              -3,
+              4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(1,1)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-20-E",
+          "models": [
+            [
+              -2,
+              2
+            ],
+            [
+              -3,
+              4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(2,−2)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-21-A",
+          "models": [
+            [
+              1,
+              -4
+            ],
+            [
+              -5,
+              2
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(1,−3)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-21-B",
+          "models": [
+            [
+              1,
+              -4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "Infinite solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-21-C",
+          "models": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(−1,1)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-21-D",
+          "models": [
+            [
+              1,
+              2
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "Infinite solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-21-E",
+          "models": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              -4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "No solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "graph-intersection-1",
+          "models": [
+            [
+              2,
+              1
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(0,1)",
+            "(1,3)",
+            "y=2x+1"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "graph-intersection-2",
+          "models": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(0,1)",
+            "(0,2)",
+            "(1,3)",
+            "y=2x+1",
+            "y=x+2"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "parallel-lines-1",
+          "models": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              -3
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(0,2)",
+            "(1,5)",
+            "(0,−3)",
+            "(1,0)",
+            "y=3x+2",
+            "y=3x−3"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "same-line-1",
+          "models": [
+            [
+              -2,
+              4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(0,4)",
+            "(1,2)",
+            "4x+2y=8",
+            "and",
+            "y=−2x+4"
+          ],
+          "accessible_description": "PRESENT"
+        }
+      ],
+      "resolved_findings": [
+        {
+          "question": "p97-d",
+          "choice": "B",
+          "correction": "Restored source dot(-3,0).",
+          "status": "VERIFIED_ON_FINAL_RUNTIME"
+        },
+        {
+          "question": "p97-d",
+          "choice": "E",
+          "correction": "Restored source dot(1,0).",
+          "status": "VERIFIED_ON_FINAL_RUNTIME"
+        },
+        {
+          "question": "ps97-21",
+          "choice": "C",
+          "correction": "Includes source shallow-line x-intercept(-2,0).",
+          "status": "VERIFIED_ON_FINAL_RUNTIME"
+        },
+        {
+          "question": "instructional figures",
+          "correction": "All4 now have visible equation labels exactly matching source,including both equations and and in same-line figure.",
+          "status": "VERIFIED_ON_FINAL_RUNTIME"
+        },
+        {
+          "question": "coordinate-measures topic",
+          "correction": "Replaced technical parser wording with natural exact-square-root entry guidance.",
+          "status": "VERIFIED_ON_FINAL_RUNTIME"
+        },
+        {
+          "location": "teaching single/intersection equation labels",
+          "correction": "Moved both y=2x+1 labels fromx230 tox242.",
+          "status": "VERIFIED_SOURCE_NATIVE_GEOMETRY_AND_REFRESHED_BROWSER_VISUAL"
+        }
+      ],
+      "review_date_CT": "2026-10-15",
+      "all27_answers_compared": true,
+      "all45_printed_expression_formula_choices_compared": true,
+      "all20_graph_candidates_compared": true,
+      "all24_native_svg_geometry_labels_accessibility_checked": true,
+      "reconstruction_scope": "Practice c A and Problem20 B/C native slopes realize schematic tick geometry; they are not additional printed equation labels. Every explicit printed label,dot,note,and orientation is preserved.",
+      "fresh_visual_review": "Refreshed Practice d and topics1-3 inspected after source-dot/equation-label additions. Topic1 re-inspected after final x242 spacing adjustment: visible separation from line arrowheads,no clipping or overlap. Unchanged candidates were inspected in the other full-page captures.",
+      "final_visual_scope": "All24 SVGs visually inspected across4 exercise-page previews and3 teaching-page previews. All changed figures re-inspected after their final edit. Independent native geometry/source comparison covers every final SVG.",
+      "review_status": "PASS",
+      "completed_time_CT": "2026-10-15 10:45 AM CDT",
+      "limitations": [
+        "Independent reviewer inspected browser captures,not browser submission or saved-state interactions. Root validation covers those separately.",
+        "Full-course regression and course integration are outside this independent source/implementation review.",
+        "Page482 and faded-graph exclusion rely on explicit User authority;footer not visible.",
+        "Coincident cA/PS20C and parallel PS20B slopes are native schematic realizations preserving printed/tick data,not extra printed source equation labels."
+      ]
+    },
+    "independent_graph_comparison": {
+      "runtime_sha256": "6686b5f7644e3ba3489e821928f859657b8cef7af1537a636f9cd917c297dd61",
+      "comparisons": [
+        {
+          "question": "p97-c",
+          "choice": "A",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-c",
+          "choice": "B",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-c",
+          "choice": "C",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-c",
+          "choice": "D",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-c",
+          "choice": "E",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-d",
+          "choice": "A",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-d",
+          "choice": "B",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-d",
+          "choice": "C",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-d",
+          "choice": "D",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "p97-d",
+          "choice": "E",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-20",
+          "choice": "A",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-20",
+          "choice": "B",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-20",
+          "choice": "C",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-20",
+          "choice": "D",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-20",
+          "choice": "E",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-21",
+          "choice": "A",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-21",
+          "choice": "B",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-21",
+          "choice": "C",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-21",
+          "choice": "D",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        },
+        {
+          "question": "ps97-21",
+          "choice": "E",
+          "models_match": true,
+          "dots_match": true,
+          "labels_match": true,
+          "notes_match": true
+        }
+      ],
+      "revalidation": "All20 candidate runtime objects are byte-for-byte equal after only two equation-label x offsets; all prior model/dot/label/note checks remain valid."
+    },
+    "independent_native_svg_checks": {
+      "runtime_sha256": "6686b5f7644e3ba3489e821928f859657b8cef7af1537a636f9cd917c297dd61",
+      "figures": 24,
+      "results": [
+        {
+          "figure": "p97-c-A",
+          "models": [
+            [
+              2,
+              -3
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "Infinite solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-c-B",
+          "models": [
+            [
+              2,
+              -3
+            ],
+            [
+              -3,
+              7
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(2,1)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-c-C",
+          "models": [
+            [
+              2,
+              -3
+            ],
+            [
+              6,
+              -7
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(1,−1)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-c-D",
+          "models": [
+            [
+              0.75,
+              2.25
+            ],
+            [
+              -3,
+              6
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(1,3)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-c-E",
+          "models": [
+            [
+              -3,
+              6
+            ],
+            [
+              -3,
+              -4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "No solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-d-A",
+          "models": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              -1
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "No solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-d-B",
+          "models": [
+            [
+              1,
+              3
+            ],
+            [
+              -1,
+              -1
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(−2,1)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-d-C",
+          "models": [
+            [
+              1,
+              -1
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "Infinite solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-d-D",
+          "models": [
+            [
+              -1,
+              3
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "Infinite solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "p97-d-E",
+          "models": [
+            [
+              1,
+              -1
+            ],
+            [
+              -1,
+              3
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(2,1)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-20-A",
+          "models": [
+            [
+              2,
+              -1
+            ],
+            [
+              -1,
+              -4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(−1,−3)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-20-B",
+          "models": [
+            [
+              2,
+              -1
+            ],
+            [
+              2,
+              -5
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "No solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-20-C",
+          "models": [
+            [
+              -3,
+              4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "Infinite solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-20-D",
+          "models": [
+            [
+              2,
+              -1
+            ],
+            [
+              -3,
+              4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(1,1)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-20-E",
+          "models": [
+            [
+              -2,
+              2
+            ],
+            [
+              -3,
+              4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(2,−2)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-21-A",
+          "models": [
+            [
+              1,
+              -4
+            ],
+            [
+              -5,
+              2
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(1,−3)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-21-B",
+          "models": [
+            [
+              1,
+              -4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "Infinite solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-21-C",
+          "models": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(−1,1)"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-21-D",
+          "models": [
+            [
+              1,
+              2
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "Infinite solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "ps97-21-E",
+          "models": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              -4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "No solutions"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "graph-intersection-1",
+          "models": [
+            [
+              2,
+              1
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(0,1)",
+            "(1,3)",
+            "y=2x+1"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "graph-intersection-2",
+          "models": [
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(0,1)",
+            "(0,2)",
+            "(1,3)",
+            "y=2x+1",
+            "y=x+2"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "parallel-lines-1",
+          "models": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              -3
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(0,2)",
+            "(1,5)",
+            "(0,−3)",
+            "(1,0)",
+            "y=3x+2",
+            "y=3x−3"
+          ],
+          "accessible_description": "PRESENT"
+        },
+        {
+          "figure": "same-line-1",
+          "models": [
+            [
+              -2,
+              4
+            ]
+          ],
+          "coordinate_geometry": "PASS",
+          "svg_labels_in_bounds": "PASS",
+          "text_labels": [
+            "x",
+            "y",
+            "(0,4)",
+            "(1,2)",
+            "4x+2y=8",
+            "and",
+            "y=−2x+4"
+          ],
+          "accessible_description": "PRESENT"
+        }
+      ],
+      "scope": "All24 native SVG model/coordinate geometry,visible equation labels,text bounds,and accessible descriptions revalidated after final spacing adjustment."
+    },
+    "actual_engine_grading": "PASS: all 27 correct drafts, every wrong choice, and each perturbed numeric field checked",
+    "shared_engine_scoring": "PASS: one choice try, two numeric tries, late solved without credit, maximum one point",
+    "state_normalization": "PASS: all eight application fields, notes, hints, attempt and navigation indices retained",
+    "browser_validation": {
+      "topics": [
+        {
+          "heading": "Graph both equations on one plane",
+          "figures": 2,
+          "result": "PASS: all worked steps rendered"
+        },
+        {
+          "heading": "Distinct parallel lines have no solution",
+          "figures": 1,
+          "result": "PASS: all worked steps rendered"
+        },
+        {
+          "heading": "Two equations can describe the same line",
+          "figures": 1,
+          "result": "PASS: all worked steps rendered"
+        },
+        {
+          "heading": "Distinguish the three kinds of linear systems",
+          "figures": 0,
+          "result": "PASS: all worked steps rendered"
+        },
+        {
+          "heading": "Use factors and common denominators",
+          "figures": 0,
+          "result": "PASS: all worked steps rendered"
+        },
+        {
+          "heading": "Rewrite numbers in scientific notation",
+          "figures": 0,
+          "result": "PASS: all worked steps rendered"
+        },
+        {
+          "heading": "Find a distance, center, and radius",
+          "figures": 0,
+          "result": "PASS: all worked steps rendered"
+        },
+        {
+          "heading": "Solve equations and isolate a formula variable",
+          "figures": 0,
+          "result": "PASS: all worked steps rendered"
+        },
+        {
+          "heading": "Translate two relationships into a system",
+          "figures": 0,
+          "result": "PASS: all worked steps rendered"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p97-a",
+          "heading": "Factoring a difference of squares",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "p97-b",
+          "heading": "Solving by substitution",
+          "choiceCount": 0,
+          "answerFields": 2,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "p97-c",
+          "heading": "Selecting a system graph",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 5,
+          "result": "PASS"
+        },
+        {
+          "id": "p97-d",
+          "heading": "Selecting a system graph",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 5,
+          "result": "PASS"
+        },
+        {
+          "id": "p97-e",
+          "heading": "Constructing and solving a system",
+          "choiceCount": 0,
+          "answerFields": 8,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-1",
+          "heading": "Graphing concepts",
+          "choiceCount": 2,
+          "answerFields": 0,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-2",
+          "heading": "Graphing concepts",
+          "choiceCount": 2,
+          "answerFields": 0,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-3",
+          "heading": "Scientific notation",
+          "choiceCount": 0,
+          "answerFields": 2,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-4",
+          "heading": "Scientific notation",
+          "choiceCount": 0,
+          "answerFields": 2,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-5",
+          "heading": "Distance between points",
+          "choiceCount": 0,
+          "answerFields": 1,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-6",
+          "heading": "Center and radius of a circle",
+          "choiceCount": 0,
+          "answerFields": 3,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-7",
+          "heading": "Factoring a common monomial",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-8",
+          "heading": "Factoring a perfect square",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-9",
+          "heading": "Factoring a difference of squares",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-10",
+          "heading": "Combining like terms",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-11",
+          "heading": "Expanding a binomial square",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-12",
+          "heading": "Multiplying rational expressions",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-13",
+          "heading": "Adding rational expressions",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-14",
+          "heading": "Solving a rational equation",
+          "choiceCount": 0,
+          "answerFields": 1,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-15",
+          "heading": "Zero-product equation",
+          "choiceCount": 0,
+          "answerFields": 2,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-16",
+          "heading": "Evaluating area formula",
+          "choiceCount": 0,
+          "answerFields": 1,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-17",
+          "heading": "Solving a formula for s",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-18",
+          "heading": "Solving a system by elimination",
+          "choiceCount": 0,
+          "answerFields": 2,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-19",
+          "heading": "Solving a system by substitution",
+          "choiceCount": 0,
+          "answerFields": 2,
+          "figures": 0,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-20",
+          "heading": "Selecting a system graph",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 5,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-21",
+          "heading": "Selecting a system graph",
+          "choiceCount": 5,
+          "answerFields": 0,
+          "figures": 5,
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-22",
+          "heading": "Constructing and solving a system",
+          "choiceCount": 0,
+          "answerFields": 8,
+          "figures": 0,
+          "result": "PASS"
+        }
+      ],
+      "submissions": [
+        {
+          "id": "ps97-22",
+          "result": "PASS: incomplete system response uses no attempt"
+        },
+        {
+          "id": "ps97-22",
+          "result": "PASS: six constructed system coefficients/constants plus x16/y21 jointly earn one point on second valid try"
+        },
+        {
+          "id": "p97-d",
+          "result": "PASS: incorrect first graph submission uses credit; later correct A saved solved with zero credit"
+        },
+        {
+          "id": "ps97-20",
+          "result": "PASS: source-correct D first submission earns one point"
+        },
+        {
+          "id": "ps97-4",
+          "result": "PASS: coefficient4.73 and integer exponent−5 earn one point total"
+        },
+        {
+          "id": "ps97-5",
+          "result": "PASS: sqrt(41) exact radical accepted for one point"
+        }
+      ],
+      "persistence": [
+        {
+          "id": "ps97-22",
+          "result": "PASS: all eight fields, note, one hint, first incorrect attempt and location restored after reload"
+        },
+        {
+          "id": "ps97-5",
+          "result": "PASS: unsent sqrt41 draft, note and hint restored across navigation with both credit tries remaining"
+        }
+      ],
+      "figureScreenshots": [
+        "topic-1-preview.jpg",
+        "topic-2-preview.jpg",
+        "topic-3-preview.jpg",
+        "p97-c-preview.jpg",
+        "p97-d-preview.jpg",
+        "ps97-20-preview.jpg",
+        "ps97-21-preview.jpg"
+      ],
+      "navigation_without_attempts": "PASS: all9 topics and27 exercises visited before any submission, zero completed/solved and zero points",
+      "final_revision_topic_recheck": "PASS: all9 topic screens rechecked; all4 instructional SVGs now visibly label source equations",
+      "reference": "PASS: all8 reference cards rendered",
+      "final_revision_questions": [
+        {
+          "id": "p97-a",
+          "result": "PASS"
+        },
+        {
+          "id": "p97-b",
+          "result": "PASS"
+        },
+        {
+          "id": "p97-c",
+          "result": "PASS"
+        },
+        {
+          "id": "p97-d",
+          "result": "PASS"
+        },
+        {
+          "id": "p97-e",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-1",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-2",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-3",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-4",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-5",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-6",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-7",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-8",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-9",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-10",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-11",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-12",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-13",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-14",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-15",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-16",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-17",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-18",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-19",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-20",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-21",
+          "result": "PASS"
+        },
+        {
+          "id": "ps97-22",
+          "result": "PASS"
+        }
+      ],
+      "runtime_sha256": "6686b5f7644e3ba3489e821928f859657b8cef7af1537a636f9cd917c297dd61",
+      "console_errors_or_warnings": [],
+      "source_photographs_displayed": false,
+      "result": "PASS",
+      "scope": "Isolated temporary foundation copy. All9 topic screens, worked steps, all27 exercise screens and all24 native SVGs inspected; final revision all9 topics and27 exercises rechecked. Representative graph/scientific/radical/system-construction grading, late zero credit, invalid blank input, navigation, drafts, notes, hints and reload persistence checked. No production loader integration or full course regression.",
+      "comprehensive_checks_runtime_sha256": "09a2bc7e9c63a10698782078b4b4b3e629e5127194334c15dbb19a844fc5af08",
+      "final_label_spacing_recheck": {
+        "result": "PASS",
+        "scope": "Only the two y=2x+1 text labels in topic1 moved12 SVG units right after comprehensive checks; final topic reloaded and captured. All math/choices/response controls unchanged. Syntax, actual-engine checks, independent all-exercise math/geometry rerun."
+      }
+    },
+    "full_browser_course_regression_performed": false,
+    "production_course_integration_performed": false,
+    "protected_reference_integrity": {
+      "result": "PASS",
+      "protected_existing_files": 57,
+      "changed_files": [],
+      "method": "SHA-256 comparison with pre-task baseline covering root guidance, all source photographs, foundation files and prior completed packages."
+    },
+    "scope": "Lesson97-only source/independent math/implementation/SVG review, actual-engine VM grading/scoring/state/structure checks, all9 topics/all27 exercise/all24 figure browser rendering, representative live submissions and reload persistence in isolated temporary foundation copy. Native corrections rechecked against final runtime hash. No production loader integration or full course regression.",
+    "verified_date_ct": "2026-10-15",
+    "verified_time_ct": "10:46:50 AM CDT"
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "lesson_097_js_sha256": "6686b5f7644e3ba3489e821928f859657b8cef7af1537a636f9cd917c297dd61"
+  }
+}
