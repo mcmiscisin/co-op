@@ -25,6 +25,8 @@ export async function start(environment = process.env) {
     passwordHash: environment.INSTRUCTOR_PASSWORD_HASH,
     setupTokenHash: environment.INSTRUCTOR_SETUP_TOKEN_HASH,
     setupExpiresAt: environment.INSTRUCTOR_SETUP_EXPIRES_AT,
+    resetTokenHash: environment.INSTRUCTOR_RESET_TOKEN_HASH,
+    resetExpiresAt: environment.INSTRUCTOR_RESET_EXPIRES_AT,
     sameSite: environment.SESSION_SAME_SITE || 'Lax'
   } });
   await store.ready();

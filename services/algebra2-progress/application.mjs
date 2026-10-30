@@ -5,6 +5,7 @@ import crypto from 'node:crypto';
 import { appDirectory, validateProgress } from './catalog.mjs';
 import { token, tokenHash, passwordHash, validPasswordHash, verifyPassword, LoginLimiter } from './auth.mjs';
 import { setupHtml, setupScript } from './instructor-setup.mjs';
+import { resetHtml, resetScript } from './instructor-reset.mjs';
 
 const clone = value => structuredClone(value);
 const emptyAccounts = () => ({ schema: 'algebra2-accounts-v1', students: {}, enrollments: {}, sessions: {} });
@@ -33,6 +34,8 @@ async function body(request, limit = 5_000_000) {
 export function createApplication({ store, catalog, config }) {
   const fixedPassword = validPasswordHash(config.passwordHash);
   const setupConfigured = !config.passwordHash && /^[a-f0-9]{64}$/.test(config.setupTokenHash || '') && Number.isFinite(Date.parse(config.setupExpiresAt));
+  const resetConfigured = /^[a-f0-9]{64}$/.test(config.resetTokenHash || '') && Number.isFinite(Date.parse(config.resetExpiresAt));
+  if ((config.resetTokenHash || config.resetExpiresAt) && !resetConfigured) throw Error('Instructor recovery requires both a SHA-256 token digest and an absolute expiry.');
   if ((!fixedPassword && !setupConfigured) || typeof config.instructorUsername !== 'string' || !config.instructorUsername || config.instructorUsername.length > 80) throw Error('Configure an instructor username and generated password hash, or a private expiring setup link, before starting.');
   const appUrl = new URL(config.publicAppUrl), apiUrl = new URL(config.apiPublicUrl || config.publicAppUrl);
   const production = config.production === true;
@@ -43,6 +46,7 @@ export function createApplication({ store, catalog, config }) {
   if (!['Lax', 'Strict', 'None'].includes(sameSite) || (!production && sameSite === 'None')) throw Error('Invalid session cookie configuration.');
   const limiter = new LoginLimiter(), enrollmentLimiter = new LoginLimiter({ attempts: 60 });
   const setupLimiter = new LoginLimiter({ attempts: 60 });
+  const resetLimiter = new LoginLimiter({ attempts: 20 });
   const instanceId = crypto.randomUUID(), startedAt = new Date().toISOString();
   let passwordChecks = 0;
   const sessionCookie = (value, maxAge) => `${cookieName}=${value}; HttpOnly; Path=/; SameSite=${sameSite}; Max-Age=${maxAge}${production ? '; Secure' : ''}`;
@@ -59,6 +63,15 @@ export function createApplication({ store, catalog, config }) {
     if (!setupLimiter.take(request.socket.remoteAddress || 'unknown')) throw fail(429, 'Too many setup requests. Please wait before retrying.');
     if (!setupConfigured || Date.parse(config.setupExpiresAt) <= Date.now() || typeof secret !== 'string' || !/^[\w-]{43}$/.test(secret) || !crypto.timingSafeEqual(Buffer.from(tokenHash(secret), 'hex'), Buffer.from(config.setupTokenHash, 'hex'))) throw fail(410, 'This setup link is unavailable or expired. Request a replacement link.');
     if (await instructorRecord()) throw fail(410, 'Instructor setup is already complete. Use instructor sign-in.');
+  }
+  const unavailableReset = () => fail(410, 'This reset link is unavailable, expired, or already used. Request a replacement link.');
+  function checkResetAccount(instructor) {
+    if (!instructor || instructor.username !== config.instructorUsername || !validPasswordHash(instructor.passwordHash) || Date.parse(config.resetExpiresAt) <= Date.now() || instructor.usedResetTokens?.[config.resetTokenHash]) throw unavailableReset();
+  }
+  async function requireReset(request, secret) {
+    if (!resetLimiter.take(request.socket.remoteAddress || 'unknown')) throw fail(429, 'Too many recovery requests. Please wait before retrying.');
+    if (!resetConfigured || Date.parse(config.resetExpiresAt) <= Date.now() || typeof secret !== 'string' || !/^[\w-]{43}$/.test(secret) || !crypto.timingSafeEqual(Buffer.from(tokenHash(secret), 'hex'), Buffer.from(config.resetTokenHash, 'hex'))) throw unavailableReset();
+    checkResetAccount(await instructorRecord());
   }
   async function identify(request) {
     const secret = cookies(request)[cookieName];
@@ -89,6 +102,31 @@ export function createApplication({ store, catalog, config }) {
       if ((route === '/instructor/setup' || route === '/instructor/setup.js') && request.method === 'GET') {
         response.writeHead(200, { 'Content-Type': route.endsWith('.js') ? 'text/javascript; charset=utf-8' : 'text/html; charset=utf-8' });
         return response.end(route.endsWith('.js') ? setupScript : setupHtml);
+      }
+      if ((route === '/instructor/reset' || route === '/instructor/reset.js') && request.method === 'GET') {
+        response.writeHead(200, { 'Content-Type': route.endsWith('.js') ? 'text/javascript; charset=utf-8' : 'text/html; charset=utf-8' });
+        return response.end(route.endsWith('.js') ? resetScript : resetHtml);
+      }
+      if (route === '/api/instructor/reset/status' && request.method === 'POST') {
+        const data = await body(request, 4096); await requireReset(request, data.token);
+        return json(response, 200, { available: true, username: config.instructorUsername });
+      }
+      if (route === '/api/instructor/reset' && request.method === 'POST') {
+        const data = await body(request, 4096); await requireReset(request, data.token);
+        if (typeof data.password !== 'string' || data.password.length < 15 || data.password.length > 256 || data.password !== data.confirmation) throw fail(400, 'Enter matching passphrases of 15–256 characters. Spaces are allowed.');
+        if (passwordChecks >= 2) throw fail(429, 'Another sign-in or recovery is being checked. Please retry.');
+        let encoded; passwordChecks++;
+        try { encoded = await passwordHash(data.password); } finally { passwordChecks--; }
+        await store.update('accounts.json', emptyAccounts(), accounts => {
+          const instructor = accounts.instructor || (fixedPassword ? { username: config.instructorUsername, passwordHash: config.passwordHash } : null);
+          // Rechecked in the atomic write, including after GitHub conflict retries.
+          checkResetAccount(instructor);
+          const usedResetTokens = Object.fromEntries(Object.entries(instructor.usedResetTokens || {}).filter(([, expiry]) => Date.parse(expiry) > Date.now()));
+          usedResetTokens[config.resetTokenHash] = config.resetExpiresAt;
+          accounts.instructor = { ...instructor, passwordHash: encoded, passwordChangedAt: new Date().toISOString(), usedResetTokens };
+          for (const [key, session] of Object.entries(accounts.sessions)) if (session.role === 'instructor') delete accounts.sessions[key];
+        });
+        return json(response, 200, { reset: true, signInUrl: '/' });
       }
       if (route === '/api/instructor/setup/status' && request.method === 'POST') {
         const data = await body(request, 4096); await requireSetup(request, data.token);
@@ -121,7 +159,12 @@ export function createApplication({ store, catalog, config }) {
         try { valid = await verifyPassword(data.password, instructor.passwordHash); } finally { passwordChecks--; }
         if (!valid || username !== instructor.username) throw fail(401, 'Incorrect instructor username or passphrase.');
         const secret = token(), expiresAt = Date.now() + 8 * 60 * 60 * 1000;
-        await store.update('accounts.json', emptyAccounts(), accounts => { prune(accounts); accounts.sessions[tokenHash(secret)] = { role: 'instructor', expiresAt }; });
+        await store.update('accounts.json', emptyAccounts(), accounts => {
+          const current = accounts.instructor || (fixedPassword ? { username: config.instructorUsername, passwordHash: config.passwordHash } : null);
+          // A login verified before a concurrent reset must not mint a new session afterward.
+          if (!current || current.passwordHash !== instructor.passwordHash || current.username !== username) throw fail(401, 'The instructor credential changed. Sign in with the current passphrase.');
+          prune(accounts); accounts.sessions[tokenHash(secret)] = { role: 'instructor', expiresAt };
+        });
         return json(response, 200, { authenticated: true, role: 'instructor' }, { 'Set-Cookie': sessionCookie(secret, 8 * 60 * 60) });
       }
       if (route === '/api/enroll' && request.method === 'POST') {
